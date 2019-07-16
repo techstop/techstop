@@ -1,11 +1,42 @@
-baseurl = "http://example.org"
-title = "Hugo Themes - aether"
-author = "Joe Hutchinson"
-canonifyurls = true
-paginate = 3
-theme = "aether"
+baseurl = "https://techstop.github.io/"
+languageCode = "en-us"
+title = "techStop"
+# Define how many posts appear per page
+paginate = 6
+# Enable google analytics by entering your tracking code
+googleAnalytics = ""
+theme = "flexxy"
 
 [params]
-brand = "aether"
-description = "aether Hugo theme for blogs"
-bgimg = "img/ignasi_pattern_s.png"
+    site_author = "GameTheory"
+    site_description = "The awesome blog of GameTheory."    
+    # Leave empty to disable header image
+    header_background = "img/desk.jpg"
+    # Leave empty to remove it
+    header_title = ""
+    # Updates automatically each year on January 1st
+    copyright = "<a href=\"https://techstop.github.io/\" target=\"_blank\">techStop</a>"
+    # Leave empty to disable navbar site name
+	  navbar_site_name = "techStop"	  
+	  # Display the post publish date
+    post_date = true
+    # Display post tags at bottom of post
+    post_tags = true
+    
+    # Remove or leave empty to disable comments globally. Add "comments = false" to post front matter to disable on individual posts. Install the Utterances app in your github to enable Utterances comments. For more info and instructions visit, https://utteranc.es/
+    # You only need to install the Utterances app to your github repo, everything else has been configured in Flexxy theme. Then add the username and repo below.
+    # Example: (comments = "GITHUB_USERNAME/REPO")
+    comments = ""
+    
+    custom_css = []
+    custom_js  = []
+
+[social]
+    # Add your social network account usernames. The links to your accounts will be created automatically.
+    twitter   = ""
+    facebook  = ""
+    linkedin  = ""
+    behance   = ""
+    dribbble  = ""
+    instagram = ""
+    github    = "GameTheory-"

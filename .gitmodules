@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/techstop/techstop.github.io.git
-[submodule "themes/aether"]
-	path = themes/aether
-	url = https://github.com/techstop/aether.git
+[submodule "themes/flexxy"]
+	path = themes/flexxy
+	url = https://github.com/GameTheory-/flexxy.git
