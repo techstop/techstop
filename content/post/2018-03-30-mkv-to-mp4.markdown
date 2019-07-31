@@ -1,0 +1,39 @@
+---
+author: Antonio
+date: 2018-03-30 00:04:34+00:00
+draft: false
+title: MKV to MP4
+type: post
+url: /mkv-to-mp4/
+categories:
+- Linux
+tags:
+- Linux
+- MKV to MP4
+---
+
+{{< image src="/images/mkv2mp4/mkv-to-mp4.png" alt="MKV to MP4" width="200px" >}}
+
+I've created a simple bash script to convert mkv to mp4 container quickly. The script will allow you to batch convert multiple mkv files or convert one at a time depending on your needs. You can also append a subtitle srt file to your mp4 with this this script.
+
+<!--more-->
+
+## Fast Conversion
+
+When it comes to mkv and mp4, they are just containers for the actual video and audio data. What this means is that you do not need to re-encode which can take very long depending on the mkv size. If you simply convert mkv to mp4 container you maintain the same quality and it's done within a few seconds to 1-2 minutes depending on mkv file size.
+
+## Why Convert
+
+There can be a few reasons for converting mkv to mp4. The mp4 container has much more compatibility across different platforms. I have an old playstation 3 which does not support mkv files, so I simply convert them to mp4 using this script. This allows me to play all my files on my playstation without spending lots of time re-encoding.
+
+## Usage
+
+Tested on ubuntu & xubuntu
+
+1. Place your mkv files in the the **input** folder
+2. Optional - place srt in the srt folder
+3. Now execute the script in a terminal as follows:
+   {{< highlight bash >}}./mkv2mp4{{< /highlight >}}
+4. Your mp4 converted files will be in the **output** folder
+
+{{< cta-button "mkv2mp4" "https://github.com/GameTheory-/mkv2mp4/releases" "_blank" >}}

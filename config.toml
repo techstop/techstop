@@ -3,19 +3,21 @@ languageCode = "en-us"
 title = "techStop"
 # Define how many posts appear per page
 paginate = 6
+# For syntax highlighting in code blocks
+pygmentsUseClasses = true
 # Enable google analytics by entering your tracking code
 googleAnalytics = ""
 theme = "flexxy"
 
 [params]
     site_author = "GameTheory"
-    site_description = "The awesome blog of GameTheory."    
+    site_description = "The awesome blog of GameTheory."
     # Leave empty to disable header image
     header_background = "img/desk.jpg"
     # Leave empty to remove it
     header_title = ""
     # Updates automatically each year on January 1st
-    copyright = "<a href=\"https://techstop.github.io/\" target=\"_blank\">techStop</a>"
+    copyright = "<a href=\"https://techstop.github.io/\">techStop</a>"
     # Leave empty to disable navbar site name
 	  navbar_site_name = "techStop"	  
 	  # Display the post publish date

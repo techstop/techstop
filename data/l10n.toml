@@ -24,3 +24,8 @@
 [page_not_found]
     title = "404 - page not found"
     subtitle = "The content you're looking for doesn't seem to exist."
+    
+[code]
+    copy = "Copy"
+    copied = "Copied!"
+    failed = "Failed!"

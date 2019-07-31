@@ -1,0 +1,41 @@
+---
+author: Antonio
+date: 2018-04-27 19:57:23+00:00
+draft: false
+title: mktool
+type: post
+url: /mktool/
+categories:
+- Android
+- Linux
+tags:
+- mktool
+- Android
+- Linux
+- unpack boot.img
+---
+
+{{< image src="/images/mktool/mktool.png" alt="mktool" width="100px" >}}
+
+If you need to unpack and repack boot.img, recovery.img, or loki images, then this is the tool for you. With mktool you don't need to enter any commands. You simply place your image files in the input folder and choose from the menu options. It's the perfect tool for modifying images quickly and easily. Mktool is very simple to use and can accommodate both beginners and advanced users.
+
+<!--more-->
+
+While this tool aims to be a universal tool for all androids, it is nearly impossible due to the vast amount of android devices on the market. I have not come across an incompatible device yet. Feel free to let me know in the comments if your device is incompatible.
+
+## Overview
+
+- Unpack boot.img or boot.lok, recovery.img or recovery.lok
+- Repack any .img or .lok that was unpacked with mktool
+- loki patch boot.img or recovery.img files for loki compatible devices
+
+## Usage
+
+Tested on ubuntu and xubuntu. Must have java 8 or higher installed.
+
+1. Place your images in the input folder.
+2. Execute the mktool.jar file as follows in terminal:
+   {{< highlight bash >}}java -jar mktool.jar{{< /highlight >}}
+3. optional - Go to "File > Add Launcher Shortcut" for quick access.
+
+{{< cta-button "mktool" "https://github.com/GameTheory-/mktool/releases" "_blank" >}}
