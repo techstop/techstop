@@ -23,14 +23,6 @@ Hugo theme by [digitalcraftsman](https://github.com/digitalcraftsman). This vers
 - Google analytics to monitor site traffic
 - Cookie notification for [GDPR](https://eugdpr.org/) compliance
 
-![screenshot](images/screenshot0.png)
-
-![screenshot](images/screenshot1.png)
-
-![screenshot](images/screenshot2.png)
-
-![screenshot](images/screenshot3.png)
-
 ## Preview & Installation
 
 ### Preview
