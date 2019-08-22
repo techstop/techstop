@@ -1,0 +1,14 @@
+[{{ range $index, $page := (where .Site.RegularPages "Type" "post") }}{{- if ne $index 0 -}},{{ printf "\n" }}{{- end -}}
+{
+  "ref": "{{ $page.Permalink }}"
+  {{- with $page.Title -}}
+  ,"title": {{ $page.Title | jsonify }}
+  {{- end -}}
+  {{- with $page.Params.categories -}}
+  ,"cats": {{ delimit $page.Params.categories ", " | jsonify }}
+  {{- end -}}
+  {{- with $page.Params.tags -}}
+  ,"tags": {{ delimit $page.Params.tags ", " | jsonify }}
+  {{- end -}}
+}
+{{- end }}]

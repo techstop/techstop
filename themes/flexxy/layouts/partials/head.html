@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    {{- if .IsHome -}}
+      {{- .Site.Title -}}
+    {{ else }}
+      {{- .Title }} - {{ .Site.Title -}}
+    {{- end -}}
+  </title>
+  <meta name="author" content="{{ .Site.Params.site_author }}">
+  <meta name="description" content="{{ .Site.Params.site_description }}">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic" type="text/css">
+  <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+  {{ end }}
+  {{ hugo.Generator }}
+  <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+  <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+  <link rel="icon" href="{{ "favicon.ico" | absURL }}">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}" />
+</head>

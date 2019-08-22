@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . -}}
+  <body>
+    {{ partial "header.html" . -}}
+    {{ partial "navbar" . -}}
+    {{ partial "social" . -}}
+    <div class="theme-switch-wrapper">
+      <label class="theme-switch" for="checkbox" title="Dark Mode">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <br>
+    <div class="container clearfix">
+      <main>
+        {{- block "main" . }}{{- end }}
+      </main>
+    </div>
+    {{ partial "dark-mode" . -}}
+    {{ partial "footer.html" . -}}
+  </body>
+</html>

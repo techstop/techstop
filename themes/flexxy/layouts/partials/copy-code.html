@@ -1,0 +1,74 @@
+<style>
+.highlight {
+  position: relative;
+}
+.highlight-copy-btn {
+  position: absolute;
+  right: 0;
+  top: -17px;
+  border-radius: 4px;
+  border: none;
+  font-size: 9px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #111111;
+  min-width: 55px;
+  text-align: center;
+}
+.highlight-copy-btn:hover {
+  background-color: #444444;
+}
+.highlight-copy-btn:focus {
+  outline: 0;
+}
+</style>
+<script>
+(function() {
+  'use strict';
+
+  if(!document.queryCommandSupported('copy')) {
+    return;
+  }
+
+  function flashCopyMessage(el, msg) {
+    el.textContent = msg;
+    setTimeout(function() {
+      el.textContent = "{{ .Site.Data.l10n.code.copy }}";
+    }, 2000);
+  }
+
+  function selectText(node) {
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(node);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    return selection;
+  }
+
+  function addCopyButton(containerEl) {
+    var copyBtn = document.createElement("button");
+    copyBtn.className = "highlight-copy-btn";
+    copyBtn.textContent = "{{ .Site.Data.l10n.code.copy }}";
+
+    var codeEl = containerEl.firstElementChild;
+    copyBtn.addEventListener('click', function() {
+      try {
+        var selection = selectText(codeEl);
+        document.execCommand('copy');
+        selection.removeAllRanges();
+
+        flashCopyMessage(copyBtn, '{{ .Site.Data.l10n.code.copied }}')
+      } catch(e) {
+        console && console.log(e);
+        flashCopyMessage(copyBtn, '{{ .Site.Data.l10n.code.failed }}')
+      }
+    });
+
+    containerEl.appendChild(copyBtn);
+  }
+
+  var highlightBlocks = document.getElementsByClassName('highlight');
+  Array.prototype.forEach.call(highlightBlocks, addCopyButton);
+})();
+</script>

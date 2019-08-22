@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "var(--cookie-bg)",
+      "text": "var(--cookie-font)"
+    },
+    "button": {
+      "background": "var(--color-primary)",
+      "hover": "var(--color-secondary)"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "dismiss": "Close"
+  }
+})});
+</script>

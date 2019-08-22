@@ -1,0 +1,11 @@
+<div class="pagination">
+{{ if .Paginator.HasPrev }}
+  <a class="btn newer" href="{{ .Paginator.Prev.URL }}" title="{{ .Site.Data.l10n.pagination.newer }}">&laquo; {{ .Site.Data.l10n.pagination.newer }}</a>
+{{ end }}
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+  <p class="counter">{{ .Site.Data.l10n.pagination.page }} {{ .Paginator.PageNumber }} {{ .Site.Data.l10n.pagination.of }} {{ .Paginator.TotalPages }}</p>
+{{ end }}
+{{ if .Paginator.HasNext }}
+  <a class="btn older" href="{{ .Paginator.Next.URL }}" title="{{ .Site.Data.l10n.pagination.older }}">{{ .Site.Data.l10n.pagination.older }} &raquo;</a>
+{{ end }}
+</div>

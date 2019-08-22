@@ -1,0 +1,7 @@
+<article class="content">
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+  {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+  {{ end }}
+  {{ partial "pagination" . }}
+</article>
