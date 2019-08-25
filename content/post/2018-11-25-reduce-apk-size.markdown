@@ -9,7 +9,7 @@ categories:
 - Tutorials
 tags:
 - android studio
-- android app development
+- app development
 - Tutorials
 ---
 

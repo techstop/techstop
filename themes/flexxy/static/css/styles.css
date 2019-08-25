@@ -788,12 +788,12 @@ hr {
   position: absolute;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--footer-font);
 }
 
 .main-footer .container {
-  padding: 30px 0;
+  padding: 14px 0;
 }
 
 .main-footer a {

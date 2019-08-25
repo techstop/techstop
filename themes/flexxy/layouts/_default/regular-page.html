@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <div class="content">
+    <article>
+      <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}

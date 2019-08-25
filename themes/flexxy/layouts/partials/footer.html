@@ -1,7 +1,17 @@
+<style>
+  .font-row-one {
+    font-size: 16px;
+    padding-top: 2px;
+  }
+  .font-row-two {
+    font-size: 12px;
+  }
+</style>
 <footer class="main-footer">
   <div class="container clearfix">
     <a class="icon-rss" href="{{ "post/index.xml" | absURL }}" title="RSS" target="_blank"></a>
-    <div>&copy; {{ now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</div>
+    <div class="font-row-one">&copy; {{ now.Format "2006" }} &middot; {{ .Site.Params.copyright | markdownify }}</div>
+    <div><a href="{{ .Site.BaseURL }}about/" class="font-row-two">About</a> &middot; <a href="{{ .Site.BaseURL }}sitemap.xml" class="font-row-two">Sitemap</a> &middot; <a href="{{ .Site.BaseURL }}privacy-policy/" class="font-row-two">Privacy Policy</a></div>
   </div>
   
   {{- $jquery := resources.Get "js/jquery.min.js" -}}
