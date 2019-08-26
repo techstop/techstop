@@ -10,10 +10,10 @@ googleAnalytics = ""
 theme = "flexxy"
 
 [params]
-    site_author = "GameTheory"
-    site_description = "The awesome blog of GameTheory."
+    site_author = "Antonio"
+    site_description = "A tech blog about linux and android."
     # Leave empty to disable header image
-    header_background = "img/desk.jpg"
+    header_background = "img/techStop_header.png"
     # Leave empty to remove it
     header_title = ""
     # Updates automatically each year on January 1st

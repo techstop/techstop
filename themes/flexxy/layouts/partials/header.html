@@ -16,13 +16,15 @@
     }
   </style>
   
-  {{ with .Site.Params.header_background }}
-    <div class="transparent-layer">
-      {{ with $.Site.Params.header_title }}
-        <h2>{{ $.Site.Params.header_title }}</h2>
-      {{ end }}
-    </div>
-  {{ end }}
+  {{- if .IsHome -}}
+    {{ with .Site.Params.header_background }}
+      <div class="transparent-layer">
+        {{ with $.Site.Params.header_title }}
+          <h2>{{ $.Site.Params.header_title }}</h2>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{- end -}}
   <!-- Back to top button - show after 300px scroll -->
   <script>
     window.onscroll = function() {scrollFunction()};
