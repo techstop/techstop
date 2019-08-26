@@ -28,7 +28,7 @@ theme = "flexxy"
     # Remove or leave empty to disable comments globally. Add "comments = false" to post front matter to disable on individual posts. Install the Utterances app in your github to enable Utterances comments. For more info and instructions visit, https://utteranc.es/
     # You only need to install the Utterances app to your github repo, everything else has been configured in Flexxy theme. Then add the username and repo below.
     # Example: (comments = "GITHUB_USERNAME/REPO")
-    comments = ""
+    comments = "techstop/techstop"
     
     custom_css = []
     custom_js  = []
