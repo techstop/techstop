@@ -10,6 +10,8 @@ theme = "flexxy"
 [params]
     # Enable google analytics by entering your tracking code
     googleAnalytics = "UA-114983197-2"
+    # Enable google adsesense verification by entering your publisher id
+    googleAdsenseVerify = "ca-pub-8645513020646755"
     site_author = "Antonio"
     site_description = "A tech blog about linux and android."
     # Leave empty to disable header image
