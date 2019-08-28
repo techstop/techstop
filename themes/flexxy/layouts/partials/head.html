@@ -26,7 +26,7 @@
   {{ if .Site.Params.googleAnalytics }}
     {{- partial "analytics" . -}}
   {{ end }}
-  {{ if .Site.Params.googleAdsenseVerify }}
+  {{ if and (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
     {{- partial "adsense-verify" . -}}
   {{ end }}
 </head>

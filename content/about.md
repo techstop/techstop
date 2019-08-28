@@ -2,6 +2,7 @@
 title: "About"
 url: /about/
 layout: "regular-page"
+googleAdsenseVerify: false
 ---
 
 ## Welcome to techStop

@@ -2,6 +2,7 @@
 title: "Privacy Policy"
 url: /privacy-policy/
 layout: "regular-page"
+googleAdsenseVerify: false
 ---
 
 ## Privacy Policy
