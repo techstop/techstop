@@ -1187,11 +1187,17 @@ body.post-template .site-header h2 .logo {
   margin-left: 20px;
   margin-top: 12px;
 }
+
 .theme-switch {
   display: inline-block;
   height: 16px;
   position: relative;
   width: 28px;
+}
+
+.theme-switch-label {
+  font-size: 10px;
+  color: var(--font-color-light);
 }
 
 .theme-switch input {

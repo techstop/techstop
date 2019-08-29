@@ -29,3 +29,6 @@
     copy = "Copy"
     copied = "Copied!"
     failed = "Failed!"
+
+[dark_mode]
+    mode = "Dark Mode"
