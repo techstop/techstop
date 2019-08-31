@@ -1,4 +1,4 @@
-<article class="content">
+<article>
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
   {{ range $paginator.Pages }}
       {{ .Render "summary" }}

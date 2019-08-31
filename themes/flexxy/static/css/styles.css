@@ -1125,9 +1125,6 @@ body.post-template .site-header h2 .logo {
 
 #searchResults {
   display: none;
-  max-width: 600px;
-  /* min-width: 300px; */
-  margin: 0 auto;
   text-align: left;
 }
 
