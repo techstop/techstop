@@ -1,4 +1,4 @@
-/* Overflow for inline code */ pre, .highlight pre { overflow: auto; }
+/* Overflow for inline code */ pre, .highlight pre { overflow: auto; max-height: 400px; padding: 4px; }
 /* Background */ .chroma { color: #ffffff; background-color: #111111 }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; max-height: 400px; }
