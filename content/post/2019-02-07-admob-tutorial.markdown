@@ -36,7 +36,7 @@ implementation 'com.google.android.gms:play-services-ads:17.1.3'
 Now add a LinearLayout for your AdView to your **activity_main.xml**.
 
 **activity_main.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
@@ -63,7 +63,7 @@ Now add a LinearLayout for your AdView to your **activity_main.xml**.
 Now we add our ad serving code to the **MainActivity**. Make sure to read the comments I wrote within the code that explains what parts of the code do…
 
 **MainActivity.java**
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.gt.admobtutorial;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -149,7 +149,7 @@ The **Ad Unit ID** and the **App ID** are test samples provided by google for te
 Finally we add the admob App ID **meta-data** to the **AndroidManifest.xml**. Without this step the app will not run…
 
 **AndroidManifest.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="com.gt.admobtutorial">

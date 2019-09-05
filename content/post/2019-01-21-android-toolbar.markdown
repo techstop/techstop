@@ -30,7 +30,7 @@ Begin by creating a new project in Android Studio with an Empty Activity if you 
 In order to create an android toolbar you must change the base theme in your "styles.xml" to one with "NoActionBar". Lets also add "Title" and "SubTitle" elements to our "styles.xml". I have left some items commented out that you can uncomment if you wish to use them.
 
 **styles.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <resources>
   <!-- Base application theme. -->
   <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
@@ -56,7 +56,7 @@ In order to create an android toolbar you must change the base theme in your "st
 Right click on your "layout" directory and create a new Layout resource file called "toolbar.xml". This will be our Toolbar layout that we will reference from any activity layout where we'll want to have a Toolbar.
 
 **toolbar.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.Toolbar
   xmlns:android="http://schemas.android.com/apk/res/android"
@@ -73,7 +73,7 @@ Right click on your "layout" directory and create a new Layout resource file cal
 Next we will add the Toolbar to our "MainActivity.java" class. Create the toolBar() method where we will enable any features we would like for our Toolbar. We then reference the toolBar() method from the onCreate() method. I have left some items commented out that you can uncomment if you wish to use them.
 
 **MainActivity.java**
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.androidtoolbar;
 
 import android.support.v7.app.AppCompatActivity;
@@ -122,7 +122,7 @@ Now open the "activity_main.xml" file in your layout directory and add the Toolb
 This is what our "activity_main.xml" file should look like…
 
 **activity_main.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
@@ -145,7 +145,7 @@ Keep in mind that your "activity_main.xml" can be any layout you wish like for e
 We can now add some functionality to our Android Toolbar by adding an Overflow menu on the right side of the Toolbar. The Overflow menu is perfect for things like app settings, change log, and many other uses. So first open your "strings.xml" file in your "values" directory and add the following strings that we'll need for our menu.
 
 **strings.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <resources>
   <string name="app_name">Android Toolbar</string>
   <string name="toast_message">Toast Message</string>
@@ -156,7 +156,7 @@ We can now add some functionality to our Android Toolbar by adding an Overflow m
 Now right click on the "res" directory and create a new Directory called "menu". Then right click on the new "menu" directory and create a new Menu resource file called "menu.xml". You should now have a "menu.xml" file inside a new directory called "menu". Now edit the file so that it looks as follows…
 
 **menu.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -176,7 +176,7 @@ Now right click on the "res" directory and create a new Directory called "menu".
 The final step is to add the menu and our menu items to our "MainActivity.java" class. Here we add a couple of Toast messages just to give you the right idea.
 
 **MainActivity.java**
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.androidtoolbar;
 
 import android.support.v7.app.AppCompatActivity;

@@ -35,7 +35,7 @@ Begin by creating a new project in Android Studio with an Empty Activity if you 
 Now create a new java class called "MyWebView" where we will setup our webview. I've included comments in the code so that you know what each attribute and method is for.
 
 **MyWebView.java**
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.webviewexample;
 
 import android.Manifest;
@@ -197,7 +197,7 @@ public class MyWebView extends AppCompatActivity {
 Create a new layout resource file for our WebView called "activity_webview.xml". 
 
 **activity_webview.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
@@ -220,7 +220,7 @@ Create a new layout resource file for our WebView called "activity_webview.xml".
 Now we setup our Buttons with the URLs in the MainActivity class…
 
 **MainActivity.java**
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.webviewexample;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -255,7 +255,7 @@ public class MainActivity extends AppCompatActivity {
 We now need to add the buttons to the MainActivity layout…
 
 **activity_main.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
@@ -282,7 +282,7 @@ We now need to add the buttons to the MainActivity layout…
 We're almost done! Lets add the strings we need…
 
 **strings.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <resources>
   <string name="app_name">WebView Example</string>
   <string name="google">GOOGLE</string>
@@ -293,7 +293,7 @@ We're almost done! Lets add the strings we need…
 Finally we add MyWebView activity and necessary permissions to the Android Manifest.
 
 **AndroidManifest.xml**
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="com.webviewexample">

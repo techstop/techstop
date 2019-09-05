@@ -31,7 +31,7 @@ Open your apps' build.gradle file in Android Studio and under "buildTypes/releas
 
 After enabling minifyEnabled your "**buildTypes/release**" should look like this...
 
-{{< highlight groovy "linenos=table" >}}
+{{< highlight groovy >}}
 buildTypes {
   release {
     minifyEnabled true
@@ -48,7 +48,7 @@ Next we will be shrinking our code at the bytecode level to further reduce apk s
 
 In the same build.gradle file under "**buildTypes/release**" replace "**proguard-android.txt**" with "**proguard-android-optimize.txt**". Your "**buildTypes/release**" should now look like this...
 
-{{< highlight groovy "linenos=table" >}}
+{{< highlight groovy >}}
 buildTypes {
   release {
     minifyEnabled true
@@ -69,7 +69,7 @@ So once again in your build.gradle file under "**buildTypes/release**" add the f
 
 Your "**buildTypes/release**" should now look like this...
 
-{{< highlight groovy "linenos=table" >}}
+{{< highlight groovy >}}
 buildTypes {
   release {
     minifyEnabled true
@@ -89,7 +89,7 @@ Lets add some rules in your "**proguard-rules.pro**" file to make sure that any 
 
 In Android Studio open your apps' proguard-rules.pro file and add the following rules after the last line...
 
-{{< highlight groovy "linenos=table" >}}
+{{< highlight groovy >}}
 -keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
   public static final *** NULL;
 }

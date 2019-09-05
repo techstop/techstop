@@ -30,7 +30,7 @@ Lets begin by creating a new project in Android Studio with an Empty Activity if
 
 Create a new java class called BootUpService. The BootUpService class will extend Service. This Service will be responsible for running what we need on boot up. Here's what it should look like…
 
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.gt.broadcastreceiver;
 
 import android.app.Service;
@@ -71,7 +71,7 @@ Make sure to declare the BootUpService class in your AndroidManifest.xml like th
 
 Now lets create another java class called BootUpReceiver which will extend BroadcastReceiver. The BroadcastReceiver is going to check that boot up has completed and then run our BootUpService class. Here's what it looks like…
 
-{{< highlight java "linenos=table" >}}
+{{< highlight java >}}
 package com.gt.broadcastreceiver;
 
 import android.content.BroadcastReceiver;
@@ -94,7 +94,7 @@ public class BootUpReceiver extends BroadcastReceiver {
 
 We now need to add permission and declare the BroadcastReceiver in the AndroidManifest.xml as follows…
 
-{{< highlight xml "linenos=table" >}}
+{{< highlight xml >}}
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 <receiver android:name=".BootUpReceiver" android:enabled="true" android:exported="false">

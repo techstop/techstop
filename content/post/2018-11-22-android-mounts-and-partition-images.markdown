@@ -52,7 +52,7 @@ You should now see a long output in your terminal similar to the one below. I ha
 
 <span style="color: green;"><strong>/dev/block/platform/msm_sdcc.1/by-name</strong></span>/system
 
-{{< highlight bash "linenos=table" >}}
+{{< highlight bash >}}
 /dev/block/platform/msm_sdcc.1/by-name/system /system ext4 ro,seclabel,relatime,errors=panic,data=ordered 0 0
 /dev/block/platform/msm_sdcc.1/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,errors=continue,commit=20,data=ordered 0 0
 /dev/block/platform/msm_sdcc.1/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,errors=continue,commit=20,data=ordered 0 0
@@ -68,7 +68,7 @@ Your output from the above command should look like the following with all the p
 
 <span style="color: green;"><strong>/dev/block/mmcblk0p17</strong></span>
 
-{{< highlight bash "linenos=table" >}}
+{{< highlight bash >}}
 lrwxrwxrwx 1 root root  20 2013-12-31 20:00 aboot -> /dev/block/mmcblk0p7
 lrwxrwxrwx 1 root root  21 2013-12-31 20:00 boot -> /dev/block/mmcblk0p17
 lrwxrwxrwx 1 root root  20 2013-12-31 20:00 modem -> /dev/block/mmcblk0p2
@@ -86,7 +86,7 @@ With the above command we have now copied the boot.img to our internal SD. You c
 
 If you are still in the adb root shell then enter the following 2 commands in terminal to exit root shell and adb. If you have already exited you can skip this step...
 
-{{< highlight bash "linenos=table" >}}
+{{< highlight bash >}}
 exit
 exit
 {{< /highlight >}}
