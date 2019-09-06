@@ -13,6 +13,7 @@ tags:
 - H631
 - Android
 - Unbrick
+- phones
 ---
 
 The LG G Stylo unbrick guide is to assist you in recovering your device in the event of a bootloop or soft brick. You can also use this guide to update to the latest firmware.

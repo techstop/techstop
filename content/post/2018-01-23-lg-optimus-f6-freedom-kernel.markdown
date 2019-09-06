@@ -13,6 +13,7 @@ tags:
 - D500
 - Android
 - Kernel
+- phones
 ---
 
 {{< image src="/images/f6/lg-optimus-f6-kernel.png" alt="LG Optimus F6 Freedom Kernel" width="100px" >}}

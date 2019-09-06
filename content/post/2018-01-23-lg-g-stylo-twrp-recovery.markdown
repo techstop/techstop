@@ -13,6 +13,7 @@ tags:
 - H631
 - TWRP Recovery
 - Android
+- phones
 ---
 
 {{< image src="/images/stylo/LG-Stylo-TWRP-Recovery.png" alt="LG G Stylo TWRP Recovery" width="100px" >}}

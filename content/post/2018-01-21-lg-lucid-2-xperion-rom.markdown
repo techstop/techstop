@@ -12,6 +12,7 @@ tags:
 - Android
 - Rom
 - Kernel
+- phones
 ---
 
 {{< image src="/images/vs870/LG-Lucid-2-ROM.png" alt="LG Lucid 2 Xperion ROM" width="100px" >}}

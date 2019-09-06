@@ -14,6 +14,7 @@ tags:
 - Android
 - v10J
 - Rom
+- phones
 ---
 
 {{< image src="/images/stylo/flashable-v10J-firmware.png" alt="LG G Stylo Flashable v10j" width="100px" >}}

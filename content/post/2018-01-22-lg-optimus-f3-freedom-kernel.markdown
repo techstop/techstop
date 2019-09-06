@@ -13,6 +13,7 @@ tags:
 - P659
 - Android
 - Kernel
+- phones
 ---
 
 {{< image src="/images/f3/lg-optimus-f3-kernels-300x234.jpg" alt="LG Optimus F3 Freedom Kernel" width="100px" >}}

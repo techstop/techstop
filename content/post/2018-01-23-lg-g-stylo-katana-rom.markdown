@@ -13,6 +13,7 @@ tags:
 - H631
 - Android
 - Rom
+- phones
 ---
 
 {{< image src="/images/stylo/LG G Stylo Katana ROM-0.png" alt="LG G Stylo Katana ROM" width="100px" >}}

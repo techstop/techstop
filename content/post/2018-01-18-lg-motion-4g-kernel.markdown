@@ -11,6 +11,7 @@ tags:
 - LG Motion 4G MS770
 - Android
 - Kernel
+- phones
 ---
 
 The LG Motion 4G Kernel further enhances the user experience by really putting the power in your hands. Whether you want to overclock to boost performance or underclock to save battery, the kernel can give you that ability. Freedom Kernel is for the LG Motion 4G MS770. See kernel details below...

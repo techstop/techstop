@@ -11,6 +11,7 @@ tags:
 - android
 - zte z981
 - kernel
+- phones
 ---
 
 {{< image src="/images/z981/freedom-kernel-for-the-zmax-pro-0.png" alt="Freedom Kernel for the Zmax Pro" width="100px" >}}

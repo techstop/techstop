@@ -13,6 +13,7 @@ tags:
 - D500
 - Android
 - Rom
+- phones
 ---
 
 {{< image src="/images/f6/lg-optimus-f6-rom-0.png" alt="LG Optimus F6 Xperion ROM" width="100px" >}}

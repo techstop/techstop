@@ -10,6 +10,7 @@ tags:
 - Huawei Ascend M860
 - Android
 - Rom
+- phones
 ---
 
 {{< image src="/images/m860/Huawei-Ascend-M860-Centurion-ROM.png" alt="Huawei Ascend M860 Centurion ROM" width="100px" >}}

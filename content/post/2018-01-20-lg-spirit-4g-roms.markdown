@@ -11,6 +11,7 @@ tags:
 - LG Spirit 4G MS870
 - Android
 - Rom
+- phones
 ---
 
 The LG Spirit 4G ROMs really enhance the user experience and make this device much more ejoyable. These roms have really been customized to make you wonder why stick to the stock factory rom. The roms can also be further customized with themes and other customizations to suit your needs. The Samurai rom with the white theme happens to be my personal favorites!

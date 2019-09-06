@@ -13,6 +13,7 @@ tags:
 - P659
 - Android
 - Rom
+- phones
 ---
 
 {{< image src="/images/f3/LG-Optimus-F3-ROM-0.png" alt="LG Optimus F3 ROMs" width="100px" >}}
