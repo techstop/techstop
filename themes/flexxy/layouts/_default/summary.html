@@ -1,6 +1,12 @@
 <article>
   {{ partial "article-header" . }}
-  <p>{{ printf "%s" .Summary | markdownify }}&hellip;</p>
-  <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Site.Data.l10n.article.read_more }} &raquo;</a>
+  <p>{{ printf "%s" .Summary | markdownify }}</p>
+  {{ with and (.Site.Params.post_tags) (.Params.tags) }}
+    {{ $.Site.Data.l10n.article.tagged_in }}
+    {{ range $i, $v := $.Params.tags }}
+      <a href="{{ $.Site.BaseURL }}tags/{{ $v | urlize }}">{{ $v | lower }}</a>{{ if ne (len $.Params.tags) (add $i 1) }}, {{ end }}
+    {{ end }}
+  {{ end }}
+  <p><a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Site.Data.l10n.article.read_more }} &raquo;</a></p>
   <hr>
 </article>
