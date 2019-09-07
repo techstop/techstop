@@ -1,0 +1,7 @@
+{{ define "main" }}
+<a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
+<br>
+{{ range $key, $value := .Site.Taxonomies.tags }}
+  <li><a href="{{ $.Site.BaseURL }}tags/{{ $key | urlize }}">{{ $key | humanize }}</a></li>
+{{ end }}
+{{ end }}
