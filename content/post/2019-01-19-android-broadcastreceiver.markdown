@@ -12,6 +12,8 @@ tags:
 - android studio
 - app development
 - java
+- Tutorials
+- android
 ---
 
 {{< image src="/images/broadcastreceiver/android-broadcastreceiver.png" alt="Android BroadcastReceiver" width="100px" >}}

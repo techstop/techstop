@@ -8,11 +8,11 @@ url: /lg-g-stylo-katana-rom/
 categories:
 - Android
 tags:
-- LG G Stylo
+- LG
 - MS631
 - H631
 - Android
-- Rom
+- roms
 - phones
 ---
 

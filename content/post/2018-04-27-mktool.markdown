@@ -9,7 +9,6 @@ categories:
 - Android
 - Linux
 tags:
-- mktool
 - Android
 - Linux
 - unpack boot.img

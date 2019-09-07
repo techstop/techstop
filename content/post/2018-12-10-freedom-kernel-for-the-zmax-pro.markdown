@@ -9,8 +9,9 @@ categories:
 - Android
 tags:
 - android
-- zte z981
-- kernel
+- zte
+- z981
+- kernels
 - phones
 ---
 

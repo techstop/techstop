@@ -8,9 +8,10 @@ url: /lg-motion-4g-kernel/
 categories:
 - Android
 tags:
-- LG Motion 4G MS770
+- LG
+- MS770
 - Android
-- Kernel
+- Kernels
 - phones
 ---
 

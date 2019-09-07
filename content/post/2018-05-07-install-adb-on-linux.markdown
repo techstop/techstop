@@ -12,7 +12,6 @@ categories:
 tags:
 - Linux
 - Android
-- ADB
 - Tutorials
 ---
 

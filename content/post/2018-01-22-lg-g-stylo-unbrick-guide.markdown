@@ -8,11 +8,10 @@ url: /lg-g-stylo-unbrick-guide/
 categories:
 - Android
 tags:
-- LG G Stylo
+- LG
 - MS631
 - H631
 - Android
-- Unbrick
 - phones
 ---
 

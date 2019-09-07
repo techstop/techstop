@@ -8,11 +8,11 @@ url: /lg-optimus-f3-roms/
 categories:
 - Android
 tags:
-- LG Optimus F3
+- LG
 - MS659
 - P659
 - Android
-- Rom
+- roms
 - phones
 ---
 

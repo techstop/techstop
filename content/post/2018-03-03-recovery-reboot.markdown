@@ -10,7 +10,6 @@ categories:
 tags:
 - Android
 - Apps
-- Recovery Reboot
 ---
 
 {{< image src="/images/recovery-reboot/Recovery-Reboot.png" alt="Recovery Reboot" width="100px" >}}

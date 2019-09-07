@@ -12,6 +12,8 @@ tags:
 - android studio
 - app development
 - java
+- Tutorials
+- Android
 ---
 
 {{< image src="/images/android-webview/android-webview-0.png" alt="Android WebView" width="100px" >}}

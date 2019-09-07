@@ -11,8 +11,6 @@ categories:
 tags:
 - Android
 - Linux
-- Debloat Android
-- Backup Android
 ---
 
 {{< image src="/images/backupdebloat/Backup-and-Debloat-Android-No-Root.png" alt="Backup and Debloat Android No Root" width="200px" >}}

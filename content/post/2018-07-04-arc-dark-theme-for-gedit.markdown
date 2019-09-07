@@ -7,8 +7,10 @@ type: post
 url: /arc-dark-theme-for-gedit/
 categories:
 - Linux
+- Tutorials
 tags:
 - Linux
+- Tutorials
 ---
 
 {{< image src="/images/arc-theme/arc-dark-theme-for-gedit-0.png" alt="Arc Dark Theme For Gedit" width="150px" >}}

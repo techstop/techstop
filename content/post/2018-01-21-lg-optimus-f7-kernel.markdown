@@ -8,9 +8,10 @@ url: /lg-optimus-f7-kernel/
 categories:
 - Android
 tags:
-- LG Optimus F7 LG870
+- LG
+- LG870
 - Android
-- Kernel
+- Kernels
 - phones
 ---
 

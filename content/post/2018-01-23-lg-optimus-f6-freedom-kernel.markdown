@@ -8,11 +8,11 @@ url: /lg-optimus-f6-freedom-kernel/
 categories:
 - Android
 tags:
-- LG Optimus F6
+- LG
 - MS500
 - D500
 - Android
-- Kernel
+- Kernels
 - phones
 ---
 

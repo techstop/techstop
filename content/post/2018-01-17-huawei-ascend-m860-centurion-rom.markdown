@@ -7,9 +7,10 @@ url: /huawei-ascend-m860-centurion-rom/
 categories:
 - Android
 tags:
-- Huawei Ascend M860
+- Huawei
+- M860
 - Android
-- Rom
+- roms
 - phones
 ---
 

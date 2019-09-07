@@ -8,10 +8,9 @@ url: /lg-g-stylo-twrp-recovery/
 categories:
 - Android
 tags:
-- LG G Stylo
+- LG
 - MS631
 - H631
-- TWRP Recovery
 - Android
 - phones
 ---

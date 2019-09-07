@@ -8,9 +8,10 @@ url: /lg-spirit-4g-roms/
 categories:
 - Android
 tags:
-- LG Spirit 4G MS870
+- LG
+- MS870
 - Android
-- Rom
+- roms
 - phones
 ---
 

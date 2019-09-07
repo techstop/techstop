@@ -10,7 +10,6 @@ categories:
 tags:
 - Android
 - Apps
-- Reboot Utility
 ---
 
 {{< image src="/images/reboot-utility/Reboot-Utility-0.png" alt="Reboot Utility" width="100px" >}}

@@ -12,6 +12,8 @@ tags:
 - android studio
 - app development
 - java
+- Tutorials
+- android
 ---
 
 {{< image src="/images/android-toolbar/android-toolbar-0.png" alt="Android Toolbar" width="100px" >}}

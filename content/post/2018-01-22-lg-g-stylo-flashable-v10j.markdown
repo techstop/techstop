@@ -8,12 +8,11 @@ url: /lg-g-stylo-flashable-v10j/
 categories:
 - Android
 tags:
-- LG G Stylo
+- LG
 - MS631
 - H631
 - Android
-- v10J
-- Rom
+- roms
 - phones
 ---
 

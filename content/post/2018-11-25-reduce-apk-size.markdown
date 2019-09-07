@@ -7,10 +7,12 @@ type: post
 url: /reduce-apk-size/
 categories:
 - Tutorials
+- Android
 tags:
 - android studio
 - app development
 - Tutorials
+- android
 ---
 
 {{< image src="/images/reduce-apk-size/How-To-Reduce-Apk-Size.png" alt="How To Reduce Apk Size" width="500px" >}}

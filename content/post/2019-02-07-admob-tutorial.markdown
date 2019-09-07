@@ -12,6 +12,8 @@ tags:
 - android studio
 - app development
 - java
+- Tutorials
+- Android
 ---
 
 {{< image src="/images/admob-tutorial/admob-tutorial-0.png" alt="Admob Tutorial" width="100px" >}}

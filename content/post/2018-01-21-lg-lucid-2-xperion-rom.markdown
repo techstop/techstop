@@ -8,10 +8,10 @@ url: /lg-lucid-2-xperion-rom/
 categories:
 - Android
 tags:
-- LG Lucid 2 VS870
+- LG
+- VS870
 - Android
-- Rom
-- Kernel
+- roms
 - phones
 ---
 
