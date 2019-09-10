@@ -652,8 +652,8 @@ hr {
 .post-info {
   color: var(--post-date);
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 
