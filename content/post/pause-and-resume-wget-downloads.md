@@ -67,6 +67,8 @@ To resume a wget download it's very straight forward. Open the terminal to the d
 
 ## **Conclusion**
 
+Wget is a powerful linux command line utility that can suit the needs of both novice and power users alike. What I've covered in this tutorial should suffice for most use cases.
+
 There are many more options you can run with wget. Check out the wget manual for more.
 
 {{< highlight bash >}}man wget{{< /highlight >}}
