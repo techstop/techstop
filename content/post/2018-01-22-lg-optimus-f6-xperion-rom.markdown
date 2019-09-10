@@ -5,6 +5,7 @@ draft: false
 title: LG Optimus F6 Xperion ROM
 type: post
 url: /lg-optimus-f6-xperion-rom/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

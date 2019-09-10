@@ -5,6 +5,7 @@ draft: false
 title: Arc Dark Theme For Gedit
 type: post
 url: /arc-dark-theme-for-gedit/
+googleAdsenseVerify: false
 categories:
 - Linux
 - Tutorials

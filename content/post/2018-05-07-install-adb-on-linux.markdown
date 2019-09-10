@@ -5,6 +5,7 @@ draft: false
 title: Install ADB On Linux
 type: post
 url: /install-adb-on-linux/
+googleAdsenseVerify: false
 categories:
 - Linux
 - Tutorials

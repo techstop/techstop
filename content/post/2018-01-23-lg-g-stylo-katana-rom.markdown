@@ -5,6 +5,7 @@ draft: false
 title: LG G Stylo Katana ROM
 type: post
 url: /lg-g-stylo-katana-rom/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

@@ -5,6 +5,7 @@ draft: false
 title: LG G Stylo TWRP Recovery
 type: post
 url: /lg-g-stylo-twrp-recovery/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

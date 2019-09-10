@@ -5,6 +5,7 @@ draft: false
 title: Freedom Kernel for the Zmax Pro
 type: post
 url: /freedom-kernel-for-the-zmax-pro/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

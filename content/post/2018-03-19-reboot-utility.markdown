@@ -5,6 +5,7 @@ draft: false
 title: Reboot Utility
 type: post
 url: /reboot-utility/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

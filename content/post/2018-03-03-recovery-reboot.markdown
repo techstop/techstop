@@ -5,6 +5,7 @@ draft: false
 title: Recovery Reboot
 type: post
 url: /recovery-reboot/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

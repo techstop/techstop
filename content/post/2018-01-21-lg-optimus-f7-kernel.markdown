@@ -5,6 +5,7 @@ draft: false
 title: LG Optimus F7 Kernel
 type: post
 url: /lg-optimus-f7-kernel/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

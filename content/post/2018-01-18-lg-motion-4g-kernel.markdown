@@ -5,6 +5,7 @@ draft: false
 title: LG Motion 4G Kernel
 type: post
 url: /lg-motion-4g-kernel/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

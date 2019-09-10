@@ -4,6 +4,7 @@ date: 2018-01-17 03:11:09+00:00
 draft: false
 title: Huawei Ascend M860 Centurion ROM
 url: /huawei-ascend-m860-centurion-rom/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

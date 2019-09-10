@@ -17,8 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
-  {{ end }}
-  {{ hugo.Generator }}
+  {{ end -}}
   <link href="{{ "post/index.xml" | absURL }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
   <link href="{{ "post/index.xml" | absURL }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
   <link rel="icon" href="{{ "img/favicon.ico" | absURL }}">
@@ -26,7 +25,7 @@
   {{ if .Site.Params.googleAnalytics }}
     {{- partial "analytics" . -}}
   {{ end }}
-  {{ if and (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
+  {{ if and (eq .Section "post") (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
     {{- partial "adsense-verify" . -}}
   {{ end }}
 </head>

@@ -5,6 +5,7 @@ draft: false
 title: LG Lucid 2 Xperion ROM
 type: post
 url: /lg-lucid-2-xperion-rom/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

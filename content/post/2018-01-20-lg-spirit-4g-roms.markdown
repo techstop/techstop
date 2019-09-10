@@ -5,6 +5,7 @@ draft: false
 title: LG Spirit 4G ROMs
 type: post
 url: /lg-spirit-4g-roms/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

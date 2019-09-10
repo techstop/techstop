@@ -5,6 +5,7 @@ draft: false
 title: LG G Stylo Unbrick Guide
 type: post
 url: /lg-g-stylo-unbrick-guide/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

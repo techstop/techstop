@@ -5,6 +5,7 @@ draft: false
 title: LG Optimus F6 Freedom Kernel
 type: post
 url: /lg-optimus-f6-freedom-kernel/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

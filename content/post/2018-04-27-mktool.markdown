@@ -5,6 +5,7 @@ draft: false
 title: mktool
 type: post
 url: /mktool/
+googleAdsenseVerify: false
 categories:
 - Android
 - Linux

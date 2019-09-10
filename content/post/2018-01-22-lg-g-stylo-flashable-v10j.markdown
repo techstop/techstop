@@ -5,6 +5,7 @@ draft: false
 title: LG G Stylo Flashable v10j
 type: post
 url: /lg-g-stylo-flashable-v10j/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

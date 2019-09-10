@@ -5,6 +5,7 @@ draft: false
 title: LG Optimus F3 ROMs
 type: post
 url: /lg-optimus-f3-roms/
+googleAdsenseVerify: false
 categories:
 - Android
 tags:
