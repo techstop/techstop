@@ -1,6 +1,7 @@
 ---
 author: Antonio
 date: 2018-11-25 00:34:06+00:00
+lastmod: 2019-09-11
 draft: false
 title: How To Reduce Apk Size
 type: post
@@ -27,7 +28,7 @@ There are many ways to optimize your app. In this tutorial I will show you how t
 
 We will first start by shrinking your code with ProGuard. This removes unused classes, fields, methods, and attributes from your app as well as from code libraries you may have added in your project.
 
-Open your apps' build.gradle file in Android Studio and under "buildTypes/release" add the following line...
+Open your apps' build.gradle file in Android Studio under "buildTypes/release" add the following line...
 
 {{< highlight groovy >}}minifyEnabled true{{< /highlight >}}
 
@@ -104,10 +105,10 @@ In Android Studio open your apps' proguard-rules.pro file and add the following 
 -keep @interface android.support.annotation.Keep
 -keep @android.support.annotation.Keep class *
 -keepclasseswithmembers class * {
-  @android.support.annotation.Keep ;
+  @android.support.annotation.Keep <fields>;
 }
 -keepclasseswithmembers class * {
-  @android.support.annotation.Keep ;
+  @android.support.annotation.Keep <methods>;
 }
 
 -keep @interface com.google.android.gms.common.annotation.KeepName
@@ -118,11 +119,11 @@ In Android Studio open your apps' proguard-rules.pro file and add the following 
 
 -keep @interface com.google.android.gms.common.util.DynamiteApi
 -keep public @com.google.android.gms.common.util.DynamiteApi class * {
-  public ;
-  public ;
+  public <fields>;
+  public <methods>;
 }
 
--keep class android.support.v7.widget.ShareActionProvider { *; }
+-keep class androidx.appcompat.widget.ShareActionProvider { *; }
 
 -dontwarn android.security.NetworkSecurityPolicy
 {{< /highlight >}}
