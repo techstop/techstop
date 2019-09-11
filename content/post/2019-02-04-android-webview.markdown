@@ -1,6 +1,7 @@
 ---
 author: Antonio
 date: 2019-02-04 22:27:34+00:00
+lastmod: 2019-09-11
 draft: false
 title: Android WebView
 type: post
@@ -62,6 +63,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import java.util.Objects;
+
 public class MyWebView extends AppCompatActivity {
   // Declare our web view.
   private WebView webview;
@@ -117,23 +120,24 @@ public class MyWebView extends AppCompatActivity {
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         // Check for storage write permission before attempting to download.
         if (getPermission()) {
-          dm.enqueue(request);
+          Objects.requireNonNull(dm).enqueue(request);
         }
       }
     });
+
   }
 
   // Check if storage write permission has been granted. If not, request it.
   private boolean getPermission() {
     if (Build.VERSION.SDK_INT >= 23) {
       if (ActivityCompat.checkSelfPermission(this,
-            Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+          Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
         // True if permission granted exists.
         return true;
       } else {
         // We ask for storage write permission if it doesn't exist.
         ActivityCompat.requestPermissions(this,
-            new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_STORAGE);
+          new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_STORAGE);
         return false;
       }
     } else {
@@ -146,13 +150,11 @@ public class MyWebView extends AppCompatActivity {
   // run code for either situation. This method is optional, but useful.
   @Override
   public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-    switch (requestCode) {
-      case WRITE_STORAGE: {
-        if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-          Toast.makeText(getApplicationContext(), "Permission Granted!", Toast.LENGTH_LONG).show();
-        } else {
-          Toast.makeText(getApplicationContext(), "Permission Denied!", Toast.LENGTH_LONG).show();
-        }
+    if (requestCode == WRITE_STORAGE) {
+      if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+        Toast.makeText(getApplicationContext(), "Permission Granted!", Toast.LENGTH_LONG).show();
+      } else {
+        Toast.makeText(getApplicationContext(), "Permission Denied!", Toast.LENGTH_LONG).show();
       }
     }
   }
@@ -181,6 +183,7 @@ public class MyWebView extends AppCompatActivity {
       progress.setVisibility(View.GONE);
       super.onPageFinished(view, url);
     }
+
   }
 
   // If we have clicked through multiple pages, this allows the back button
@@ -238,16 +241,16 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
   }
 
-  // This button will pass the Google website url to the MyWebView.class
+  // This button will pass the Google website url to MyWebView.class
   public void googleButton(View view) {
     MyWebView.url = "https://www.google.com/";
     Intent intent = new Intent(this, MyWebView.class);
     startActivity(intent);
   }
 
-  // This button will pass the In Tech Geek website url to the MyWebView.class
+  // This button will pass the techStop website url to MyWebView.class
   public void itgButton(View view) {
-    MyWebView.url = "https://intechgeek.com/";
+    MyWebView.url = "https://techstop.github.io/";
     Intent intent = new Intent(this, MyWebView.class);
     startActivity(intent);
   }
@@ -288,7 +291,7 @@ We're almost done! Lets add the strings we need…
 <resources>
   <string name="app_name">WebView Example</string>
   <string name="google">GOOGLE</string>
-  <string name="in_tech_geek">IN TECH GEEK</string>
+  <string name="tech_Stop">techStop</string>
 </resources>
 {{< /highlight >}}
 
