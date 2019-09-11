@@ -1,6 +1,7 @@
 ---
 author: Antonio
 date: 2019-01-19 00:50:48+00:00
+lastmod: 2019-09-11
 draft: false
 title: Android BroadcastReceiver
 type: post
@@ -30,38 +31,41 @@ The code in this tutorial will be in the full project which I have uploaded to g
 
 Lets begin by creating a new project in Android Studio with an Empty Activity if you haven't already. We can call the project BroadcastReceiver.
 
-Create a new java class called BootUpService. The BootUpService class will extend Service. This Service will be responsible for running what we need on boot up. Here's what it should look like…
+Create a new java class called BootUpService. The BootUpService class will extend JobIntentService. This Service will be responsible for running what we need on boot up. Here's what it should look like…
 
 {{< highlight java >}}
 package com.gt.broadcastreceiver;
 
-import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
-import android.os.IBinder;
+import android.os.Handler;
+import android.os.Looper;
 import android.widget.Toast;
 
-public class BootUpService extends Service {
+import androidx.annotation.NonNull;
+import androidx.core.app.JobIntentService;
 
-  @Override
-  public void onCreate() {
-    super.onCreate();
+public class BootUpService extends JobIntentService {
+
+  // You can assign any number to your job id
+  final static int job_id = 95;
+
+  public static void enqueueWork(Context context, Intent intent) {
+    enqueueWork(context, BootUpService.class, job_id, intent);
   }
 
   @Override
-  public IBinder onBind(Intent intent) {
-    return null;
-  }
-
-  @Override
-  public int onStartCommand(Intent intent, int flags, int startId) {
+  protected void onHandleWork(@NonNull Intent intent) {
     // Any code you need to run on boot up can be placed here.
     // This is just a sample Toast message to show our BroadcastReceiver works.
-    Toast.makeText(getApplicationContext(), "Our BroadcastReceiver works! Fantastic!", Toast.LENGTH_LONG).show();
-
-    // Stops the Service after it's done.
-    stopSelf();
-    // Do not restart the Service till the next reboot.
-    return START_NOT_STICKY;
+    // We'll be using a Handler to run our Toast since it needs to run on the UI thread. Otherwise you don't need it.
+    Handler handler = new Handler(Looper.getMainLooper());
+    handler.post(new Runnable() {
+      @Override
+      public void run() {
+          Toast.makeText(getApplicationContext(), "Our BroadcastReceiver works! Fantastic!", Toast.LENGTH_LONG).show();
+      }
+    });
   }
 
 }
@@ -69,7 +73,10 @@ public class BootUpService extends Service {
 
 Make sure to declare the BootUpService class in your AndroidManifest.xml like this…
 
-{{< highlight xml >}}<service android:name=".BootUpService" />{{< /highlight >}}
+{{< highlight xml >}}
+<service android:name=".BootUpService"
+  android:permission="android.permission.BIND_JOB_SERVICE"/>
+{{< /highlight >}}
 
 Now lets create another java class called BootUpReceiver which will extend BroadcastReceiver. The BroadcastReceiver is going to check that boot up has completed and then run our BootUpService class. Here's what it looks like…
 
@@ -86,17 +93,18 @@ public class BootUpReceiver extends BroadcastReceiver {
   public void onReceive(Context context, Intent intent) {
     // Start our BootUpService class once boot up has completed
     if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())) {
-      Intent serviceIntent = new Intent(context, BootUpService.class);
-      context.startService(serviceIntent);
+      BootUpService.enqueueWork(context, new Intent());
     }
   }
 
 }
 {{< /highlight >}}
 
-We now need to add permission and declare the BroadcastReceiver in the AndroidManifest.xml as follows…
+We now need to add permissions and declare the BroadcastReceiver in the AndroidManifest.xml as follows…
 
 {{< highlight xml >}}
+<!--For pre-android O to run JobIntentService, WAKE_LOCK is needed-->
+<uses-permission android:name="android.permission.WAKE_LOCK" />
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 <receiver android:name=".BootUpReceiver" android:enabled="true" android:exported="false">
@@ -106,7 +114,7 @@ We now need to add permission and declare the BroadcastReceiver in the AndroidMa
 </receiver>
 {{< /highlight >}}
 
-There you have it. That is all you need to setup a BroadcastReceiver with a Service to run your code on every boot up. Do keep in mind that the user needs to open your app at least once after they have installed it for a BroadcastReceiver to work (This is a security feature in android).
+There you have it. That is all you need to setup a BroadcastReceiver with a JobIntentService to run your code on every boot up. Do keep in mind that the user needs to open your app at least once after they have installed it for a BroadcastReceiver to work (This is a security feature in android).
 
 The full project is on github. You can download or fork it from the link below and import it to your favorite IDE, though Android Studio is recommended.
 

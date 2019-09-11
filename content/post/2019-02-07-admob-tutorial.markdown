@@ -1,6 +1,7 @@
 ---
 author: Antonio
 date: 2019-02-07 00:36:55+00:00
+lastmod: 2019-09-11
 draft: false
 title: Admob Tutorial
 type: post
@@ -32,7 +33,7 @@ Begin by creating a new project in Android Studio with an Empty Activity if you 
 You will first need to add the ads play services dependency to your **build.gradle** file…
 
 {{< highlight groovy >}}
-implementation 'com.google.android.gms:play-services-ads:17.1.3'
+implementation 'com.google.android.gms:play-services-ads:18.2.0'
 {{< /highlight >}}
 
 Now add a LinearLayout for your AdView to your **activity_main.xml**.

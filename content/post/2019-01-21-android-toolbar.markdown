@@ -1,6 +1,7 @@
 ---
 author: Antonio
 date: 2019-01-21 16:36:29+00:00
+lastmod: 2019-09-11
 draft: false
 title: Android Toolbar
 type: post
@@ -60,7 +61,7 @@ Right click on your "layout" directory and create a new Layout resource file cal
 **toolbar.xml**
 {{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar
+<androidx.appcompat.widget.Toolbar
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/myToolbar"
@@ -78,9 +79,10 @@ Next we will add the Toolbar to our "MainActivity.java" class. Create the toolBa
 {{< highlight java >}}
 package com.androidtoolbar;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -181,9 +183,10 @@ The final step is to add the menu and our menu items to our "MainActivity.java" 
 {{< highlight java >}}
 package com.androidtoolbar;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
