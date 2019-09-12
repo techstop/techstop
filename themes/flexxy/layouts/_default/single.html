@@ -10,6 +10,17 @@
         <a href="{{ $.Site.BaseURL }}tags/{{ $v | urlize }}">{{ $v | lower }}</a>{{ if ne (len $.Params.tags) (add $i 1) }}, {{ end }}
       {{ end }}
     {{ end }}
+    <div style="margin-top: 18px; text-align: center;">
+      {{ with .NextInSection }}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">&laquo; {{ $.Site.Data.l10n.article.prev }}</a>
+      {{ end }}
+      {{ if and (.PrevInSection) (.NextInSection) }}
+        &nbsp; &nbsp; &middot; &nbsp; &nbsp;
+      {{ end }}
+      {{ with .PrevInSection }}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ $.Site.Data.l10n.article.next }} &raquo;</a>
+      {{ end }}
+    </div>
   </article>
   <hr>
   {{ with and (.Site.Params.comments) (ne .Params.comments false) }}
