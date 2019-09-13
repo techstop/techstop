@@ -2,6 +2,7 @@
 author: Antonio
 title: "Make Xfce Look Modern"
 date: 2019-09-12T14:06:22-04:00
+lastmod: 2019-09-13
 draft: false
 type: post
 url: /make-xfce-look-modern/
@@ -56,7 +57,7 @@ Here is a screenshot of my compositor settings.
 
 ## **Panels**
 
-The top panel is comprised of 3 panels side by side. This is the only way to center the clock without having it shift side to side when applicatons are opened and closed if on the same panel. For the panel I'm using a mostly transparent 32 pixel height image I created with a 1.5 pixel line to look like a shadow on the bottom. You can download the panel image below.
+The top panel is comprised of 3 panels side by side. This is the only way to center the clock on Xfce panel without having the clock shift side to side when applicatons are opened and closed. For the panel I'm using a mostly transparent 32 pixel height image I created with a 1.5 pixel line to look like a shadow on the bottom. You can download the panel image below.
 
 {{< cta-button "Transparent Panel" "https://github.com/GameTheory-/MyStuff/raw/master/xfce/panel-01.zip" >}}
 
@@ -71,7 +72,7 @@ If you're using the image, make sure to set the panel row size to 32 pixels like
 **Right panel screeshots**
 {{< image src="/images/xfce/rp0.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/rp1.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/rp2.png" alt="xfce" width="80px" >}}
 
-**Note:** Make all separators transparent. For the middle panel with the clock expand the separators.
+**Note:** Make all separators transparent. For the middle panel with the clock, expand the separators.
 
 For the left panel I changed the Whisker Menu icon from the xfce mouse to the ubuntu icon. Here's the icon download.
 
@@ -113,7 +114,7 @@ For my notifications I have set the "**Greybird**" theme and set the opacity to 
 
 {{< image src="/images/xfce/noti0.png" alt="xfce" width="100px" >}}
 
-## **Text Editor Arc-Dark**
+## **Text Editor Arc-Dark Theme**
 
 For your text editor you will need a separate theme. Luckily there is a matching Arc-Dark theme for most text editors.
 
