@@ -10,7 +10,7 @@
     {{- end -}}
   </title>
   <meta name="author" content="{{ .Site.Params.site_author }}">
-  <meta name="description" content="{{ .Site.Params.site_description }}">
+  <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.site_description }}{{ end }}">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic" type="text/css">
   <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}">
