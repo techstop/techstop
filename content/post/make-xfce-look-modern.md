@@ -6,6 +6,7 @@ lastmod: 2019-09-13
 draft: false
 type: post
 url: /make-xfce-look-modern/
+description: "In this tutorial we will teach you how to make Xfce look modern and beautiful. We will show you some neat customizations and downloads to make your Xfce look modern."
 categories:
 - Tutorials
 - Linux
