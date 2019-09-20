@@ -1,10 +1,12 @@
 ---
 author: Antonio
 date: 2018-04-19 23:49:56+00:00
+lastmod: 2019-09-19
 draft: false
 title: Backup and Debloat Android No Root
 type: post
 url: /backup-and-debloat-android-no-root/
+description: "Backup and debloat Android without the need to root your device. If you don't want to, or there's no root for your device, then just use this tool to backup and debloat without root."
 categories:
 - Android
 - Linux
@@ -33,9 +35,9 @@ Let's go over the different options in **Backup and Debloat Android No Root**...
 
 The rest of the options are self explanatory.
 
-## Limitations
+## **Limitations**
 
-Adb has its' known limitations...
+Adb has its known limitations...
 
 Adb can only backup apps where the developer of the app allows the app to be backed up in the **AndroidManifest.xml** with a bit of code that looks like this **android:allowBackup="false"**. In full backups those apps will be ignored (options 1 and 2). In individual app backups you will get an empty backup for those apps. For all other apps you'll have good reliable backups.
 
@@ -43,17 +45,17 @@ When apps are uninstalled they will not consume any resources or be visible to t
 
 If you uninstall system apps that you later decide you want back, you can do a factory reset and the apps will reinstall.
 
-## Usage
+## **Backup & Debloat**
 
 For Android 4.0 and up
 
 Tested on ubuntu & xubuntu
 
-Make sure the **backupdebloat** file has execute permissions.
+Make sure the "**bda**" file has execute permissions.
 
 1. Enable usb debugging on your device in developer options and then plug it to your computer.
 2. Execute the file as follows in a terminal:
-  {{< highlight bash >}}./backupdebloat{{< /highlight >}}
+  {{< highlight bash >}}./bda{{< /highlight >}}
 3. optional - Use the "Add Desktop Shortcut" option for quick access
 
-{{< cta-button "BackupDebloat" "https://github.com/GameTheory-/Backup-and-Debloat-Android-No-Root/releases" "_blank" >}}
+{{< cta-button "Backup Debloat Android" "https://github.com/GameTheory-/Backup-and-Debloat-Android-No-Root/releases" "_blank" >}}
