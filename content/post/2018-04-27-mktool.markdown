@@ -6,6 +6,7 @@ title: mktool
 type: post
 url: /mktool/
 googleAdsenseVerify: false
+description: "Mktool is a utility to unpack and repack a boot.img and recovery.img file. Mktool provides a simple point and click GUI to make unpacking boot and recovery images easy."
 categories:
 - Android
 - Linux

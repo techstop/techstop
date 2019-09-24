@@ -6,6 +6,7 @@ draft: false
 title: Android Toolbar
 type: post
 url: /android-toolbar/
+description: "Follow this tutorial to learn how to create a custom Android toolbar for your Android app. Creating your own toolbar allows for more flexibility. You will be able to change the layout, add custom titles, and much more."
 categories:
 - Tutorials
 - Android
