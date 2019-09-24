@@ -7,8 +7,7 @@
     posted_on = "Posted on"
     tagged_in = "Tags:"
     comments = "Show Comments"
-    next = "Next Article"
-    prev = "Previous Article"
+    more_posts = "More Articles"
 
 [share]
     title = "Share this article:"
