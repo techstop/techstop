@@ -6,6 +6,7 @@ title: Install ADB On Linux
 type: post
 url: /install-adb-on-linux/
 googleAdsenseVerify: false
+description: "Follow this guide to install ADB on Linux. ADB and fastboot are two important tools to interface with your android devices. This is especially useful to a developer."
 categories:
 - Linux
 - Tutorials

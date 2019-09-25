@@ -6,6 +6,7 @@ title: LG G Stylo TWRP Recovery
 type: post
 url: /lg-g-stylo-twrp-recovery/
 googleAdsenseVerify: false
+description: "This is a TWRP recovery for the LG G Stylo MS631 and H631. This is a must have if you plan on tuning and tweaking your device."
 categories:
 - Android
 tags:

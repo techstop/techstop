@@ -6,6 +6,7 @@ title: Huawei Ascend M860 Centurion ROM
 type: post
 url: /huawei-ascend-m860-centurion-rom/
 googleAdsenseVerify: false
+description: "Centurion is a custom rom for the Huawei Ascend M860. The rom is for the Metro PCS variant and is based on Android 2.2.2 Froyo."
 categories:
 - Android
 tags:

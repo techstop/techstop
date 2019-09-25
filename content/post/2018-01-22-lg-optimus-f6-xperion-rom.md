@@ -6,6 +6,7 @@ title: LG Optimus F6 Xperion ROM
 type: post
 url: /lg-optimus-f6-xperion-rom/
 googleAdsenseVerify: false
+description: "Xperion is a custom rom for the LG Optimus F6 MS500 and D500. The rom has been styled and enhanced to improve the performance and overall user experience."
 categories:
 - Android
 tags:

@@ -5,6 +5,7 @@ draft: false
 title: APK Utility
 type: post
 url: /apk-utility/
+description: "Apk Utility provides a simple and efficient way to compile and decompile apk and jar files. Using Apk Utility eliminates the need to use the command line with its simple options menu."
 categories:
 - Android
 - Linux
