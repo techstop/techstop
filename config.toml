@@ -13,7 +13,7 @@ theme = "flexxy"
     # Enable google adsesense verification by entering your publisher id
     googleAdsenseVerify = "ca-pub-8645513020646755"
     site_author = "Antonio"
-    site_description = "A tech website with focus on linux and android. Check out our tutorials and articles for the linux and android platforms."
+    site_description = "TechStop is a tech website with a focus on Linux and Android. Check out our tutorials and tech articles for the Linux and Android platforms and other technologies."
     # Leave empty to disable header image
     header_background = "img/techStop_header.png"
     # Leave empty to remove it
