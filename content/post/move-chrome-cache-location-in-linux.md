@@ -12,6 +12,7 @@ categories:
 tags:
 - linux
 - tutorials
+- browser
 ---
 
 {{< image src="/images/chrome/chrome.png" alt="Chrome Browser" width="200px" >}}
