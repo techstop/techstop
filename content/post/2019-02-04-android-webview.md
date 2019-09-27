@@ -1,7 +1,7 @@
 ---
 author: Antonio
 date: 2019-02-04 22:27:34+00:00
-lastmod: 2019-09-11
+lastmod: 2019-09-27
 draft: false
 title: Android WebView
 type: post
@@ -100,6 +100,8 @@ public class MyWebView extends AppCompatActivity {
     webview.getSettings().setLoadWithOverviewMode(true);
     // Do not constrain the viewport to the web view dimensions.
     webview.getSettings().setUseWideViewPort(true);
+    // Allow website user settings to be saved and retrieved.
+    webview.getSettings().setDomStorageEnabled(true);
     // Attach our web view to our WebViewClient.
     webview.setWebViewClient(new MyWebViewClient());
     // We call our url string variable to load.
@@ -131,14 +133,12 @@ public class MyWebView extends AppCompatActivity {
   // Check if storage write permission has been granted. If not, request it.
   private boolean getPermission() {
     if (Build.VERSION.SDK_INT >= 23) {
-      if (ActivityCompat.checkSelfPermission(this,
-          Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+      if (ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
         // True if permission granted exists.
         return true;
       } else {
         // We ask for storage write permission if it doesn't exist.
-        ActivityCompat.requestPermissions(this,
-          new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_STORAGE);
+        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_STORAGE);
         return false;
       }
     } else {
