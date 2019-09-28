@@ -2,6 +2,7 @@
 author: Antonio
 title: "Linux Commands To Get Hardware Info"
 date: 2019-09-27T23:29:38-04:00
+lastmod: 2019-09-28
 draft: false
 type: post
 url: /linux-commands-hardware-info/
@@ -32,7 +33,11 @@ Well now that we've gone over a good GUI, it's time to dig in with what this art
 
 **Lets get started, shall we...**
 
-- These next few commands are great for getting an overview of your hardware info.
+If you do not have any of the linux utilities in this tutorial, you can install them in your terminal as follows.
+
+{{< highlight bash >}}sudo apt install <name-of-utility>{{< /highlight >}}
+
+- **These next few commands are great for getting an overview of your hardware info.**
 
 {{< highlight bash >}}hwinfo --short{{< /highlight >}}
 
@@ -42,7 +47,7 @@ For hardware overview information, this next command is my favorite. I like the 
 
 {{< highlight bash >}}inxi -Fxz{{< /highlight >}}
 
-- We will now target just your CPU info.
+- **We will now target just your CPU info.**
   
 You may not need so much information like the previous commands, but just for your cpu.
 
@@ -50,7 +55,7 @@ You may not need so much information like the previous commands, but just for yo
 
 {{< highlight bash >}}lshw -C cpu{{< /highlight >}}
 
-- Lets focus on your PC memory now.
+- **Lets focus on your PC memory now.**
 
 This command will show the memory size for each RAM stick you have installed in your PC. You do need to run this command with sudo.
 
@@ -72,8 +77,64 @@ This final command gives us our memory usage.
 
 {{< highlight bash >}}free -m{{< /highlight >}}
 
+- **Here are some commands to get disks, devices, and file systems.**
+
+I like this next command. It displays the device path for any mounted HDD, SSD, and USB drives.
+
+{{< highlight bash >}}sudo lshw -short -C disk{{< /highlight >}}
+
+The next command is more targeted at a specific drive by using the device path you get from the previous command above.
+
+{{< highlight bash >}}sudo hdparm -I /dev/sda{{< /highlight >}}
+
+If you'd like to get an idea of how fast your HDD or SSD read speeds are, you can run a test as follows. You just need the device path as the previous command.
+
+{{< highlight bash >}}sudo hdparm -Tt /dev/sda{{< /highlight >}}
+
+This following command is quite common. You can use it to list all disks with their partitions, mount points, and sizes.
+
+{{< highlight bash >}}lsblk{{< /highlight >}}
+
+This is yet another to list sector count, file system, type, and ID.
+
+{{< highlight bash >}}sudo fdisk -l{{< /highlight >}}
+
+Along with file systems and mount points, this next command also lists space used and available in megabytes.
+
+{{< highlight bash >}}df -m{{< /highlight >}}
+
+These next two list USB and PCI devices.
+
+{{< highlight bash >}}lsusb{{< /highlight >}}
+
+{{< highlight bash >}}lspci{{< /highlight >}}
+
+- **Some commands for network hardware info.**
+
+List hardware information for your network card.
+
+{{< highlight bash >}}lshw -C network{{< /highlight >}}
+
+List network interfaces.
+
+{{< highlight bash >}}ifconfig -a{{< /highlight >}}
+
+- **Wrapping things up with installed software information.**
+
+Details about your current OS installation.
+
+{{< highlight bash >}}cat /etc/os-release{{< /highlight >}}
+
+Kernel details.
+
+{{< highlight bash >}}uname -a{{< /highlight >}}
+
+Finally we get some details about the BIOS.
+
+{{< highlight bash >}}sudo dmidecode -t bios{{< /highlight >}}
+
 ## **Conclusion**
 
-We have stepped through a few Linux commands to get hardware info, but we've only scratched the surface. There's many more commands to acquire more hardware information.
+We have stepped through quite a few Linux commands to get hardware info. There's many more commands you can learn in time. With the one's we've covered in this tutorial you should be covered for most situations.
 
-Check back to this page as I will add more commands to cover a greater range of hardware.
+If there's any more linux commands to get hardware info that you think should be included in this tutorial, feel free to share them in the comments below with some details.
