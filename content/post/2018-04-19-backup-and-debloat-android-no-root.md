@@ -1,7 +1,7 @@
 ---
 author: Antonio
 date: 2018-04-19 23:49:56+00:00
-lastmod: 2019-09-19
+lastmod: 2019-10-12
 draft: false
 title: Backup and Debloat Android No Root
 type: post
@@ -43,7 +43,11 @@ Adb can only backup apps where the developer of the app allows the app to be bac
 
 When apps are uninstalled they will not consume any resources or be visible to the user (that's good!). However, apps are only uninstalled for the user and not root. This means the apps are uninstalled but remain on the device like if they are frozen (not a problem at all).
 
-If you uninstall system apps that you later decide you want back, you can do a factory reset and the apps will reinstall.
+## **Warnings**
+
+Do not uninstall system critical apps that may cause a boot loop. If you do, perform a factory reset to end the boot loop.
+
+If you uninstall apps that you later decide you want back, you can do a factory reset and the apps will reinstall. This is the only way to get the apps back.
 
 ## **Backup & Debloat**
 
