@@ -7,8 +7,10 @@ type: post
 url: /google-app-podcasts/
 description: "The Google app is a great way to listen to podcasts. Follow this walk through to learn how to use the Google app to find and listen to your favorite podcasts for free."
 categories:
+- android
 - news
 tags:
+- android
 - apps
 ---
 
