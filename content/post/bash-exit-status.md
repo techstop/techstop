@@ -2,6 +2,7 @@
 author: Antonio
 title: "Bash Exit Status"
 date: 2019-10-15T22:13:36-04:00
+lastmod: 2019-10-16
 draft: false
 type: post
 url: /bash-exit-status/
@@ -60,7 +61,7 @@ echo $?
 This now gives us a command not found error followed by the exit status code (127).
 
 {{< highlight text >}}
-./x: line 3: datefoo: command not found
+./test.sh: line 3: datefoo: command not found
 127
 {{< /highlight >}}
 
@@ -68,7 +69,7 @@ This now gives us a command not found error followed by the exit status code (12
 
 Saving the exit status for a command in a variable can be useful so that you can use the status later on in your bash script.
 
-In this example we run three commands and save the exit status for each in a variable. One of the commands is not a real command as one of our previous examples.
+In this example we run three commands and save the exit status for each in a variable. One of the commands is not a real command like one of our previous examples.
 
 {{< highlight bash >}}
 #!/bin/bash
@@ -89,6 +90,18 @@ echo "These are the exit statuses for the commands above:"
 echo $var0
 echo $var1
 echo $var2
+{{< /highlight >}}
+
+**Output:**
+
+{{< highlight text >}}
+gametheory
+./test.sh: line 8: datefoo: command not found
+Wed Oct 16 12:29:09 AST 2019
+These are the exit statuses for the commands above:
+0
+127
+0
 {{< /highlight >}}
 
 **Set the exit status in your bash script:**
