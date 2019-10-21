@@ -2,6 +2,7 @@
 author: Antonio
 title: "Update Linux in a Terminal"
 date: 2019-10-20T22:44:45-04:00
+lastmod: 2019-10-21
 draft: false
 type: post
 url: /update-linux-terminal/
@@ -40,13 +41,61 @@ First we need to update the local software database with the latest software as 
 
 {{< highlight bash >}}sudo apt update{{< /highlight >}}
 
-**Perform the update:**
+**Output:**
+
+{{< highlight text >}}
+Get:34 http://mirror.umd.edu/ubuntu bionic-security/main amd64 Packages [531 kB]
+Get:35 http://mirror.umd.edu/ubuntu bionic-security/main i386 Packages [382 kB]
+Get:36 http://mirror.umd.edu/ubuntu bionic-security/main amd64 DEP-11 Metadata [38.5 kB]
+Get:42 http://mirror.umd.edu/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]  
+Get:43 http://mirror.umd.edu/ubuntu bionic-security/universe DEP-11 64x64 Icons [108 kB]
+Get:44 http://mirror.umd.edu/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+Fetched 8,178 kB in 12s (660 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+7 packages can be upgraded. Run 'apt list --upgradable' to see them.
+{{< /highlight >}}
+
+**Perform the upgrade:**
 
 Once the software database updates, then you can update all the software on your system as follows:
 
 {{< highlight bash >}}sudo apt upgrade{{< /highlight >}}
 
-You rarely ever need to reboot after an update unless you also receive a kernel update. After running the second command above, if you see any kernel update mentioned in your terminal, then you should reboot your PC after the update process is done.
+**Output:**
+
+{{< highlight text >}}
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Calculating upgrade... Done
+The following NEW packages will be installed:
+  linux-headers-5.0.0-32 linux-headers-5.0.0-32-generic linux-image-5.0.0-32-generic
+  linux-modules-5.0.0-32-generic linux-modules-extra-5.0.0-32-generic
+The following packages will be upgraded:
+  distro-info-data libtiff5 libtiff5:i386 linux-generic-hwe-18.04
+  linux-headers-generic-hwe-18.04 linux-image-generic-hwe-18.04 linux-libc-dev
+7 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Need to get 68.7 MB of archives.
+After this operation, 332 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+{{< /highlight >}}
+
+You rarely ever need to reboot after an update unless you also receive a **kernel update(linux-headers)**. After running the second command above, if you see any kernel update mentioned in your terminal, then you should reboot your PC after the update process is done.
+
+**Update and upgrade in a one line command:**
+
+This one line command combines the previous two commands in a single one-liner. You'll notice it contains a "-y" switch at the end. This will automatically say "yes" to the prompt asking if you wish to update.
+
+{{< highlight bash >}}sudo apt update && sudo apt upgrade -y{{< /highlight >}}
+
+**Update a single package(application):**
+
+If you only wish to update a single package and not the entire system, you can run the following command:
+*Replace "package_name" with the package you wish to update*
+
+{{< highlight bash >}}sudo apt upgrade package_name{{< /highlight >}}
 
 ## **Conclusion**
 
