@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /remove-orphaned-packages-linux/
 description: "Follow this tutorial to learn how to remove orphaned packages in linux. We will be going over GUI and command line methods that you can easily use to remove the orphaned packages."
+googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

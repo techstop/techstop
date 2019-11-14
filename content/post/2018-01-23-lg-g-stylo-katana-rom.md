@@ -5,8 +5,8 @@ draft: false
 title: LG G Stylo Katana ROM
 type: post
 url: /lg-g-stylo-katana-rom/
-googleAdsenseVerify: false
 description: "Katana is a custom rom for the LG G Stylo MS631 and H631. The rom has been styled and enhanced to improve the performance and overall user experience."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

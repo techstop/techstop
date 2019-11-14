@@ -5,8 +5,8 @@ draft: false
 title: Recovery Reboot
 type: post
 url: /recovery-reboot/
-googleAdsenseVerify: false
 description: "Recovery Reboot is a small and simple app to boot into a custom recovery like twrp with one click. Using Recovery Reboot eliminates the need for using a button combo or a terminal to boot into your custom recovery."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

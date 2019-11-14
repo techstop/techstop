@@ -5,8 +5,8 @@ draft: false
 title: Reboot Utility
 type: post
 url: /reboot-utility/
-googleAdsenseVerify: false
 description: "Reboot Utility is a powerful yet simple app with various rebooting options. Reboot Utility provides a one click option for all your rebooting needs like booting into twrp or the bootloader."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

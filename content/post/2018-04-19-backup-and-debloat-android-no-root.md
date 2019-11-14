@@ -7,6 +7,7 @@ title: Backup and Debloat Android No Root
 type: post
 url: /backup-and-debloat-android-no-root/
 description: "Backup and debloat Android without the need to root your device. If you don't want to, or there's no root for your device, then just use this tool to backup and debloat without root."
+googleAdsenseVerify: false
 categories:
 - Android
 - Linux

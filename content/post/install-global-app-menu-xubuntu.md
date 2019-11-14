@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /install-global-app-menu-xubuntu/
 description: "Follow this tutorial to learn how to install a global app menu in xubuntu 18.04. We will show you a simple way to install a global app menu plugin for the xfce panel."
+googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

@@ -5,8 +5,8 @@ draft: false
 title: Freedom Kernel for the Zmax Pro
 type: post
 url: /freedom-kernel-for-the-zmax-pro/
-googleAdsenseVerify: false
 description: "Freedom kernel is a custom kernel for the ZTE Zmax Pro Z981. This kernel provides various enhancements and performance improvements over the stock offering to give you more control over your Android device’s performance."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /clear-reset-terminal/
 description: "Follow this tutorial to learn how to clear or reset terminal. We will be going over a few commands to cleanup your terminal when it's full of commands and output."
+googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

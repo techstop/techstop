@@ -6,6 +6,7 @@ title: Open File as Root
 type: post
 url: /open-file-as-root/
 description: "In Linux there are files and directories that you need escalated permissions to open as root. There is however, a right and wrong way of opening files and directories as root. Follow this tutorial to learn how to open as root."
+googleAdsenseVerify: false
 categories:
 - Linux
 - Tutorials

@@ -5,8 +5,8 @@ draft: false
 title: LG Optimus F3 Freedom Kernel
 type: post
 url: /lg-optimus-f3-freedom-kernel/
-googleAdsenseVerify: false
 description: "Freedom kernel is a custom kernel for the LG Optimus F3 MS659 and P659. This kernel provides various enhancements over the stock offering to give you more control over your Android device’s performance."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

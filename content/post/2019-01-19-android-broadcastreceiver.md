@@ -7,6 +7,7 @@ title: Android BroadcastReceiver
 type: post
 url: /android-broadcastreceiver/
 description: "The Android BroadcastReceiver class is very important and should get familiar with it. In this tutorial we will cover how to use the BroadcastReceiver with a JobIntentService to run some code upon boot up."
+googleAdsenseVerify: false
 categories:
 - Tutorials
 - Android

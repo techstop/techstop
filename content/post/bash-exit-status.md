@@ -7,6 +7,7 @@ draft: false
 type: post
 url: /bash-exit-status/
 description: "Learn how to get the bash exit status for bash commands. Follow this tutorial which will teach you how to get the exit status codes for any bash commands."
+googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

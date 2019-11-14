@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /upgrade-kept-back-packages/
 description: "Follow this tutorial to learn how to upgrade kept back packages in linux. We will show you a simple command to upgrade your kept back packages and get rid of warning."
+googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

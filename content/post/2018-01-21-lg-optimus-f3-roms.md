@@ -5,8 +5,8 @@ draft: false
 title: LG Optimus F3 ROMs
 type: post
 url: /lg-optimus-f3-roms/
-googleAdsenseVerify: false
 description: "This is a collection of LG Optimus F3 MS659 and P659 roms. Each custom rom has its own unique style and enhancements to improve the performance and overall user experience."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

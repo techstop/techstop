@@ -5,8 +5,8 @@ draft: false
 title: Arc Dark Theme For Gedit
 type: post
 url: /arc-dark-theme-for-gedit/
-googleAdsenseVerify: false
 description: "Arc Dark theme for Gedit is a theme based on the original Arc Dark for the linux desktop environment. This theme provides a seamless look with your desktop environment for most text editors."
+googleAdsenseVerify: false
 categories:
 - Linux
 - Tutorials

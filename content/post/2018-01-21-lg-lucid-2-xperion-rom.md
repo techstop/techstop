@@ -5,8 +5,8 @@ draft: false
 title: LG Lucid 2 Xperion ROM
 type: post
 url: /lg-lucid-2-xperion-rom/
-googleAdsenseVerify: false
 description: "Xperion is a custom rom for the LG Lucid 2 VS870. The rom has been styled and enhanced to improve the performance and overall user experience."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

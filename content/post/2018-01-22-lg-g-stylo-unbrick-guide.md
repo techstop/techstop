@@ -5,8 +5,8 @@ draft: false
 title: LG G Stylo Unbrick Guide
 type: post
 url: /lg-g-stylo-unbrick-guide/
-googleAdsenseVerify: false
 description: "This is an LG G Stylo MS631 and H631 unbrick guide. You can follow this unbrick guide to restore your device or upgrade to the latest firmware."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

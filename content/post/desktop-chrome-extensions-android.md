@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /desktop-chrome-extensions-android/
 description: "Add Desktop Chrome Extensions from Android devices. Never forget a Chrome desktop extension again if you come across it on your Android device."
+googleAdsenseVerify: false
 categories:
 - news
 tags:

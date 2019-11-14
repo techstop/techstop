@@ -5,8 +5,8 @@ draft: false
 title: LG Motion 4G Kernel
 type: post
 url: /lg-motion-4g-kernel/
-googleAdsenseVerify: false
 description: "Freedom kernel is a custom kernel for the LG Motion 4G MS770. This kernel provides various enhancements over the stock offering to give you more control over your Android device’s performance."
+googleAdsenseVerify: false
 categories:
 - Android
 tags:

@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /bash-arrays/
 description: "Learn a few tricks and ways to use bash arrays. This tutorial will teach you a few simple ways to write bash arrays along with some tricks to manipulate the array items."
+googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

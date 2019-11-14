@@ -6,6 +6,7 @@ draft: false
 type: post
 url: /detect-android-wakelocks/
 description: "Detect Android wakelocks on your mobile device with a simple adb command that does not require root. The output of the command will tell you exactly which apps are causing the android wakelocks so you can take action."
+googleAdsenseVerify: false
 categories:
 - Tutorials
 - android
