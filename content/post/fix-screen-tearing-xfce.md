@@ -20,7 +20,7 @@ Xubuntu has always been one of my favorite distros, but it has always been plagu
 
 <!--more-->
 
-## Xfce Compositor
+## **Xfce Compositor**
 
 There are a few ways to fix screen tearing in Xfce, but lets start with the easiest method first.
 
@@ -30,7 +30,7 @@ Open your Settings Manager then Window Manager Tweaks and under the Compositor t
 
 If this method does not work for you then read on.
 
-## Xorg Configuration
+## **Xorg Configuration**
 
 This is the method that I always use to fix screen tearing in Xfce which has always worked for me.
 
@@ -90,7 +90,7 @@ sudo update-initramfs -u
 
 There are other methods to fix screen tearing for Nvidia drivers, but this seems to be one of the more reliable methods, so it may be worth a shot.
 
-## Compton Compositor
+## **Compton Compositor**
 
 Another solution to the screen tearing in Xfce is to disable the xfce compositor and install a lightweight compositor like Compton.
 
