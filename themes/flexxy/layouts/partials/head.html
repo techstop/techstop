@@ -25,7 +25,8 @@
   {{ if .Site.Params.googleAnalytics }}
     {{- partial "analytics" . -}}
   {{ end }}
-  {{ if and (eq .Params.type "post") (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
+  {{ if and (or (.IsHome) (eq .Params.type "post")) (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
     {{- partial "adsense-verify" . -}}
+    {{- partial "auto-ads" . -}}
   {{ end }}
 </head>
