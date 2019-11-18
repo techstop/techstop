@@ -6,7 +6,6 @@ title: LG G Stylo Flashable v10j
 type: post
 url: /lg-g-stylo-flashable-v10j/
 description: "This is a flashable V10J firmware zip for the LG G Stylo MS631 and H631. You can flash this rooted v10j firmware zip in twrp recovery."
-googleAdsenseVerify: false
 categories:
 - Android
 tags:

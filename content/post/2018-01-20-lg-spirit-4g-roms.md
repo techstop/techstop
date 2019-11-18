@@ -6,7 +6,6 @@ title: LG Spirit 4G ROMs
 type: post
 url: /lg-spirit-4g-roms/
 description: "This is a collection of LG Spirit 4G MS870 roms. Each custom rom has its own unique style and enhancements to improve the performance and overall user experience."
-googleAdsenseVerify: false
 categories:
 - Android
 tags:

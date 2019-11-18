@@ -6,7 +6,6 @@ draft: false
 type: post
 url: /time-command-linux/
 description: "Follow this tutorial to learn how to time a command in linux. The time command can be used to time bash scripts with long operations as well as individual commands."
-googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

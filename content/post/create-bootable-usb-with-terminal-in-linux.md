@@ -6,7 +6,6 @@ draft: false
 type: post
 url: /create-bootable-usb-with-terminal-in-linux/
 description: "Learn how to create a bootable USB with terminal in Linux. Use the dd command in the terminal to make a live bootable usb from a linux iso image file to install or try a linux distribution."
-googleAdsenseVerify: false
 categories:
 - Tutorials
 - Linux

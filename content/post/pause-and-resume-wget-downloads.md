@@ -6,7 +6,6 @@ draft: false
 type: post
 url: /pause-and-resume-wget-downloads/
 description: "Often times users ask how to pause and resume wget downloads. Follow this simple tutorial to learn how to pause and resume wget downloads and also learn a few other tricks."
-googleAdsenseVerify: false
 categories:
 - Tutorials
 - Linux

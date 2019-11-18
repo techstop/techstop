@@ -7,7 +7,6 @@ draft: false
 type: post
 url: /update-linux-terminal/
 description: "Follow this tutorial to learn how to update linux in a terminal. Performing your software updates in a terminal can be quicker and more efficient with the apt command line tool."
-googleAdsenseVerify: false
 categories:
 - tutorials
 - linux

@@ -6,7 +6,6 @@ draft: false
 type: post
 url: /create-desktop-launcher-linux/
 description: "Create a .desktop launcher file in linux to open your applications and scripts. The .desktop launcher will be accessible from the applications menu and any dock or folder."
-googleAdsenseVerify: false
 categories:
 - Tutorials
 - Linux

@@ -6,7 +6,6 @@ title: LG Optimus F7 Kernel
 type: post
 url: /lg-optimus-f7-kernel/
 description: "Freedom kernel is a custom kernel for the LG Optimus F7 LG870. This kernel provides various enhancements over the stock offering to give you more control over your Android device’s performance."
-googleAdsenseVerify: false
 categories:
 - Android
 tags:
