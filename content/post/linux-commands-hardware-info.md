@@ -2,7 +2,7 @@
 author: Antonio
 title: "Linux Commands To Get Hardware Info"
 date: 2019-09-27T23:29:38-04:00
-lastmod: 2019-09-28
+lastmod: 2020-06-29
 draft: false
 type: post
 url: /linux-commands-hardware-info/
@@ -39,9 +39,9 @@ If you do not have any of the linux utilities in this tutorial, you can install 
 
 - **These next few commands are great for getting an overview of your hardware info.**
 
-{{< highlight bash >}}hwinfo --short{{< /highlight >}}
+{{< highlight bash >}}hwinfo -short{{< /highlight >}}
 
-{{< highlight bash >}}lshw --short{{< /highlight >}}
+{{< highlight bash >}}lshw -short{{< /highlight >}}
 
 For hardware overview information, this next command is my favorite. I like the neat easy to read output that is arranged by category.
 
