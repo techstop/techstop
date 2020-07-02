@@ -42,6 +42,8 @@ With the double ">>" symbol the file is created if it doesn't exist, but if it d
 
 {{< highlight bash >}}echo "Hello World." >> file.txt{{< /highlight >}}
 
+<!--adsense-->
+
 To test this for yourself, run the first example above twice. You'll notice that the second time you ran the command the file did not change. This is because the file is created new each time and then stdout is appended to it.
 
 Now run the first example and then the second example and you will notice that "Hello World" is repeated twice in the file. This is because the second example appended stdout to the already existing file that was created by the first example.

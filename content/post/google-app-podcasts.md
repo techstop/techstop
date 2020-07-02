@@ -28,6 +28,8 @@ With the Google app, podcasts are free and don't require a subscription. Many ar
 
 Adding podcast sources is fairly straight forward, though google could have made it a more prominent feature and easier to discover. Follow these steps to add some podcast sources...
 
+<!--adsense-->
+
 Open the Google app and click on "**More > Settings > Google Assistant > Services > News > Add news sources**".
 
 {{< image src="/images/android/g02.png" alt="Podcasts With The Google App" width="90px" >}}

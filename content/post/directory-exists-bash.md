@@ -63,6 +63,8 @@ fi
 
 The sample above is nearly the same, but we add a "!" symbol and swap the two echo commands. The "!" symbol tells the test command to instead check if the directory does not exist.
 
+<!--adsense-->
+
 Now that we've covered the basics to checking for a directory, lets get a little more advanced.
 
 **Check if a directory exists and if not, then create it:**

@@ -200,6 +200,8 @@ public class MyWebView extends AppCompatActivity {
 }
 {{< /highlight >}}
 
+<!--adsense-->
+
 Create a new layout resource file for our WebView called "activity_webview.xml". 
 
 **activity_webview.xml**

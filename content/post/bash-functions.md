@@ -76,6 +76,8 @@ my_function() {
 my_function 'This is a function.'
 {{< /highlight >}}
 
+<!--adsense-->
+
 Now lets use a more advanced example. We will now load a function from one script to another.
 
 We need two script files for this example. The first script we name **file1.sh** and the second **file2.sh**.

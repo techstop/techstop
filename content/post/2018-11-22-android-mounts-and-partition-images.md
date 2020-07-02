@@ -59,6 +59,8 @@ You should now see a long output in your terminal similar to the one below. I ha
 /dev/block/platform/msm_sdcc.1/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,errors=continue,commit=20,data=ordered 0 0
 {{< /highlight >}}
 
+<!--adsense-->
+
 ## Getting Partitions
 
 In this next step we will use the path we copied from the previous step to enter the following command to retrieve all the partitions...

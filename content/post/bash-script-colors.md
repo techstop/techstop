@@ -94,6 +94,8 @@ As you can see, we used a few colors and also applied underlines, bold text, and
 
 It's a good idea to place your color codes in global variables at the top of your script to keep your code neat.
 
+<!--adsense-->
+
 Notice how we always use the echo "-e" flag on lines with color codes. This tells echo to enable interpretation of escapes so that the color codes work. We also place the color code variables in curly brackets "${}" to separate it from normal text.
 
 {{< highlight bash >}}echo -e "${red}Hello World!${reset}"{{< /highlight >}}

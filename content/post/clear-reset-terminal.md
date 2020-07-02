@@ -46,6 +46,8 @@ UBUNTU_CODENAME=bionic
 gametheory@ubuntu:~$
 {{< /highlight >}}
 
+<!--adsense-->
+
 You can run the clear command to clean the terminal and have your bash prompt back at the top.
 
 {{< highlight bash >}}clear{{< /highlight >}}

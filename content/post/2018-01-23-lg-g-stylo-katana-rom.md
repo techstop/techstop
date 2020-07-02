@@ -48,6 +48,8 @@ The LG G Stylo Katana ROM is based on the 5.1.1 v10J firmware for the MetroPCS a
 - Icons used: <a href="https://play.google.com/store/apps/details?id=com.thearclabs.polycon" target="_blank">Polycon</a> & <a href="https://play.google.com/store/apps/details?id=com.zavukodlak.candycons" target="_blank">Candycons</a>
 - Weather widget used: <a href="https://play.google.com/store/apps/details?id=com.dvtonder.chronus" target="_blank">Chronus</a>
 
+<!--adsense-->
+
 **Katana Kernel Features:**
 
 - ​​Built from source code with linaro optimized toolchain

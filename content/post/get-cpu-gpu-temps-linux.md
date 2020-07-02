@@ -34,6 +34,8 @@ I always say yes to all the questions asked during the setup. You can always run
 
 When the setup is complete you can run this next command to get your cpu and gpu temperatures and fan speeds along with data from any other sensors detected.
 
+<!--adsense-->
+
 {{< highlight bash >}}sensors{{< /highlight >}}
 
 The output from this command will look similar to this:

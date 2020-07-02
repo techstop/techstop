@@ -26,6 +26,8 @@ For the LG G Stylo MS631 & H631.
 
 Make sure to backup any photos or important files from your internal sd. This method wipes the internal sd to give you a clean factory phone.
 
+<!--adsense-->
+
 Optional - Do a twrp backup so that you can restore "data" only from the backup to get your user apps and settings back after updating or unbricking with this guide.
 
 - Download and install LG drivers from <a href="https://www.androidfilehost.com/?fid=24052804347802528" target="_blank">HERE</a>

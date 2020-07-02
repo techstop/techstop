@@ -42,6 +42,8 @@ In the terminal window that is downloading your file just enter the following ke
 
 This will stop the download and then you can shutdown your computer if you need. To resume the download, read on.
 
+<!--adsense-->
+
 ## **Resume wget Download**
 
 To resume a wget download it's very straight forward. Open the terminal to the directory where you were downloading your file to and run wget with the -c flag to resume the download.

@@ -23,6 +23,8 @@ If you like the dark version of the Arc Theme for your desktop environment and w
 
 The Arc Dark Theme for Gedit has been tested on Xubuntu with the dark variant of the Arc-Theme installed.
 
+<!--adsense-->
+
 ## Installation
 
 1. Make sure your text editor is closed.

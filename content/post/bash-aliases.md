@@ -52,6 +52,8 @@ If you decide you want to remove the alias, you can run the following command:
 
 This removes the previous alias we set for the <a href="https://techstop.github.io/clear-reset-terminal/">clear</a> command.
 
+<!--adsense-->
+
 ## **Permanent Bash Aliases**
 
 This is my preferred method to add a bash alias. I generally set aliases that I often use.

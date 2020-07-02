@@ -49,6 +49,8 @@ Do not uninstall system critical apps that may cause a boot loop. If you do, per
 
 If you uninstall apps that you later decide you want back, you can do a factory reset and the apps will reinstall. This is the only way to get the apps back.
 
+<!--adsense-->
+
 ## **Backup & Debloat**
 
 For Android 4.0 and up

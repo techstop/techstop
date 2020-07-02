@@ -60,6 +60,8 @@ Here is a screenshot of my compositor settings.
 
 The top panel is comprised of 3 panels side by side. This is the only way to center the clock on Xfce panel without having the clock shift side to side when applicatons are opened and closed. For the panel I'm using a mostly transparent 32 pixel height image I created with a 1.5 pixel line to look like a shadow on the bottom. You can download the panel image below.
 
+<!--adsense-->
+
 {{< cta-button "Transparent Panel" "https://github.com/GameTheory-/MyStuff/raw/master/xfce/panel-01.zip" >}}
 
 If you're using the image, make sure to set the panel row size to 32 pixels like in the screenshots.

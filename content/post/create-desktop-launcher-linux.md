@@ -48,6 +48,8 @@ Terminal=false
 - **Categories** - The launcher will be placed under this category in the applications menu. You can choose an appropriate category from your applications menu.
 - **Terminal** - This is false for an executable and true for a script that needs to display output in a terminal.
 
+<!--adsense-->
+
 Once you've added all the fields above to your desktop launcher file, save it with a "**.desktop**" extension. For this example I named mine "**gimp-app.desktop**". Now move the desktop file you created to "**/home/USERNAME/.local/share/applications**". Change "**USERNAME**" with your own user name. Finally you can check your applications menu for your new desktop launcher.
 
 ## **Conclusion**

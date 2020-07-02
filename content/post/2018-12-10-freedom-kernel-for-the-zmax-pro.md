@@ -70,6 +70,8 @@ The Freedom Kernel for the Zmax Pro Z981 has been a lot of fun to work on. I'd l
 - Set row scheduler as default
 - Logger Mode Interface
 
+<!--adsense-->
+
 ## **How To Install**
 
 1. You must must be <a href="https://androidforums.com/threads/new-root-method-for-z981-zmax-pro.1284305/" target="_blank">rooted</a> and have <a href="https://androidforums.com/threads/rom-unofficial-lineage-os-14-1-for-zte-zmax-pro.1285631/" target="_blank">LineageOS 14.1</a> rom installed

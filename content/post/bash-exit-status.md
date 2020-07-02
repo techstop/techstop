@@ -69,6 +69,8 @@ This now gives us a command not found error followed by the exit status code (12
 
 Saving the exit status for a command in a variable can be useful so that you can use the status later on in your bash script.
 
+<!--adsense-->
+
 In this example we run three commands and save the exit status for each in a variable. One of the commands is not a real command like one of our previous examples.
 
 {{< highlight bash >}}

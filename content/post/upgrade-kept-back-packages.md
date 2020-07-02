@@ -22,6 +22,8 @@ Occasionally when updating your linux system from a terminal, you'll notice a wa
 
 According to <a href="https://debian-administration.org/article/69/Some_upgrades_show_packages_being_kept_back" target="_blank">Debian Administration</a>, if the dependencies have changed on one of the packages you have installed so that a new package must be installed to perform the upgrade then that will be listed as "kept-back".
 
+<!--adsense-->
+
 You'll normally see this warning when performing a system upgrade with the following commands:
 
 {{< highlight bash >}}sudo apt update && sudo apt upgrade{{< /highlight >}}

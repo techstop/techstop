@@ -31,6 +31,8 @@ Lets say you need to open a file in a text editor like gedit as root. Enter the 
 
 {{< highlight bash >}}gedit admin:///path/to/file/name{{< /highlight >}}
 
+<!--adsense-->
+
 To open a directory as root with your file manager, enter the following in a terminal. In this example we’ll be using thunar file manager, but you can use nautilus or whichever you have installed on your system. Again replace "/path/to/directory/name" to the actual directory path you wish to open as root.
 
 {{< highlight bash >}}thunar admin:///path/to/directory/name{{< /highlight >}}

@@ -97,6 +97,8 @@ For this next example we're going to use the last item in the array at index 6. 
 
 {{< highlight text >}}Bash arrays{{< /highlight >}}
 
+<!--adsense-->
+
 **Capitalize every letter in the array:**
 
 Notice the double caret "^^" symbol. This will capitalize every letter in the array.

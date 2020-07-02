@@ -26,6 +26,8 @@ There are many highlights in this update, but since this article is a tutorial o
 
 To install xfce 4.14 on xubuntu 18.04 we will be adding the staging <a href="https://launchpad.net/~xubuntu-dev/+archive/ubuntu/staging" target="_blank">PPA</a> for xubuntu. I'll also show you how to revert back to your original xfce 4.12 in case you don't like xfce 4.14.
 
+<!--adsense-->
+
 Run the following in your terminal...
 
 {{< highlight bash >}}

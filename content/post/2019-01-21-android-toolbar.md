@@ -147,6 +147,8 @@ This is what our "activity_main.xml" file should look like…
 
 Keep in mind that your "activity_main.xml" can be any layout you wish like for example it can be a RelativeLayout, ConstraintLayout, or any other layout you may need. You will always have to include your Toolbar as the first element of the layout unless you wish to have the Toolbar at a different location in your layout.
 
+<!--adsense-->
+
 We can now add some functionality to our Android Toolbar by adding an Overflow menu on the right side of the Toolbar. The Overflow menu is perfect for things like app settings, change log, and many other uses. So first open your "strings.xml" file in your "values" directory and add the following strings that we'll need for our menu.
 
 **strings.xml**

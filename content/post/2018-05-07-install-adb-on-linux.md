@@ -24,6 +24,8 @@ If you’re looking to install adb on Linux, but don’t want to install Android
 
 This guide is intended for xubuntu and most distributions based on ubuntu, but should also work on most other linux distributions.
 
+<!--adsense-->
+
 ## Instructions
 
 1. Download [SDK Platform Tools](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)

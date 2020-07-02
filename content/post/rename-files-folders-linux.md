@@ -50,6 +50,8 @@ You should now have the following files in your folder:
 
 {{< highlight text >}}file1.bak  file2.bak  file3.bak  file4.bak{{< /highlight >}}
 
+<!--adsense-->
+
 Now lets run the mv command in a for loop to rename the files and replace the "**.bak**" extension with "**.txt**":
 
 {{< highlight bash >}}for i in *; do mv "$i" "${i%.bak}.txt"; done{{< /highlight >}}

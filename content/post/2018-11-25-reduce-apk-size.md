@@ -67,6 +67,8 @@ Again build your app and test it to make sure it's working fine. If for some rea
 
 In this part of the tutorial we will be shrinking our resources alongside the code shrinking we already did to further reduce apk size. This will remove any unused resources that were a result from the code shrinking we did in the previous parts of this tutorial.
 
+<!--adsense-->
+
 So once again in your build.gradle file under "**buildTypes/release**" add the following line...
 
 {{< highlight groovy >}}shrinkResources true{{< /highlight >}}

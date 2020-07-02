@@ -46,6 +46,8 @@ Lets say you want to have 3 frameworks from 3 different devices installed at onc
 12. Check for APK Utility updates
 13. Create a desktop shortcut in your app menu which you can place on your desktop or in any folder.
 
+<!--adsense-->
+
 ## Usage
 
 Tested on xubuntu and ubuntu. For 64 bit systems only.

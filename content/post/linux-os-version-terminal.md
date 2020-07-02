@@ -105,6 +105,8 @@ VERSION_CODENAME=bionic
 UBUNTU_CODENAME=bionic
 {{< /highlight >}}
 
+<!--adsense-->
+
 **A few more system details:**
 
 {{< highlight bash >}}hostnamectl{{< /highlight >}}

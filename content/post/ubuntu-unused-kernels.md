@@ -24,6 +24,8 @@ Each time you receive a kernel update in your ubuntu 18.04 system updates, you e
 
 I usually use my system for a few days with a new kernel update before removing the old kernels. This gives me time to assess whether the new kernel is stable and my system is running fine. Once I'm certain the system is stable with the new kernel, I will then proceed to remove the old kernels.
 
+<!--adsense-->
+
 ## **Remove Unused Kernels**
 
 It's a good idea to view the list of installed kernels on your system to be sure that there are old kernels to remove.

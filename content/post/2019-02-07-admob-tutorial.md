@@ -66,6 +66,8 @@ Now add a LinearLayout for your AdView to your **activity_main.xml**.
 
 Now we add our ad serving code to the **MainActivity**. Make sure to read the comments I wrote within the code that explains what parts of the code do…
 
+<!--adsense-->
+
 **MainActivity.java**
 {{< highlight java >}}
 package com.gt.admobtutorial;

@@ -35,6 +35,8 @@ Updating linux software in the terminal is actually quite simple and only requir
 
 We will be going over updating Debian and Debian based distros like Ubuntu and all of its derivatives with APT. The Advanced Package Tool(APT) is the command line tool for managing software efficiently from your terminal.
 
+<!--adsense-->
+
 **Update software database:**
 
 First we need to update the local software database with the latest software as follows:

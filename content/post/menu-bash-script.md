@@ -71,6 +71,8 @@ done
 
 Create a file called "**file.sh**" and copy the code above to it and give it execute permissions then run it in a terminal. Try all the menu options to give yourself a better understanding before you continue with this tutorial.
 
+<!--adsense-->
+
 Now lets break things down a bit to learn what's going on in this script.
 
 The menu is a loop that repeats itself until the selection is zero "0". Since the menu is not in a function, it will load as soon as you run the script.

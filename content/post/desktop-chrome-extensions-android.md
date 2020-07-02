@@ -24,6 +24,8 @@ There is one catch, the Chrome web store in inaccessible from android. If you tr
 
 You can always access an extension's web store page directly through search results or a link that was shared with you by someone else.
 
+<!--adsense-->
+
 To try it for yourself, you can do a search for an extension. To test, your search can be "**Search Preview extension**".
 
 As you can see from the picture below, the first search result is for the Chrome Search Preview extension.

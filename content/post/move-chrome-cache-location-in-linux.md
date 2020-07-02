@@ -25,6 +25,8 @@ It’s fairly straight forward to move the chrome cache location to another driv
 
 There are two methods for doing this. The first involves editing the launcher with a cache directory. The problem here is that you’ll have to repeat this method every time chrome updates.
 
+<!--adsense-->
+
 The second method and the one we will be using in this tutorial will be using a symlink. This is a “set it and forget it” method. Once you set your symlink, you will not have to worry about it again, not even after chrome updates.
 
 ## **Move Chrome Cache Location**

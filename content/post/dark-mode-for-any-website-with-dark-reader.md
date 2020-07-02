@@ -22,6 +22,8 @@ Having the option to enable night mode or dark mode for any website can be reall
 
 I've been using Dark Reader for a few months and am happy to report that it does a fantastic job of making websites dark. I find that it has the perfect balance of contrast making everything on the webpage easy to distinguish. There's also no weird halo or artifacting around images or other elements on a webpage.
 
+<!--adsense-->
+
 Dark Reader is also quite customizable. You can enable or disable it on a per page basis. There's the ability to fine tune the contrast, brightness, and grayscale amongst other options. Dark Reader even lets you input your own custom code if you wish with an option called Dev Tools. The developers and other contributors have really thought of everything for this extension.
 
 ## **Get Dark Reader**

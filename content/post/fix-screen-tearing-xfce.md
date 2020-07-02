@@ -90,6 +90,8 @@ sudo update-initramfs -u
 
 There are other methods to fix screen tearing for Nvidia drivers, but this seems to be one of the more reliable methods, so it may be worth a shot.
 
+<!--adsense-->
+
 ## **Compton Compositor**
 
 Another solution to the screen tearing in Xfce is to disable the xfce compositor and install a lightweight compositor like Compton.

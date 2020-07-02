@@ -39,6 +39,8 @@ Now go to your applications menu and open gtkorphan.
 
 As soon as you open gtkorphan it will show you a list of orphaned packages if there are any. Right click on any package and choose "**Select All**" and then click **OK** to remove them all.
 
+<!--adsense-->
+
 ## **DebOrphan**
 
 Now we will remove orphaned packages from the command line. If you installed **GtkOrphan** then you do not need to install **DebOrphan** since it's installed with **GtkOrphan**.

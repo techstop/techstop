@@ -42,6 +42,8 @@ The LG Lucid 2 Xperion rom improves upon the factory stock rom to deliver a bett
 - CRT Screen off Animation
 - Xposed included for more customization
 
+<!--adsense-->
+
 **Instructions:**
 
 - Place ROM zip in SD card

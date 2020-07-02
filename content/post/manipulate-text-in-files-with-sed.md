@@ -49,6 +49,8 @@ In this first example we will replace the word "**learn**" with "**follow**". We
 
 You should see the word learn replaced with follow in your terminal output. Now lets make the edit directly to the file with the [-i] option.
 
+<!--adsense-->
+
 {{< highlight bash >}}sed -i 's/learn/follow/g' test{{< /highlight >}}
 
 If you open the test file you'll see the word learn replaced with follow. Now lets change it back to learn, only this time we will make a backup of the original file.

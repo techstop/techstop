@@ -24,6 +24,8 @@ I've been using the new kernel for an entire day now and does feel snappier thou
 
 There's been plenty of coverage for the 18.04.3 point release and linux kernel 5.0, so instead I will cover how to install the 5.0 kernel.
 
+<!--adsense-->
+
 ## **Do You Have Linux Kernel 5.0**
 
 If you installed the iso for 18.04 or 18.04.1 you will not get the new 5.0 kernel. If you installed 18.04.2 or 18.04.3 then you'll get the new kernel because these point releases have “hardware enablement” (HWE) enabled.

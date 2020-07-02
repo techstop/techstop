@@ -62,6 +62,8 @@ To use the "-f" switch we need to use "/usr/bin/time" instead of the shell built
 
 {{< highlight bash >}}/usr/bin/time -f "%E" ping bing.com{{< /highlight >}}
 
+<!--adsense-->
+
 **Output:**
 
 As you can see, we now only get a normal clock output showing the operation took 5 seconds.

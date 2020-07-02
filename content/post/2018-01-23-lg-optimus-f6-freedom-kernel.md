@@ -59,6 +59,8 @@ For the LG Optimus F6 MS500 & D500.
 - VR scheduler
 - Init.d support
 
+<!--adsense-->
+
 **Instructions:**
 
 1. For Metro PCS firmware 12b and T-mobile firmware 10h

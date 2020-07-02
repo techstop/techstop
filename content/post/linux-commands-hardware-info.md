@@ -71,6 +71,8 @@ Now here is a very useful command. Ever wanted an easy way to know the max amoun
 
 If you want to know if there are any empty ram slots available in your PC, you don't need to open it. You can find out with this command. If the command output is empty, that means all ram slots are full.
 
+<!--adsense-->
+
 {{< highlight bash >}}lshw -short -C memory | grep -i empty{{< /highlight >}}
 
 This final command gives us our memory usage.

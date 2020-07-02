@@ -46,6 +46,8 @@ For the LG Optimus F6 MS500 & D500.
 - Power File Manager
 - Xposed included for more customization
 
+<!--adsense-->
+
 **Kernel Features:**
 
 - Unsecured

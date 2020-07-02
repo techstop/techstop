@@ -41,6 +41,8 @@ Now that we know the partition, this is what the full partition path would look 
 
 {{< highlight bash >}}/dev/sdd{{< /highlight >}}
 
+<!--adsense-->
+
 Assuming that the iso image for the linux distro you wish to burn to your usb stick is in your downloads directory, this is what the command looks like to create the bootable usb. When you run the command you will need to enter your login password. Once you've entered the command, just wait a couple minutes for it to finish.
 
 {{< highlight bash >}}sudo dd bs=4M if=/home/USERNAME/Downloads/FILENAME.iso of=/dev/sdd conv=fdatasync{{< /highlight >}}

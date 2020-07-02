@@ -81,6 +81,8 @@ Make sure to declare the BootUpService class in your AndroidManifest.xml like th
 
 Now lets create another java class called BootUpReceiver which will extend BroadcastReceiver. The BroadcastReceiver is going to check that boot up has completed and then run our BootUpService class. Here's what it looks like…
 
+<!--adsense-->
+
 {{< highlight java >}}
 package com.gt.broadcastreceiver;
 

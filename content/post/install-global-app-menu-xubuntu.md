@@ -24,6 +24,8 @@ Xubuntu 18.04 has a plugin for the xfce4-panel that you can install to get the g
 
 In my testing, the global app menu worked quite well and felt just like it did in the unity desktop.
 
+<!--adsense-->
+
 ## **Install The Global App Menu**
 
 To install the global app menu in xubuntu 18.04 is a simple process. Just run the following command in terminal:

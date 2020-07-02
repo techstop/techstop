@@ -28,6 +28,8 @@ A wakelock is not all bad. In fact, they are needed for some services that need 
 
 Now that we've covered a little background on android wakelocks, it's time to learn to detect them. Detecting an android wakelock is simple and straight forward. In this tutorial we'll cover a method that does not require root.
 
+<!--adsense-->
+
 1. Go to your phone's "**settings > system > about phone**" and click on "**build number**" 7 times. This unlocks developer options. Now go back to the previous menu and click on "**Developer options**" and look for and enable "**USB debugging**".
 2. Make sure to have <a href="https://developer.android.com/studio/releases/platform-tools.html#downloads" target="_blank">ADB</a> installed on your PC. Plug your phone to your PC with the USB cable and in a terminal on your PC run this command.
 {{< highlight bash >}}adb devices{{< /highlight >}}
