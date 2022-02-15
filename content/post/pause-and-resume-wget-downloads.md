@@ -2,10 +2,11 @@
 author: Antonio
 title: "Pause and Resume Wget Downloads"
 date: 2019-09-09T20:20:55-04:00
+lastmod: 2022-02-15
 draft: false
 type: post
 url: /pause-and-resume-wget-downloads/
-description: "Often times users ask how to pause and resume wget downloads. Follow this simple tutorial to learn how to pause and resume wget downloads and also learn a few other tricks."
+description: "Often times users ask how to pause and resume wget downloads or how to get the file download size. Follow this simple tutorial to learn how to pause and resume wget downloads and also learn a few other tricks."
 categories:
 - Tutorials
 - Linux
@@ -16,7 +17,7 @@ tags:
 
 {{< image src="/images/linux/wget.png" alt="wget" width="150px" >}}
 
-There are many download managers out there that get the job done, but wget is arguably the best one. Wget is a linux command line utility to manage all types of downloads. Whenever you have any large files to download or need to use the ftp protocol, wget is your best bet. I'll show you a few neat ways to use wget.
+There are many download managers out there that get the job done, but wget is arguably the best one. Wget is a linux command line utility to manage all types of downloads. Whenever you have any large files to download or need to use the ftp protocol, wget is your best bet. You can also use wget to get the file download size without actually downloading the file. Let me show you a few neat ways to use wget.
 
 <!--more-->
 
@@ -51,6 +52,10 @@ To resume a wget download it's very straight forward. Open the terminal to the d
 {{< highlight bash >}}wget -c https://example.com/filename.zip{{< /highlight >}}
 
 ## **Other wget Uses**
+
+- Get the file download size without downloading the actual file.
+
+{{< highlight bash >}}wget --spider https://example.com/filename.zip 2>&1 | grep Length{{< /highlight >}}
 
 - FTP downloads:
 
