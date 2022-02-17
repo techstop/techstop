@@ -1,12 +1,12 @@
 ---
 author: Antonio
 date: 2019-02-04 22:27:34+00:00
-lastmod: 2019-09-27
+lastmod: 2022-02-16
 draft: false
 title: Android WebView
 type: post
 url: /android-webview/
-description: "In this tutorial you will learn how to create an Android webview in your app. You can use the webview to render web pages and also interact with the pages."
+description: "In this tutorial you will learn how to create an Android webview in your app. You can use the webview to render web pages and also interact with the pages. This webview will also allow you to download from links across the web."
 categories:
 - Tutorials
 - Android
@@ -21,7 +21,7 @@ tags:
 {{< image src="/images/android-webview/android-webview-0.png" alt="Android WebView" width="100px" >}}
 {{< image src="/images/android-webview/android-webview-1.png" alt="Android WebView" width="100px" >}}
 
-The Android WebView allows your app to open web pages within your app. For this Android WebView example we will create an android webview app that loads a couple web pages. We will be adding some attributes like JavaScript to interact with page elements and a DownloadListener for downloading items from download links on web pages as well as a ProgressBar to show page loading progress. We will also request runtime storage permissions for our DownloadListener for android 6+.
+The Android WebView allows your app to open web pages within your app. For this Android WebView example we will create an android webview app that loads a couple web pages. We will be adding some attributes like JavaScript to interact with page elements and a DownloadListener for downloading items from download links on web pages as well as a ProgressBar to show page loading progress. We will also request runtime storage write permissions for our DownloadListener for android 6+.
 
 <!--more-->
 
@@ -31,6 +31,7 @@ The code in this tutorial will be in the full project on github linked at the bo
 
 - We will create a new class with our webview that we can pass any web page URL to.
 - In our MainActivity we create two buttons that will each pass a different web page URL to our webview.
+- In our WebView class we will add a DowloadListener, ProgressBar, and request storage write permission.
 
 ## Android WebView Example
 
@@ -53,7 +54,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.webkit.CookieManager;
-import android.webkit.DownloadListener;
 import android.webkit.URLUtil;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -64,7 +64,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import java.util.Objects;
 
 public class MyWebView extends AppCompatActivity {
   // Declare our web view.
@@ -109,22 +108,20 @@ public class MyWebView extends AppCompatActivity {
 
     // Adds a DownloadListener to our web view. This allows us to click on
     // download links and have items download to our downloads directory.
-    webview.setDownloadListener(new DownloadListener() {
-      public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
-        String fileName = URLUtil.guessFileName(url, contentDisposition, mimetype);
-        String cookie = CookieManager.getInstance().getCookie(url);
-        DownloadManager dm = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
-        DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
-        request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI | DownloadManager.Request.NETWORK_MOBILE);
-        request.setAllowedOverRoaming(false);
-        request.allowScanningByMediaScanner();
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, fileName);
-        request.addRequestHeader("Cookie", cookie);
-        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        // Check for storage write permission before attempting to download.
-        if (getPermission()) {
-          Objects.requireNonNull(dm).enqueue(request);
-        }
+    webview.setDownloadListener((url, userAgent, contentDisposition, mimetype, contentLength) -> {
+      String fileName = URLUtil.guessFileName(url, contentDisposition, null);
+      String cookie = CookieManager.getInstance().getCookie(url);
+      DownloadManager dm = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+      DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+      request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI | DownloadManager.Request.NETWORK_MOBILE);
+      request.setAllowedOverRoaming(false);
+      request.allowScanningByMediaScanner();
+      request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, fileName);
+      request.addRequestHeader("Cookie", cookie);
+      request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+      // Check for storage write permission before attempting to download.
+      if (getPermission() && dm != null) {
+        dm.enqueue(request);
       }
     });
 
@@ -151,11 +148,12 @@ public class MyWebView extends AppCompatActivity {
   // run code for either situation. This method is optional, but useful.
   @Override
   public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     if (requestCode == WRITE_STORAGE) {
       if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-        Toast.makeText(getApplicationContext(), "Permission Granted!", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Permission Granted. Try download again.", Toast.LENGTH_LONG).show();
       } else {
-        Toast.makeText(getApplicationContext(), "Permission Denied!", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Permission Denied! Cannot Download.", Toast.LENGTH_LONG).show();
       }
     }
   }
@@ -212,16 +210,17 @@ Create a new layout resource file for our WebView called "activity_webview.xml".
   android:layout_height="match_parent">
 
   <WebView
+    android:id="@+id/webView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/webView" />
+    android:layout_height="match_parent" />
 
   <ProgressBar
-    android:id="@+id/progressBar"
-    style="?android:attr/progressBarStyleHorizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:indeterminateOnly="true" />
+      android:id="@+id/progressBar"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:indeterminateTint="?attr/colorAccent"
+      android:indeterminate="true" />
 </RelativeLayout>
 {{< /highlight >}}
 
@@ -235,27 +234,29 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-  }
 
-  // This button will pass the Google website url to MyWebView.class
-  public void googleButton(View view) {
-    MyWebView.url = "https://www.google.com/";
-    Intent intent = new Intent(this, MyWebView.class);
-    startActivity(intent);
-  }
+    // This button will pass the Google website url to MyWebView.class
+    Button gbtn = findViewById(R.id.googleButton);
+    gbtn.setOnClickListener(view -> {
+      MyWebView.url = "https://www.google.com/";
+      Intent intent = new Intent(MainActivity.this, MyWebView.class);
+      startActivity(intent);
+    });
 
-  // This button will pass the techStop website url to MyWebView.class
-  public void itgButton(View view) {
-    MyWebView.url = "https://techstop.github.io/";
-    Intent intent = new Intent(this, MyWebView.class);
-    startActivity(intent);
+    // This button will pass the techStop website url to MyWebView.class
+    Button tsbtn = findViewById(R.id.tsButton);
+    tsbtn.setOnClickListener(view -> {
+      MyWebView.url = "https://techstop.github.io/";
+      Intent intent = new Intent(MainActivity.this, MyWebView.class);
+      startActivity(intent);
+    });
   }
 }
 {{< /highlight >}}
@@ -267,23 +268,23 @@ We now need to add the buttons to the MainActivity layout…
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  android:orientation="vertical"
-  android:gravity="center"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical"
   tools:context=".MainActivity">
 
   <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:onClick="googleButton"
-    android:text="@string/google"/>
+    android:id="@+id/googleButton"
+    android:text="@string/google" />
 
   <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:onClick="itgButton"
-    android:text="@string/in_tech_geek"/>
+    android:id="@+id/tsButton"
+    android:text="@string/tech_Stop" />
 </LinearLayout>
 {{< /highlight >}}
 
@@ -304,30 +305,31 @@ Finally we add MyWebView activity and necessary permissions to the Android Manif
 {{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.webviewexample">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.webviewexample">
 
-  <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
 
-  <application
-    android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:supportsRtl="true"
-    android:theme="@style/AppTheme">
-    <activity android:name=".MainActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
-    <activity android:name=".MyWebView" />
-  </application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyWebView" />
+    </application>
 </manifest>
 {{< /highlight >}}
 
