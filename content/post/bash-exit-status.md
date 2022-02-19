@@ -2,11 +2,11 @@
 author: Antonio
 title: "Bash Exit Status"
 date: 2019-10-15T22:13:36-04:00
-lastmod: 2019-10-16
+lastmod: 2022-02-18
 draft: false
 type: post
 url: /bash-exit-status/
-description: "Learn how to get the bash exit status for bash commands. Follow this tutorial which will teach you how to get the exit status codes for any bash commands."
+description: "Learn how to get the exit status codes for bash commands. Follow this tutorial which will teach you how to get the exit status codes for any bash commands which you can also use in conditional statements in your scripts."
 categories:
 - tutorials
 - linux
@@ -17,7 +17,7 @@ tags:
 
 {{< image src="/images/linux/stat.png" alt="Bash Exit Status" width="150px" >}}
 
-Regardless of whether a bash command ends successfully or not, it returns and exit status. Aside from letting you know that the command succeeded or failed, you can use the exit status code in bash scripts to determine what action to take with a conditional statement.
+Regardless of whether a bash command ends successfully or not, it returns an exit status. Aside from letting you know that the command succeeded or failed, you can use the exit status code in bash scripts to determine what action to take with a conditional statement.
 
 <!--more-->
 
@@ -71,7 +71,7 @@ Saving the exit status for a command in a variable can be useful so that you can
 
 <!--adsense-->
 
-In this example we run three commands and save the exit status for each in a variable. One of the commands is not a real command like one of our previous examples.
+In this example we run three commands and save the exit status for each in a variable. One of the commands is not a real command like in our previous example.
 
 {{< highlight bash >}}
 #!/bin/bash
