@@ -1,12 +1,12 @@
 ---
 author: Antonio
 date: 2018-04-19 23:49:56+00:00
-lastmod: 2019-10-12
+lastmod: 2022-02-24
 draft: false
 title: Backup and Debloat Android No Root
 type: post
 url: /backup-and-debloat-android-no-root/
-description: "Backup and debloat Android without the need to root your device. If you don't want to, or there's no root for your device, then just use this tool to backup and debloat without root."
+description: "Backup and debloat Android without the need to root your device. If you don't want to, or there's no root for your device, then just use this tool to backup and debloat android without root."
 categories:
 - Android
 - Linux
@@ -17,7 +17,7 @@ tags:
 
 {{< image src="/images/backupdebloat/Backup-and-Debloat-Android-No-Root.png" alt="Backup and Debloat Android No Root" width="200px" >}}
 
-If you've ever had a rooted android device you know the added benefit. You gain total control over you're device. The freedom to remove carrier bloatware or make a number of modifications to your hearts content. Unfortunately if you're here reading this, it's likely because there is no root for your device. We all know that for non rooted devices your options are very limited. So we will be taking a look at a tool I made called **Backup and Debloat Android No Root** to give you some control back over your device.
+If you've ever had a rooted android device you know the added benefit. You gain total control over you're device. The freedom to remove carrier bloatware or make a number of modifications to your hearts content. Unfortunately if you're here reading this, it's likely because there is no root for your device or you simply don't wish to root it. We all know that for non rooted devices your options are very limited. So we will be taking a look at a tool I made called **Backup and Debloat Android No Root** to give you some control back over your device.
 
 <!--more-->
 
@@ -39,7 +39,7 @@ The rest of the options are self explanatory.
 
 Adb has its known limitations...
 
-Adb can only backup apps where the developer of the app allows the app to be backed up in the **AndroidManifest.xml** with a bit of code that looks like this **android:allowBackup="false"**. In full backups those apps will be ignored (options 1 and 2). In individual app backups you will get an empty backup for those apps. For all other apps you'll have good reliable backups.
+Adb can only backup apps where the developer of the app allows the app to be backed up in the **AndroidManifest.xml** with a bit of code that looks like this **android:allowBackup="true"**. If this option is set to false, full backups of those apps will be ignored (options 1 and 2). In individual app backups you will get an empty backup for those apps. For all other apps you'll have good reliable backups.
 
 When apps are uninstalled they will not consume any resources or be visible to the user (that's good!). However, apps are only uninstalled for the user and not root. This means the apps are uninstalled but remain on the device like if they are frozen (not a problem at all).
 
@@ -47,7 +47,7 @@ When apps are uninstalled they will not consume any resources or be visible to t
 
 Do not uninstall system critical apps that may cause a boot loop. If you do, perform a factory reset to end the boot loop.
 
-If you uninstall apps that you later decide you want back, you can do a factory reset and the apps will reinstall. This is the only way to get the apps back.
+If you uninstall apps that you later decide you want back, you can do a factory reset and the apps will reinstall.
 
 <!--adsense-->
 
@@ -55,7 +55,7 @@ If you uninstall apps that you later decide you want back, you can do a factory 
 
 For Android 4.0 and up
 
-Tested on ubuntu & xubuntu
+Tested on ubuntu & Manjaro
 
 Make sure the "**bda**" file has execute permissions.
 
