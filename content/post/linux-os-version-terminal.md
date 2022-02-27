@@ -24,6 +24,8 @@ Knowing how to check your kernel and linux os version in a terminal can be usefu
 
 ## **Linux OS Version**
 
+<!--adsense-->
+
 **Get Linux Standard Base info:**
 
 {{< highlight bash >}}lsb_release -a{{< /highlight >}}
@@ -105,8 +107,6 @@ VERSION_CODENAME=bionic
 UBUNTU_CODENAME=bionic
 {{< /highlight >}}
 
-<!--adsense-->
-
 **A few more system details:**
 
 {{< highlight bash >}}hostnamectl{{< /highlight >}}
@@ -125,6 +125,8 @@ UBUNTU_CODENAME=bionic
 {{< /highlight >}}
 
 ## **Kernel Version**
+
+<!--adsense-->
 
 **Print the kernel version:**
 

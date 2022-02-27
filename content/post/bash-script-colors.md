@@ -22,6 +22,8 @@ Using colors in bash scripts can be very useful. If you've written your bash scr
 
 Ansi color codes always start with these characters "**\e[**" followed by the numbers that determine the color you want. There are color codes for the foreground(text) and background. There are also color codes for bold, underlines, and high intensity colors.
 
+<!--adsense-->
+
 Colors in bash scripts can be used to distinguish text. For example, you can make error outputs in red text while prompts with instructions in green text. Use bold and underlines to emphasize words and phrases. Background colors can be used for section separation. There's many ways to put color codes into good use in your bash scripts.
 
 ## **Style Your Bash Script With Ansi Colors**
@@ -94,8 +96,6 @@ As you can see, we used a few colors and also applied underlines, bold text, and
 
 It's a good idea to place your color codes in global variables at the top of your script to keep your code neat.
 
-<!--adsense-->
-
 Notice how we always use the echo "-e" flag on lines with color codes. This tells echo to enable interpretation of escapes so that the color codes work. We also place the color code variables in curly brackets "${}" to separate it from normal text.
 
 {{< highlight bash >}}echo -e "${red}Hello World!${reset}"{{< /highlight >}}
@@ -113,6 +113,8 @@ We also use a "**reset**" variable containing "**\e[0m**". This is to stop the a
 {{< highlight bash >}}reset="\e[0m"{{< /highlight >}}
 
 ## **Ansi Codes List For Bash**
+
+<!--adsense-->
 
 Here is a good list of Ansi color codes you can use in your bash scripts.
 

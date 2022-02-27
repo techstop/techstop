@@ -37,6 +37,8 @@ Now open a terminal on your PC and enter the following command...
 
 If all went well you should see your phones' serial number listed in the terminal.
 
+<!--adsense-->
+
 Next enter the following command...
 
 {{< highlight bash >}}adb shell{{< /highlight >}}
@@ -58,8 +60,6 @@ You should now see a long output in your terminal similar to the one below. I ha
 /dev/block/platform/msm_sdcc.1/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,errors=continue,commit=20,data=ordered 0 0
 /dev/block/platform/msm_sdcc.1/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,errors=continue,commit=20,data=ordered 0 0
 {{< /highlight >}}
-
-<!--adsense-->
 
 ## Getting Partitions
 
@@ -86,6 +86,8 @@ Now that we know our boot partition path we can use it in the next command to co
 {{< highlight bash >}}dd if=/dev/block/mmcblk0p17 of=/sdcard/boot.img{{< /highlight >}}
 
 With the above command we have now copied the boot.img to our internal SD. You can now drag and drop the boot.img from your phone's internal SD to your PC. Alternatively you can use the following command to pull the boot.img from the internal SD to your PC's desktop.
+
+<!--adsense-->
 
 If you are still in the adb root shell then enter the following 2 commands in terminal to exit root shell and adb. If you have already exited you can skip this step...
 

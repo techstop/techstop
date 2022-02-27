@@ -22,6 +22,8 @@ Writing bash functions is a great way to make your scripts modular. If you find 
 
 A great way to use functions is writing a separate script with just your functions. You can then load your function script from another script as needed.
 
+<!--adsense-->
+
 Bash functions are treated as commands. However, functions need to be defined at the top of your script. The same applies if you're loading a script with your functions, you need to define it at the top of your script.
 
 ## **Writing Bash Functions**
@@ -76,9 +78,9 @@ my_function() {
 my_function 'This is a function.'
 {{< /highlight >}}
 
-<!--adsense-->
-
 Now lets use a more advanced example. We will now load a function from one script to another.
+
+<!--adsense-->
 
 We need two script files for this example. The first script we name **file1.sh** and the second **file2.sh**.
 

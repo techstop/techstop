@@ -22,6 +22,8 @@ Whenever you're using the terminal extensively you may find your terminal clutte
 
 To clear or reset the terminal in linux is a simple task. We will go over a few commands to do this. Each command will have a notable difference and will be up to you which serves your needs best.
 
+<!--adsense-->
+
 ## **Clear Terminal**
 
 Assuming your terminal is cluttered with commands and output, and your bash prompt is now at the bottom as follows:
@@ -46,8 +48,6 @@ UBUNTU_CODENAME=bionic
 gametheory@ubuntu:~$
 {{< /highlight >}}
 
-<!--adsense-->
-
 You can run the clear command to clean the terminal and have your bash prompt back at the top.
 
 {{< highlight bash >}}clear{{< /highlight >}}
@@ -63,6 +63,8 @@ The reset command also cleans up the clutter by re-initializing your terminal. H
 {{< highlight bash >}}reset{{< /highlight >}}
 
 Notice that when you run the reset command the terminal takes 1-2 seconds to re-initialize.
+
+<!--adsense-->
 
 **tput reset command:**
 

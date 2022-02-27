@@ -24,6 +24,8 @@ Bash arrays are quite powerful and robust, but not often used in the command lin
 
 The first item in an array is indexed at position zero "0". You can add multiple items to an array in one variable or through multiple variables.
 
+<!--adsense-->
+
 **In this example we have an array variable with 2 items, each quoted:**
 
 {{< highlight bash >}}val=( "Hello" "World!" ){{< /highlight >}}
@@ -97,8 +99,6 @@ For this next example we're going to use the last item in the array at index 6. 
 
 {{< highlight text >}}Bash arrays{{< /highlight >}}
 
-<!--adsense-->
-
 **Capitalize every letter in the array:**
 
 Notice the double caret "^^" symbol. This will capitalize every letter in the array.
@@ -132,6 +132,8 @@ Notice we are now using double commas ",,".
 **Using a for loop to display all items in the array:**
 
 In this for loop we will iterate through every item using their index as we previously covered in this tutorial.
+
+<!--adsense-->
 
 Take notice how we use the "$i" variable.
 

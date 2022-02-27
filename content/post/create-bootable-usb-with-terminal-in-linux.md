@@ -24,6 +24,8 @@ If you're installing linux, like to distro hop, or simply test different linux d
 
 Once you have downloaded the iso image for the linux distro you'd like to test or install, you'll need to plug your usb stick to your computer to get its partition path. To do this we will use **lsblk** in the terminal to get the partition path for the usb stick.
 
+<!--adsense-->
+
 Open the terminal and run this command:
 {{< highlight bash >}}lsblk{{< /highlight >}}
 
@@ -41,13 +43,13 @@ Now that we know the partition, this is what the full partition path would look 
 
 {{< highlight bash >}}/dev/sdd{{< /highlight >}}
 
-<!--adsense-->
-
 Assuming that the iso image for the linux distro you wish to burn to your usb stick is in your downloads directory, this is what the command looks like to create the bootable usb. When you run the command you will need to enter your login password. Once you've entered the command, just wait a couple minutes for it to finish.
 
 {{< highlight bash >}}sudo dd bs=4M if=/home/USERNAME/Downloads/FILENAME.iso of=/dev/sdd conv=fdatasync{{< /highlight >}}
 
 As you can see "**if=**" contains the path to our iso image file and "**of=**" contains the usb stick partition path.
+
+<!--adsense-->
 
 ## **Boot From USB Stick**
 

@@ -23,6 +23,8 @@ It's always a good idea to know how to get hardware info on your linux system. I
 
 Now there are a few GUI applications that you can install to get the hardware info, and in most cases this will suffice. My personal favorite GUI application for hardware details is <a href="https://help.ubuntu.com/community/HardInfo" target="_blank">HardInfo</a>. It's a fantastic piece of software. In fact, HardInfo even has some benchmarking tools to test your system's stability. This comes in handy after hardware upgrades or overclocking.
 
+<!--adsense-->
+
 You can install HardInfo as follows.
 
 {{< highlight bash >}}sudo apt install hardinfo{{< /highlight >}}

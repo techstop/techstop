@@ -24,6 +24,8 @@ Linux has "stdout" which stands for "standard output". Whenever you run a comman
 
 There's two ways to approach this. You can use a single greater-than "**>**" symbol which creates a new file each time and redirects stdout to it. You can also redirect stdout by appending the output with double greater-than "**>>**" symbols which simply adds the output to the end of the file.
 
+<!--adsense-->
+
 ## **Redirecting & Appending to a File**
 
 To better understand this concept, lets take a look at some examples.
@@ -42,9 +44,9 @@ With the double ">>" symbol the file is created if it doesn't exist, but if it d
 
 {{< highlight bash >}}echo "Hello World." >> file.txt{{< /highlight >}}
 
-<!--adsense-->
-
 To test this for yourself, run the first example above twice. You'll notice that the second time you ran the command the file did not change. This is because the file is created new each time and then stdout is appended to it.
+
+<!--adsense-->
 
 Now run the first example and then the second example and you will notice that "Hello World" is repeated twice in the file. This is because the second example appended stdout to the already existing file that was created by the first example.
 

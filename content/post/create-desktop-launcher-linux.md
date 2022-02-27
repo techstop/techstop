@@ -22,6 +22,8 @@ There may be times when you will need to create a **.desktop** launcher file in 
 
 Most applications create their own .desktop launcher file when installed. However, there's the rare occasion when an application will not create one. A good example is the **NetBeans IDE** which doesn't create a desktop launcher.
 
+<!--adsense-->
+
 In this tutorial I will show you how to create a desktop launcher file for any application and script that will be accessible from your applications menu and any dock or folder.
 
 ## **How To Create A Desktop Launcher**

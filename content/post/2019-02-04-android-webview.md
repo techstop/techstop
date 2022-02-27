@@ -33,6 +33,8 @@ The code in this tutorial will be in the full project on github linked at the bo
 - In our MainActivity we create two buttons that will each pass a different web page URL to our webview.
 - In our WebView class we will add a DowloadListener, ProgressBar, and request storage write permission.
 
+<!--adsense-->
+
 ## Android WebView Example
 
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project “WebView Example”.
@@ -198,8 +200,6 @@ public class MyWebView extends AppCompatActivity {
 }
 {{< /highlight >}}
 
-<!--adsense-->
-
 Create a new layout resource file for our WebView called "activity_webview.xml". 
 
 **activity_webview.xml**
@@ -289,6 +289,8 @@ We now need to add the buttons to the MainActivity layout…
 {{< /highlight >}}
 
 We're almost done! Lets add the strings we need…
+
+<!--adsense-->
 
 **strings.xml**
 {{< highlight xml >}}

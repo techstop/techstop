@@ -37,13 +37,13 @@ That is all. You should now have the file downloaded to the directory you chose.
 
 If you find yourself in a situtation where you're downloading a large file and need to shutdown your computer during the download for whatever reason, no problem, you can pause the download.
 
+<!--adsense-->
+
 In the terminal window that is downloading your file just enter the following keyboard shortcut.
 
 {{< highlight text >}}Ctrl + c{{< /highlight >}}
 
 This will stop the download and then you can shutdown your computer if you need. To resume the download, read on.
-
-<!--adsense-->
 
 ## **Resume wget Download**
 

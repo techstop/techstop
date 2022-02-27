@@ -22,6 +22,8 @@ The sed linux utility is a powerful stream editor. Sed can manipulate text from 
 
 Sed can work wonders in a shell script. You can pipe other commands to sed or use variables. Use it to process files of all sizes. Find specific strings of text and patterns in your input and manipulate the text to your needs. With sed you can also edit a file directly or save to a new file. The possibilities with sed are near endless.
 
+<!--adsense-->
+
 In this tutorial I will show you some basic and common uses of sed to manipulate text.
 
 ## **Manipulate Text With Sed**
@@ -49,8 +51,6 @@ In this first example we will replace the word "**learn**" with "**follow**". We
 
 You should see the word learn replaced with follow in your terminal output. Now lets make the edit directly to the file with the [-i] option.
 
-<!--adsense-->
-
 {{< highlight bash >}}sed -i 's/learn/follow/g' test{{< /highlight >}}
 
 If you open the test file you'll see the word learn replaced with follow. Now lets change it back to learn, only this time we will make a backup of the original file.
@@ -62,6 +62,8 @@ As you can see a backup file called "**test-bak**" was created and then the orig
 {{< highlight bash >}}sed 's/follow/learn/g' test > my-file{{< /highlight >}}
 
 You should now have the new file with the word follow replaced with learn while the original test file still shows the word follow.
+
+<!--adsense-->
 
 Now that you've learned a few basic examples with sed we can move at a faster pace through the tutorial.
 

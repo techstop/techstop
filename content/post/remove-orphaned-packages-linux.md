@@ -22,6 +22,8 @@ There are a couple of tools to remove orphaned packages in linux. Packages in li
 
 When you uninstall packages, often times there are orphaned packages leftover in your linux system. This usually happens when you manually install the dependencies which you may have done to fix a random issue or for another package. It should be said that orphaned packages are not really an issue and simply just take up space, but if you're like me, you probably want them off your system.
 
+<!--adsense-->
+
 We will go over two ways to remove orphaned packages in linux:
 
 1. GtkOrphan is a GUI front end for DebOrphan to remove orphaned packages in a graphical tool.
@@ -38,8 +40,6 @@ Now go to your applications menu and open gtkorphan.
 {{< image src="/images/linux/orph1.png" alt="Remove Orphaned Packages in Linux" width="150px" >}}
 
 As soon as you open gtkorphan it will show you a list of orphaned packages if there are any. Right click on any package and choose "**Select All**" and then click **OK** to remove them all.
-
-<!--adsense-->
 
 ## **DebOrphan**
 
@@ -72,6 +72,8 @@ libxfcegui4-4:amd64
 To remove the orphaned packages you can enter the following command:
 
 {{< highlight bash >}}sudo apt remove --purge `deborphan`{{< /highlight >}}
+
+<!--adsense-->
 
 **Output:**
 

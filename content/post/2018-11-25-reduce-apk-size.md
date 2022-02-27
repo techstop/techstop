@@ -29,6 +29,8 @@ There are many ways to optimize your app. In this tutorial I will show you how t
 
 We will first start by shrinking your code with ProGuard. This removes unused classes, fields, methods, and attributes from your app as well as from code libraries you may have added in your project.
 
+<!--adsense-->
+
 Open your apps' build.gradle file in Android Studio under "buildTypes/release" add the following line...
 
 {{< highlight groovy >}}minifyEnabled true{{< /highlight >}}
@@ -67,8 +69,6 @@ Again build your app and test it to make sure it's working fine. If for some rea
 
 In this part of the tutorial we will be shrinking our resources alongside the code shrinking we already did to further reduce apk size. This will remove any unused resources that were a result from the code shrinking we did in the previous parts of this tutorial.
 
-<!--adsense-->
-
 So once again in your build.gradle file under "**buildTypes/release**" add the following line...
 
 {{< highlight groovy >}}shrinkResources true{{< /highlight >}}
@@ -90,6 +90,8 @@ Now build your app and test it. If your app builds and runs without issues, then
 ## Fix Errors After Optimizing APK
 
 If you have completed the tutorial up to this point, it's possible that you may be experiencing build errors. This is because the optimizations we have done to reduce apk size can be very aggressive and may have removed code or resources the app actually needs to run properly. In my experience this usually happens with "**adsense**" and "**ShareActionProvider**" code, but don't worry - we will add some proguard rules to fix this.
+
+<!--adsense-->
 
 Lets add some rules in your "**proguard-rules.pro**" file to make sure that any code or resources your app needs are not removed. I have been using these rules in my own apps with much success.
 

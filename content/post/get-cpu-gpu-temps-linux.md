@@ -22,6 +22,8 @@ To get CPU and GPU temps in linux you need to install and configure lm-sensors. 
 
 ## **Setup lm-sensors**
 
+<!--adsense-->
+
 First install lm-sensors by running the following command in your terminal.
 
 {{< highlight bash >}}sudo apt install lm-sensors{{< /highlight >}}
@@ -33,8 +35,6 @@ I always say yes to all the questions asked during the setup. You can always run
 {{< highlight bash >}}sudo sensors-detect{{< /highlight >}}
 
 When the setup is complete you can run this next command to get your cpu and gpu temperatures and fan speeds along with data from any other sensors detected.
-
-<!--adsense-->
 
 {{< highlight bash >}}sensors{{< /highlight >}}
 
@@ -54,6 +54,8 @@ Core 1:        +48.0°C  (high = +87.0°C, crit = +105.0°C)
 {{< /highlight >}}
 
 If the command line is not your thing and you prefer a GUI to monitor your system's sensors, then you can install xsensors. Xsensors is a gui front-end for lm-sensors.
+
+<!--adsense-->
 
 To install xsensors just run the following command:
 

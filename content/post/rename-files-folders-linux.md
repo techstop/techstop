@@ -24,6 +24,8 @@ Sure you can use your GUI and be done with it, but learning to do it from the co
 
 In a bash script you can loop through lots of files or folders to rename them quickly and efficiently. Knowing the right commands for the job is key.
 
+<!--adsense-->
+
 We will be going over three different methods to rename files and folders:
 
 - **mv** - For moving source to folder or renaming source.
@@ -49,8 +51,6 @@ This command will create four empty files:
 You should now have the following files in your folder:
 
 {{< highlight text >}}file1.bak  file2.bak  file3.bak  file4.bak{{< /highlight >}}
-
-<!--adsense-->
 
 Now lets run the mv command in a for loop to rename the files and replace the "**.bak**" extension with "**.txt**":
 
@@ -91,6 +91,8 @@ This will rename "**dir1**" to "**dir2**".
 **Renaming multiple folders with rename:**
 
 Renaming multiple folders is much easier and straightforward with the rename command. The mv command is not ideal for this scenario, so we will use the rename command.
+
+<!--adsense-->
 
 Lets create multiple folders in an empty directory.
 

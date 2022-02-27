@@ -22,6 +22,8 @@ Creating a menu in a bash script can be quite useful and at times necessary. A b
 
 There are a few ways to create menus in a bash script. For this tutorial we will be creating a somewhat advanced menu that is quite flexible and easy to understand. We will be using bash functions, so it's a good idea to get familiar with functions. You can read about functions in one of my tutorials found <a href="https://techstop.github.io/bash-functions/">here</a>.
 
+<!--adsense-->
+
 ## **Creating a Bash Script Menu**
 
 You will need to place your menu at the bottom of your script since we will be calling functions from the menu and functions need to be placed at the top. Code that makes calls to functions needs to be below the functions.
@@ -71,8 +73,6 @@ done
 
 Create a file called "**file.sh**" and copy the code above to it and give it execute permissions then run it in a terminal. Try all the menu options to give yourself a better understanding before you continue with this tutorial.
 
-<!--adsense-->
-
 Now lets break things down a bit to learn what's going on in this script.
 
 The menu is a loop that repeats itself until the selection is zero "0". Since the menu is not in a function, it will load as soon as you run the script.
@@ -99,6 +99,8 @@ esac
 {{< /highlight >}}
 
 Also notice how each command in the case statement is separated by semicolons ";". The second command is a call to a function.
+
+<!--adsense-->
 
 The press_enter function prompts the user so they can continue when ready. This will give the user all the time they need to read any output.
 

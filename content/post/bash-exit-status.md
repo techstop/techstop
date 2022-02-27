@@ -23,6 +23,8 @@ Regardless of whether a bash command ends successfully or not, it returns an exi
 
 The exit status of a bash command is always an integer (number). A successful command will have an exit status of zero (0), while a command that fails will have an exit status from 1 to 255.
 
+<!--adsense-->
+
 There is a special variable you can use to get the exit status of the previously executed command. You can easily print the exit status variable ($?) with the echo command.
 
 **Take a look at this example or try it yourself:**
@@ -69,8 +71,6 @@ This now gives us a command not found error followed by the exit status code (12
 
 Saving the exit status for a command in a variable can be useful so that you can use the status later on in your bash script.
 
-<!--adsense-->
-
 In this example we run three commands and save the exit status for each in a variable. One of the commands is not a real command like in our previous example.
 
 {{< highlight bash >}}
@@ -109,6 +109,8 @@ These are the exit statuses for the commands above:
 **Set the exit status in your bash script:**
 
 Lets assume that we have a script called "**test.sh**" for this example.
+
+<!--adsense-->
 
 Here we have the cat command try to read a file that does not exist.
 

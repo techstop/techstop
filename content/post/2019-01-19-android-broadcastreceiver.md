@@ -26,6 +26,8 @@ Today we will be using an android **BroadcastReceiver** and **WorkManager** to r
 
 We will place the code we need to run on bootup in a Worker class provided by the WorkManager that we will be initiating from our BroadcastReceiver. Any task or code in our Worker class will run in a background thread. This is good practice to avoid holding up the UI thread. If you do need to run for example, a Toast message on the UI thread, then you can wrap it in a Handler, but that's outside the scope of this tutorial.
 
+<!--adsense-->
+
 The code in this tutorial will be in the full project which I have uploaded to github and linked near the bottom of this page. Feel free to fork or download the project from github. Lets get started.
 
 ## **Android BroadcastReceiver & WorkManager Tutorial**
@@ -103,8 +105,6 @@ public class BootUpWork extends Worker {
 {{< /highlight >}}
 
 Now lets create another java class called BootUpReceiver which will extend BroadcastReceiver. The BroadcastReceiver is going to check that bootup has completed and then run our BootUpWork class. Here's what it looks like…
-
-<!--adsense-->
 
 {{< highlight java >}}
 package com.gt.broadcastreceiver;

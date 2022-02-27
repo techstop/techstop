@@ -27,6 +27,8 @@ In this Android Admob tutorial we will go over how to add admob to your android 
 
 The code in this tutorial will be in the full project on github linked at the bottom of this page. Feel free to fork or download the project from github.
 
+<!--adsense-->
+
 ## Android Admob Example
 
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project “**Admob Tutorial**”.
@@ -64,8 +66,6 @@ Now add a FrameLayout for your AdView to your **activity_main.xml**.
 {{< /highlight >}}
 
 Now we add our ad serving code to the **MainActivity**. Make sure to read the comments I wrote within the code that explains what parts of the code do…
-
-<!--adsense-->
 
 **MainActivity.java**
 {{< highlight java >}}
@@ -170,6 +170,8 @@ public class MainActivity extends AppCompatActivity {
 {{< /highlight >}}
 
 The **Ad Unit ID** is a test sample provided by google for testing apps with admob. To get your real id you will need to sign into your admob account.
+
+<!--adsense-->
 
 Finally we add the admob **Application ID** meta-data to the **AndroidManifest.xml**. Without this step the app will not run…
 

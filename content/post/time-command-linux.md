@@ -24,6 +24,8 @@ Getting familiar with timing commands in linux is a good idea. This is a good wa
 
 Before we go any further, you need to know that there are two versions of the time command on your system. You'll have "**/usr/bin/time**" and the shell built-in time command. The shell built-in time has less options and not suitable for all use cases.
 
+<!--adsense-->
+
 **Timing the ping command:**
 
 Here we ping the Bing website just for demonstration.
@@ -61,8 +63,6 @@ Let us now use the formatting switch "-f" and elapsed clock "%E" option to print
 To use the "-f" switch we need to use "/usr/bin/time" instead of the shell built-in time.
 
 {{< highlight bash >}}/usr/bin/time -f "%E" ping bing.com{{< /highlight >}}
-
-<!--adsense-->
 
 **Output:**
 
@@ -126,6 +126,8 @@ rtt min/avg/max/mdev = 169.307/198.564/235.162/23.584 ms
 {{< /highlight >}}
 
 **Time a bash script:**
+
+<!--adsense-->
 
 If you're running a bash script with plenty of commands and long operations, you can simply time the script as follows:
 

@@ -23,6 +23,8 @@ Xfce is a lightweight and powerful desktop environment(DE) that's been around fo
 
 One complaint that some users have is that Xfce looks dated, boring, and bland. So I'm going to show you how to make Xfce look modern and beautiful. When we're done, it'll look just as modern as the bigger DE projects like Gnome.
 
+<!--adsense-->
+
 **For this tutorial I'm using xubuntu 18.04.3.**
 
 ## **Wallpaper**
@@ -60,8 +62,6 @@ Here is a screenshot of my compositor settings.
 
 The top panel is comprised of 3 panels side by side. This is the only way to center the clock on Xfce panel without having the clock shift side to side when applicatons are opened and closed. For the panel I'm using a mostly transparent 32 pixel height image I created with a 1.5 pixel line to look like a shadow on the bottom. You can download the panel image below.
 
-<!--adsense-->
-
 {{< cta-button "Transparent Panel" "https://github.com/GameTheory-/MyStuff/raw/master/xfce/panel-01.zip" >}}
 
 If you're using the image, make sure to set the panel row size to 32 pixels like in the screenshots.
@@ -82,6 +82,8 @@ For the left panel I changed the Whisker Menu icon from the xfce mouse to the ub
 {{< cta-button "Ubuntu Icon" "https://github.com/GameTheory-/MyStuff/raw/master/xfce/ubuntu-logo-01.zip" >}}
 
 After downloading the icon, copy it to **/usr/share/pixmaps**. You'll need sudo permissions to do this.
+
+<!--adsense-->
 
 To change the whisker menu icon just right click on it and select properties then click on the icon. You can use this screenshot as a guide to set up your whisker menu.
 

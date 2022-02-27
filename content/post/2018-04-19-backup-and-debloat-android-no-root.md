@@ -23,6 +23,8 @@ If you've ever had a rooted android device you know the added benefit. You gain 
 
 Backup and Debloat Android No Root uses adb to uninstall bloatware and to make backups. Now this is nothing new. Android users have known about the adb non root method for a long time. What my tool does is simply facilitate everything in an easy to use script gui.
 
+<!--adsense-->
+
 Let's go over the different options in **Backup and Debloat Android No Root**...
 
 1. This is where you backup user installed apps as allowed by adb limitations (more on limitations later).

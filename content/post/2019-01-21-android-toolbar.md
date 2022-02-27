@@ -31,6 +31,8 @@ The code in this tutorial will be in the full project on github linked at the bo
 
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project "Android Toolbar".
 
+<!--adsense-->
+
 In order to create an android toolbar you must change the base theme in your "styles.xml" to one with "NoActionBar". Lets also add "Title" and "SubTitle" elements to our "styles.xml". I have left some items commented out that you can uncomment if you wish to use them.
 
 **styles.xml**
