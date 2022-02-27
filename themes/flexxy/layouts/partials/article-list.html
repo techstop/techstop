@@ -1,5 +1,6 @@
 <article>
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
+  {{ partial "adsense-top-banner.html" . }}
   {{ range $paginator.Pages }}
       {{ .Render "summary" }}
   {{ end }}
