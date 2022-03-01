@@ -914,4 +914,4 @@ public class MainActivity extends AppCompatActivity {
 
 This will conclude the Android Multi Theme App tutorial. The full project is on github. You can download or fork it from the link below and import it to your favorite IDE. Android Studio is recommended.
 
-{{< cta-button "Android Admob" "https://github.com/GameTheory-/android-app-themes" "_blank" >}}
+{{< cta-button "Android App Themes" "https://github.com/GameTheory-/android-app-themes" "_blank" >}}
