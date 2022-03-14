@@ -11,7 +11,9 @@
   </title>
   <meta name="author" content="{{ .Site.Params.site_author }}">
   <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.site_description }}{{ end }}">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
   <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

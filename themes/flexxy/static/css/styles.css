@@ -35,10 +35,10 @@ example: var(--color-primary)
   --navbar-border: rgba(0, 0, 0, 0.3);
   --navbar-logo-shadow: #222222;
   --font-color-dark: #222222;
-  --font-color-light: #a2a2a2;
+  --font-color-light: #707070;
   --font-color-white: white;
   --bg-light: white;
-  --post-date: #a2a2a2;
+  --post-date: #707070;
   --line-colors: #555555;
   --btn-bg-light: white;
   --btn-bg-dark: #2a373d;
@@ -47,21 +47,21 @@ example: var(--color-primary)
   --footer-font: #a2a2a2;
   --footer-font-hover: white;
   --searchbox-bg: #f6f6f6;
-  --searchbox-font: #707070;
-  --searchbox-border: #c9c9c9;
+  --searchbox-font: black;
+  --searchbox-border: #555555;
   --searchbox-placeholder: #a9a9a9;
   --searchresults-mark: #dddfdf;
   --social-icon: #bbbbbb;
   --social-icon-hover: #222222;
-  --cookie-bg: #edeff5;
-  --cookie-font: #838391;
+  --cookie-bg: #c9c9c9;
+  --cookie-font: black;
 }
 
 [data-theme="dark"] {
   --font-color-dark: #c9c9c9;
   --font-color-light: #707070;
   --bg-light: #222222;
-  --line-colors: #333333;
+  --line-colors: #444444;
   --btn-bg-light: #222222;
   --btn-bg-dark: #364349;
   --footer-bg: #333333;
