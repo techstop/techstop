@@ -39,13 +39,13 @@ example: var(--color-primary)
   --font-color-white: white;
   --bg-light: white;
   --post-date: #a2a2a2;
-  --line-colors: #ececec;
+  --line-colors: #555555;
   --btn-bg-light: white;
   --btn-bg-dark: #2a373d;
   --btn-font: white;
-  --footer-bg: #f3f3f3;
+  --footer-bg: #555555;
   --footer-font: #a2a2a2;
-  --footer-font-hover: #222222;
+  --footer-font-hover: white;
   --searchbox-bg: #f6f6f6;
   --searchbox-font: #707070;
   --searchbox-border: #c9c9c9;
