@@ -55,6 +55,8 @@ example: var(--color-primary)
   --social-icon-hover: #222222;
   --cookie-bg: #c9c9c9;
   --cookie-font: black;
+  --a-hyper-links: #cc5500;
+  --font-family: "Roboto", sans-serif;
 }
 
 [data-theme="dark"] {
@@ -75,6 +77,8 @@ example: var(--color-primary)
   --social-icon-hover: #bbbbbb;
   --cookie-bg: #444444;
   --cookie-font: #c9c9c9;
+  --a-hyper-links: #cc5500;
+  --font-family: "Roboto", sans-serif;
 }
 
 /* HTML5 display definitions
@@ -529,18 +533,18 @@ body {
   min-height: 100%;
   color: var(--font-color-dark);
   background-color: var(--bg-light);
-  font-family: "Noto Serif", serif;
+  font-family: var(--font-family);
   font-weight: 400;
   transition: all 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 300; }
 
 a {
   text-decoration: none;
-  color: var(--font-color-light);
+  color: var(--a-hyper-links);
   transition: all 0.3s ease; }
   a:hover {
     color: var(--font-color-dark); }

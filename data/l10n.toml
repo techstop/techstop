@@ -16,8 +16,8 @@
     linkedin = "Share on Linkedin"
 
 [pagination]
-    newer = "Newer"
-    older = "Older"
+    newer = "Previous"
+    older = "Next"
     # Page x of y
     page = "Page"
     of = "of"
