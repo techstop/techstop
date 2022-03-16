@@ -6,7 +6,7 @@
     {{ partial "navbar" . -}}
     {{ partial "social" . -}}
     <div class="theme-switch-wrapper">
-      <label class="theme-switch" for="checkbox" title="Dark Mode">
+      <label class="theme-switch" for="checkbox" title="{{ .Site.Data.l10n.dark_mode.mode }}">
         <input type="checkbox" id="checkbox" />
         <div class="slider round"></div>
       </label>
