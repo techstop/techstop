@@ -32,4 +32,4 @@
     failed = "Failed!"
 
 [dark_mode]
-    mode = "Dark Mode"
+    mode = "Light Mode"

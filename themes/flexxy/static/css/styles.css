@@ -27,47 +27,28 @@ Global theme colors for use in entire project
 example: var(--color-primary)
 */
 :root {
-  --color-primary: DodgerBlue;
-  --color-secondary: RoyalBlue;
-  --border-primary: rgb(25, 132, 240);
-  --border-secondary: rgb(47, 88, 209);
-  --navbar-gradient: #c16ecf;
+  --color-primary: red;
+  --color-secondary: darkred;
+  --border-primary: var(--color-secondary);
+  --border-secondary: var(--color-primary);
+  --navbar-gradient: purple;
   --navbar-border: rgba(0, 0, 0, 0.3);
   --navbar-logo-shadow: #222222;
-  --font-color-dark: #222222;
-  --font-color-light: #707070;
   --font-color-white: white;
-  --bg-light: white;
   --post-date: #707070;
-  --line-colors: #555555;
-  --btn-bg-light: white;
-  --btn-bg-dark: #2a373d;
   --btn-font: white;
-  --footer-bg: #555555;
-  --footer-font: #a2a2a2;
-  --footer-font-hover: white;
-  --searchbox-bg: #f6f6f6;
-  --searchbox-font: black;
-  --searchbox-border: #555555;
-  --searchbox-placeholder: #a9a9a9;
-  --searchresults-mark: #dddfdf;
-  --social-icon: #bbbbbb;
-  --social-icon-hover: #222222;
-  --cookie-bg: #c9c9c9;
-  --cookie-font: black;
+  --cookie-font: white;
   --a-hyper-links: #cc5500;
   --font-family: "Roboto", sans-serif;
-}
-
-[data-theme="dark"] {
   --font-color-dark: #c9c9c9;
   --font-color-light: #707070;
   --bg-light: #222222;
   --line-colors: #444444;
   --btn-bg-light: #222222;
   --btn-bg-dark: #364349;
-  --footer-bg: #333333;
-  --footer-font-hover: white;
+  --footer-bg: #111111;
+  --footer-font: white;
+  --footer-font-hover: grey;
   --searchbox-bg: #333333;
   --searchbox-font: #c9c9c9;
   --searchbox-border: #707070;
@@ -75,10 +56,27 @@ example: var(--color-primary)
   --searchresults-mark: #a9a9a9;
   --social-icon: #707070;
   --social-icon-hover: #bbbbbb;
+  --cookie-bg: #333333;
+}
+
+[data-theme="light"] {
+  --font-color-dark: #222222;
+  --font-color-light: #707070;
+  --bg-light: white;
+  --line-colors: #555555;
+  --btn-bg-light: white;
+  --btn-bg-dark: #2a373d;
+  --footer-bg: silver;
+  --footer-font: black;
+  --footer-font-hover: dimgrey;
+  --searchbox-bg: #f6f6f6;
+  --searchbox-font: black;
+  --searchbox-border: #555555;
+  --searchbox-placeholder: #a9a9a9;
+  --searchresults-mark: #dddfdf;
+  --social-icon: #bbbbbb;
+  --social-icon-hover: #222222;
   --cookie-bg: #444444;
-  --cookie-font: #c9c9c9;
-  --a-hyper-links: #cc5500;
-  --font-family: "Roboto", sans-serif;
 }
 
 /* HTML5 display definitions
