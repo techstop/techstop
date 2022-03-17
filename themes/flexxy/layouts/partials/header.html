@@ -25,14 +25,17 @@
       </div>
     {{ end }}
   {{- end -}}
+
+  {{ partial "cookies-consent" . }}
+
   <!-- Back to top button - show after 50px scroll -->
   <script>
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("myBtn").style.display = "block";
+        document.getElementById("backToTopBtn").style.display = "block";
       } else {
-        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("backToTopBtn").style.display = "none";
       }
     }
     function topFunction() {
@@ -40,8 +43,6 @@
       $(document.body).animate({ scrollTop: 0 }, 'slow');
     }
   </script>
-
-  {{ partial "cookies-consent" . }}
   <!-- Back to top button -->
-  <button onclick="topFunction()" id="myBtn" title="Back to top">&#8682;</button>
+  <button onclick="topFunction()" id="backToTopBtn" title="Back to top">&#8682;</button>
 </header>

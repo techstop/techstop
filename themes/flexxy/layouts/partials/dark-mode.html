@@ -1,32 +1,31 @@
 <script>
 const myScript = document.getElementById('myScriptId');
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-const currentTheme = localStorage.getItem('theme');
-
-if (currentTheme) {
-  document.documentElement.setAttribute('data-theme', currentTheme);
-  if (currentTheme === 'light') {
-      toggleSwitch.checked = true;
-      {{ with and (.Site.Params.comments) (ne .Params.comments false) (eq .Section "post") }}
-        myScript.setAttribute('theme', 'github-light');
-      {{ end }}
-  }
-}
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-
 function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', 'light');
     {{ with and (.Site.Params.comments) (ne .Params.comments false) (eq .Section "post") }}
-      window.location.reload(true)
+      document.location.reload();
     {{ end }}
   } else {
     document.documentElement.setAttribute('data-theme', 'dark');
-    localStorage.setItem('theme', 'dark');
+    localStorage.removeItem('theme');
     {{ with and (.Site.Params.comments) (ne .Params.comments false) (eq .Section "post") }}
-      window.location.reload(true)
+      document.location.reload();
+    {{ end }}
+  }
+}
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+if (currentTheme) {
+  document.documentElement.setAttribute('data-theme', currentTheme);
+  if (currentTheme === 'light') {
+    toggleSwitch.checked = true;
+    {{ with and (.Site.Params.comments) (ne .Params.comments false) (eq .Section "post") }}
+        myScript.setAttribute('theme', 'github-light');
     {{ end }}
   }
 }
