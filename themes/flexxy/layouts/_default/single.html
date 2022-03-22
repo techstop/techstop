@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ partial "adsense-top-banner.html" . }}
   <article>
     <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
     {{ partial "article-header" . }}
@@ -23,6 +24,7 @@
     </div>
   </article>
   <hr>
+  {{ partial "adsense-bottom-banner.html" . }}
   {{ with and (.Site.Params.comments) (ne .Params.comments false) }}
     {{ partial "comments" . }}
   {{ end }}

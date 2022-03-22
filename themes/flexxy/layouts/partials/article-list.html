@@ -1,8 +1,9 @@
 <article>
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
   {{ partial "adsense-top-banner.html" . }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
   {{ range $paginator.Pages }}
       {{ .Render "summary" }}
   {{ end }}
+  {{ partial "adsense-bottom-banner.html" . }}
   {{ partial "pagination" . }}
 </article>
