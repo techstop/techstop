@@ -10,10 +10,7 @@ categories:
 - Android
 tags:
 - android
-- zte
 - z981
-- kernels
-- phones
 ---
 
 {{< image src="/images/z981/freedom-kernel-for-the-zmax-pro-0.png" alt="Freedom Kernel for the Zmax Pro" width="100px" >}}
@@ -22,13 +19,11 @@ tags:
 {{< image src="/images/z981/freedom-kernel-for-the-zmax-pro-3.png" alt="Freedom Kernel for the Zmax Pro" width="100px" >}}
 {{< image src="/images/z981/freedom-kernel-for-the-zmax-pro-4.png" alt="Freedom Kernel for the Zmax Pro" width="100px" >}}
 
-The Freedom Kernel for the Zmax Pro Z981 has been a lot of fun to work on. I'd like to thank <a href="https://androidforums.com/members/armandop_.1999347/" target="_blank">Armando</a> from Android Forums for his great work on the LineageOS 14.1 rom for which I made the Freedom custom kernel for. I set out to add value not only to the Lineage rom, but also to the user experience and I can confidently say mission accomplished. So without further ado, please enjoy. Many Thanks.
+The Freedom Kernel for the Zmax Pro Z981 is a custom kernel with many enhancements. This kernel provides various custom tweaks and performance improvements over the stock offering to give you more control over your Android device’s performance.
 
 <!--more-->
 
-<h4 style="text-align: center;"><strong>When There's Freedom, There's Potential...<br>Freedom Kernel</strong></h4>
-
-## Features
+## When There's Freedom, There's Potential... Freedom Kernel
 
 **Hotplugs:**
 
@@ -70,14 +65,12 @@ The Freedom Kernel for the Zmax Pro Z981 has been a lot of fun to work on. I'd l
 - Set row scheduler as default
 - Logger Mode Interface
 
-<!--adsense-->
-
-## **How To Install**
+## How To Install
 
 1. You must must be <a href="https://androidforums.com/threads/new-root-method-for-z981-zmax-pro.1284305/" target="_blank">rooted</a> and have <a href="https://androidforums.com/threads/rom-unofficial-lineage-os-14-1-for-zte-zmax-pro.1285631/" target="_blank">LineageOS 14.1</a> rom installed
 2. Flash the Freedom Kernel zip in twrp, but remain in twrp and
 3. Flash <a href="https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445" target="_blank">Magisk</a> to root the kernel, if you don't you'll bootloop
 4. You can now reboot and enjoy!
-5. You'll need the <a href="https://play.google.com/store/apps/details?id=com.grarak.kerneladiutor&hl=en_US" target="_blank">Kernel Auditor</a> app to control all kernel features
+5. You'll need the <a href="https://github.com/Grarak/KernelAdiutor/releases" target="_blank">Kernel Auditor</a> app to control all kernel features
 
 {{< cta-button "Freedom Kernel" "https://github.com/GameTheory-/android_kernel_zte_urd/releases" "_blank" >}}

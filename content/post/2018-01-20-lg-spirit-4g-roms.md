@@ -9,23 +9,19 @@ description: "This is a collection of LG Spirit 4G MS870 roms. Each custom rom h
 categories:
 - Android
 tags:
-- LG
 - MS870
 - Android
-- roms
-- phones
 ---
 
 The LG Spirit 4G ROMs really enhance the user experience and make this device much more ejoyable. These roms have really been customized to make you wonder why stick to the stock factory rom. The roms can also be further customized with themes and other customizations to suit your needs. The Samurai rom with the white theme happens to be my personal favorites!
 
 <!--more-->
 
-Below is each rom with details and download links. Click on the rom name of your choice to expand the details...
+## Samurai ROM
 
 {{< image src="/images/ms870/LG-Spirit-4G-Custom-ROMs.png" alt="LG Spirit 4G ROMs" width="100px" >}}
 {{< image src="/images/ms870/LG-Spirit-4G-Custom-ROMs-1.png" alt="LG Spirit 4G ROMs" width="100px" >}}
 
-{{% hide "Samurai ROM" %}}
 **Kernel Features:**
 
 - Allows removal of "any" app on phone
@@ -45,8 +41,8 @@ Below is each rom with details and download links. Click on the rom name of your
 - Google Now
 - CRT Screen Off Animation
 - Added Root Browser
-- [build.prop] google dns for faster webpage seeks
-- [build.prop] wifi interval increased for better performance & battery
+- build.prop - google dns for faster webpage seeks
+- build.prop - wifi interval increased for better performance & battery
 
 **Instructions:**
 
@@ -57,13 +53,14 @@ Below is each rom with details and download links. Click on the rom name of your
 5. Install zip from SD
 6. Once booted, update all apps through play store then reboot. Done!
 
-{{< cta-button "Samurai ROM" "https://docs.google.com/uc?export=download&id=0B87sFTjuy8WBMUdOVEs1T3NMWEk" "_blank" >}}
-{{% /hide %}}
+{{< cta-button "Samurai ROM" "https://drive.google.com/file/d/0B87sFTjuy8WBMUdOVEs1T3NMWEk/view?usp=sharing&resourcekey=0-Wx93m8Ahn8IoMwBYzE_JJA" "_blank" >}}
+
 <hr>
+
+## Katana ROM
 
 {{< image src="/images/ms870/LG-Spirit-4G-Custom-ROMs-2.png" alt="LG Spirit 4G ROMs" width="100px" >}}
 
-{{% hide "Katana ROM" %}}
 **Features:**
 
 - CyanogenMod DSP Manager
@@ -80,8 +77,8 @@ Below is each rom with details and download links. Click on the rom name of your
 - CRT Screen Off Animation
 - New Boot Animation
 - Added ES file explorer
-- [build.prop] google dns for faster webpage seeks
-- [build.prop] wifi interval increased for better performance & battery
+- build.prop - google dns for faster webpage seeks
+- build.prop - wifi interval increased for better performance & battery
 
 **Instructions:**
 
@@ -92,14 +89,15 @@ Below is each rom with details and download links. Click on the rom name of your
 5. Install zip from SD
 6. Once booted, update all apps through play store then reboot. Done!
 
-{{< cta-button "Katana ROM" "https://docs.google.com/uc?export=download&id=0B87sFTjuy8WBMThnbUZXMC1PQWc" "_blank" >}}
-{{% /hide %}}
+{{< cta-button "Katana ROM" "https://drive.google.com/file/d/0B87sFTjuy8WBMThnbUZXMC1PQWc/view?usp=sharing&resourcekey=0-PWP3gAuGnxkpWbUjoZrtJA" "_blank" >}}
+
 <hr>
+
+## MIUI V5 ROM
 
 {{< image src="/images/ms870/LG-Spirit-4G-Custom-ROMs-3.png" alt="LG Spirit 4G ROMs" width="100px" >}}
 {{< image src="/images/ms870/LG-Spirit-4G-Custom-ROMs-4.png" alt="LG Spirit 4G ROMs" width="100px" >}}
 
-{{% hide "MIUI V5 ROM" %}}
 **Kernel Features:**
 
 - Allows removal of "Any" app without bricking
@@ -120,8 +118,8 @@ Below is each rom with details and download links. Click on the rom name of your
 - CRT Screen Off Animation
 - New MIUI Boot/Shutdown Animations
 - Added ES file explorer
-- [build.prop] google dns for faster webpage seeks
-- [build.prop] wifi interval increased for better performance & battery
+- build.prop - google dns for faster webpage seeks
+- build.prop - wifi interval increased for better performance & battery
 
 **Instructions:**
 
@@ -132,13 +130,14 @@ Below is each rom with details and download links. Click on the rom name of your
 5. Install zip from SD
 6. Once booted, update all apps through play store then reboot. Done!
 
-{{< cta-button "MIUI V5 ROM" "https://docs.google.com/uc?export=download&confirm=4WHy&id=0B87sFTjuy8WBS3duRWQyR1NJeFk" "_blank" >}}
-{{% /hide %}}
+{{< cta-button "MIUI V5 ROM" "https://drive.google.com/file/d/0B87sFTjuy8WBS3duRWQyR1NJeFk/view?usp=sharing&resourcekey=0-zeFIh7Vb4v4-q-OE-n6NQQ" "_blank" >}}
+
 <hr>
+
+## Icy Spirit ROM
 
 {{< image src="/images/ms870/LG-Spirit-4G-Custom-ROMs-5.png" alt="LG Spirit 4G ROMs" width="100px" >}}
 
-{{% hide "Icy Spirit ROM" %}}
 **Features:**
 
 - De-Odexed/Zip-Aligned/Debloated Some/Rooted
@@ -158,6 +157,4 @@ Below is each rom with details and download links. Click on the rom name of your
 5. Install zip from SD
 6. Once booted, update all apps through play store then reboot. Done!
 
-{{< cta-button "Icy Spirit ROM" "https://docs.google.com/uc?export=download&confirm=no_antivirus&id=0B87sFTjuy8WBaS1VNXB2eldhOHM" "_blank" >}}
-{{% /hide %}}
-<hr>
+{{< cta-button "Icy Spirit ROM" "https://drive.google.com/file/d/0B87sFTjuy8WBaS1VNXB2eldhOHM/view?usp=sharing&resourcekey=0-Uj-Bf5x-49XUrWqBt2MxWw" "_blank" >}}

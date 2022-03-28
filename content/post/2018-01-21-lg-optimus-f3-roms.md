@@ -9,12 +9,9 @@ description: "This is a collection of LG Optimus F3 MS659 and P659 roms. Each cu
 categories:
 - Android
 tags:
-- LG
 - MS659
 - P659
 - Android
-- roms
-- phones
 ---
 
 {{< image src="/images/f3/LG-Optimus-F3-ROM-0.png" alt="LG Optimus F3 ROMs" width="100px" >}}
@@ -31,7 +28,8 @@ Below are the details for the two roms...
 
 **These roms are for the MS659 and P659.**
 
-{{% hide "Xperion ROM" %}}
+## Xperion ROM
+
 **ROM Features:**
 
 - Cyanogen Apollo music player (themable)
@@ -66,10 +64,12 @@ Below are the details for the two roms...
 4. Wipe data/factory reset.
 5. Install rom zip from external SD. Done! Reboot.
 
-{{< cta-button "Xperion ROM" "https://onedrive.live.com/download?resid=F4047A3302EA2844!240&authkey=!AEb3293VyU3Nzew&ithint=file%2czip" >}}
-{{% /hide %}}
+{{< cta-button "Xperion ROM" "https://onedrive.live.com/download?resid=F4047A3302EA2844!240&authkey=!AEb3293VyU3Nzew&ithint=file%2czip" "_blank" >}}
 
-{{% hide "SlimLite ROM" %}}
+<hr>
+
+## SlimLite ROM
+
 **ROM Features:**
 
 - Unsecured
@@ -84,5 +84,4 @@ Below are the details for the two roms...
 4. Wipe data/factory reset.
 5. Install rom zip from external SD. Done! Reboot.
 
-{{< cta-button "SlimLite ROM" "https://docs.google.com/uc?export=download&confirm=rYX5&id=0B87sFTjuy8WBQlNOZFNWZUdKb3c" "_blank" >}}
-{{% /hide %}}
+{{< cta-button "SlimLite ROM" "https://drive.google.com/file/d/0B87sFTjuy8WBQlNOZFNWZUdKb3c/view?usp=sharing&resourcekey=0-ZcCCf4zSTw6aHrLaJ8oZMw" "_blank" >}}

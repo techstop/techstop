@@ -9,12 +9,9 @@ description: "This is a flashable V10J firmware zip for the LG G Stylo MS631 and
 categories:
 - Android
 tags:
-- LG
 - MS631
 - H631
 - Android
-- roms
-- phones
 ---
 
 {{< image src="/images/stylo/flashable-v10J-firmware.png" alt="LG G Stylo Flashable v10j" width="100px" >}}

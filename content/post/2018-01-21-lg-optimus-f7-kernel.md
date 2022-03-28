@@ -9,11 +9,8 @@ description: "Freedom kernel is a custom kernel for the LG Optimus F7 LG870. Thi
 categories:
 - Android
 tags:
-- LG
 - LG870
 - Android
-- Kernels
-- phones
 ---
 
 The LG Optimus F7 kernel brings some extra freedom for the device. The kernel comes with a few extra governors for more control over performance. It also allows extensive debloating without setting the device into a bootloop. Init-d is also a nice touch if you like running custom scripts. Check full details below...

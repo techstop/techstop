@@ -9,12 +9,9 @@ description: "Xperion is a custom rom for the LG Optimus F6 MS500 and D500. The 
 categories:
 - Android
 tags:
-- LG
 - MS500
 - D500
 - Android
-- roms
-- phones
 ---
 
 {{< image src="/images/f6/lg-optimus-f6-rom-0.png" alt="LG Optimus F6 Xperion ROM" width="100px" >}}
@@ -46,8 +43,6 @@ For the LG Optimus F6 MS500 & D500.
 - Power File Manager
 - Xposed included for more customization
 
-<!--adsense-->
-
 **Kernel Features:**
 
 - Unsecured
@@ -63,4 +58,4 @@ For the LG Optimus F6 MS500 & D500.
 4. Install rom zip from external SD.
 5. Done. Reboot.
 
-{{< cta-button "Xperion ROM" "https://onedrive.live.com/download?resid=F4047A3302EA2844!237&authkey=!AGnK3wy18nfQmjQ&ithint=file%2czip" >}}
+{{< cta-button "Xperion ROM" "https://onedrive.live.com/download?resid=F4047A3302EA2844!237&authkey=!AGnK3wy18nfQmjQ&ithint=file%2czip" "_blank" >}}

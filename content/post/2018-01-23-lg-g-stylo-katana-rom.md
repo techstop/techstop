@@ -9,12 +9,9 @@ description: "Katana is a custom rom for the LG G Stylo MS631 and H631. The rom 
 categories:
 - Android
 tags:
-- LG
 - MS631
 - H631
 - Android
-- roms
-- phones
 ---
 
 {{< image src="/images/stylo/LG G Stylo Katana ROM-0.png" alt="LG G Stylo Katana ROM" width="100px" >}}
@@ -45,10 +42,8 @@ The LG G Stylo Katana ROM is based on the 5.1.1 v10J firmware for the MetroPCS a
 - TCP tweak
 - ​Katana boot animation
 - Xposed framework
-- Icons used: <a href="https://play.google.com/store/apps/details?id=com.thearclabs.polycon" target="_blank">Polycon</a> & <a href="https://play.google.com/store/apps/details?id=com.zavukodlak.candycons" target="_blank">Candycons</a>
+- Icons used: <a href="https://play.google.com/store/apps/details?id=com.zavukodlak.candycons" target="_blank">Candycons</a>
 - Weather widget used: <a href="https://play.google.com/store/apps/details?id=com.dvtonder.chronus" target="_blank">Chronus</a>
-
-<!--adsense-->
 
 **Katana Kernel Features:**
 

@@ -20,9 +20,7 @@ Occasionally when updating your linux system from a terminal, you'll notice a wa
 
 <!--more-->
 
-According to <a href="https://debian-administration.org/article/69/Some_upgrades_show_packages_being_kept_back" target="_blank">Debian Administration</a>, if the dependencies have changed on one of the packages you have installed so that a new package must be installed to perform the upgrade then that will be listed as "kept-back".
-
-<!--adsense-->
+According to **Debian Administration**, if the dependencies have changed on one of the packages you have installed so that a new package must be installed to perform the upgrade then that will be listed as "kept-back".
 
 You'll normally see this warning when performing a system upgrade with the following commands:
 
@@ -30,7 +28,7 @@ You'll normally see this warning when performing a system upgrade with the follo
 
 Now, while probably not a big deal, if you're like me, you'll probably want to resolve this.
 
-## **Upgrade Kept Back Packages**
+## Upgrade Kept Back Packages
 
 After you've received the un-welcomed warning, to upgrade the kept back packages is quite simple. You can run the following command:
 
@@ -38,6 +36,6 @@ After you've received the un-welcomed warning, to upgrade the kept back packages
 
 Once you run this command, your kept back packages will be upgraded and any new required dependencies will be installed.
 
-## **Conclusion**
+## Conclusion
 
 That is all for this quick look at how to upgrade kept back packages in linux. That wasn't too bad. Right?

@@ -9,12 +9,9 @@ description: "Freedom kernel is a custom kernel for the LG Optimus F6 MS500 and 
 categories:
 - Android
 tags:
-- LG
 - MS500
 - D500
 - Android
-- Kernels
-- phones
 ---
 
 {{< image src="/images/f6/lg-optimus-f6-kernel.png" alt="LG Optimus F6 Freedom Kernel" width="100px" >}}
@@ -58,8 +55,6 @@ For the LG Optimus F6 MS500 & D500.
 - FIFO scheduler
 - VR scheduler
 - Init.d support
-
-<!--adsense-->
 
 **Instructions:**
 

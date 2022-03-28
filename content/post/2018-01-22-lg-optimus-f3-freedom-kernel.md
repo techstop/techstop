@@ -9,12 +9,9 @@ description: "Freedom kernel is a custom kernel for the LG Optimus F3 MS659 and 
 categories:
 - Android
 tags:
-- LG
 - MS659
 - P659
 - Android
-- Kernels
-- phones
 ---
 
 {{< image src="/images/f3/lg-optimus-f3-kernels-300x234.jpg" alt="LG Optimus F3 Freedom Kernel" width="100px" >}}

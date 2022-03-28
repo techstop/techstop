@@ -9,11 +9,9 @@ description: "This is a TWRP recovery for the LG G Stylo MS631 and H631. This is
 categories:
 - Android
 tags:
-- LG
 - MS631
 - H631
 - Android
-- phones
 ---
 
 {{< image src="/images/stylo/LG-Stylo-TWRP-Recovery.png" alt="LG G Stylo TWRP Recovery" width="100px" >}}
@@ -30,7 +28,7 @@ For the LG G Stylo MS631 & H631
 2. Now tap on "Build number" 7 times to enable "Developer options"
 3. Go into Developer options and "Enable OEM unlock" and "USB debugging"
 4. Download twrp <a href="http://forum.xda-developers.com/showpost.php?p=61617167&postcount=515" target="_blank">v10i</a> or <a href="http://androidforums.com/threads/h631-ms631-twrp-2-8-7-0-touch-recovery-lg-g-stylo.926967/page-3#post-7093724" target="_blank">v10J</a> recovery
-5. Then install the <a href="https://play.google.com/store/apps/details?id=com.cgollner.flashify" target="_blank">Flashify</a> app and open it
+5. Then install the <a href="https://flashify.org/" target="_blank">Flashify</a> app and open it
 6. Now Click on "Recovery image"
 7. Then click on "Choose a file"
 8. Navigate to where you downloaded twrp

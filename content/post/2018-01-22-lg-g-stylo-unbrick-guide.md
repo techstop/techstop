@@ -9,11 +9,9 @@ description: "This is an LG G Stylo MS631 and H631 unbrick guide. You can follow
 categories:
 - Android
 tags:
-- LG
 - MS631
 - H631
 - Android
-- phones
 ---
 
 The LG G Stylo unbrick guide is to assist you in recovering your device in the event of a bootloop or soft brick. You can also use this guide to update to the latest firmware.
@@ -25,8 +23,6 @@ For the LG G Stylo MS631 & H631.
 **Instructions:**
 
 Make sure to backup any photos or important files from your internal sd. This method wipes the internal sd to give you a clean factory phone.
-
-<!--adsense-->
 
 Optional - Do a twrp backup so that you can restore "data" only from the backup to get your user apps and settings back after updating or unbricking with this guide.
 
