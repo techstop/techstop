@@ -8,7 +8,6 @@ type: post
 url: /android-broadcastreceiver/
 description: "The Android BroadcastReceiver and WorkManager classes are very important and you should get familiar with them. In this tutorial we will cover how to use the BroadcastReceiver with a WorkManager to run some code on bootup."
 categories:
-- Tutorials
 - Android
 tags:
 - android studio

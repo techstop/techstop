@@ -7,7 +7,6 @@ type: post
 url: /bash-functions/
 description: "Follow this tutorial to learn how to write bash functions. Functions are a great way to reduce the amount of code you have to write and to keep your code neat."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

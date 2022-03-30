@@ -8,7 +8,6 @@ url: /arc-dark-theme-for-gedit/
 description: "Arc Dark theme for Gedit is a theme based on the original Arc Dark for the linux desktop environment. This theme provides a seamless look with your desktop environment for most text editors."
 categories:
 - Linux
-- Tutorials
 tags:
 - Linux
 - Tutorials

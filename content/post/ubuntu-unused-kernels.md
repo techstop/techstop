@@ -7,7 +7,6 @@ type: post
 url: /ubuntu-unused-kernels/
 description: "Free up space by removing unused kernels in ubuntu 18.04. Follow this tutorial which will teach you how to list and remove the old kernels remaining on your ubuntu 18.04 system."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

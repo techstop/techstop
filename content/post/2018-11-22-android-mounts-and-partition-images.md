@@ -8,7 +8,6 @@ url: /android-mounts-and-partition-images/
 description: "Follow this tutorial to learn how to get the Android mounts and partition images. Once you know how to get the mounts you can get any partition images you need from your Android device."
 categories:
 - Android
-- Tutorials
 - Linux
 tags:
 - Android

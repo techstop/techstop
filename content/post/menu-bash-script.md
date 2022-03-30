@@ -7,7 +7,6 @@ type: post
 url: /menu-bash-script/
 description: "Learn how to create a menu in a bash script. Follow this tutorial to learn how to create menus that will add more versatility and a better user experience for your bash scripts."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

@@ -7,7 +7,6 @@ type: post
 url: /rename-files-folders-linux/
 description: "Learn how to rename files and folders in linux from the command line. Follow this tutorial which will teach you how to use the mv and rename commands to rename files and folders."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

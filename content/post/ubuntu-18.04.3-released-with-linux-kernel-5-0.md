@@ -7,7 +7,6 @@ type: post
 url: /ubuntu-18-04-3-release/
 description: "Ubuntu 18.04.3 was released with Linux kernel 5.0. The 5.0 kernel brings much anticipated improvements. Follow this tutorial to install the 5.0 kernel on ubuntu 18.04."
 categories:
-- Tutorials
 - Linux
 tags:
 - linux

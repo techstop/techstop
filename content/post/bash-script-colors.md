@@ -7,7 +7,6 @@ type: post
 url: /bash-script-colors/
 description: "Using colors in bash scripts are a great way to make your scripts look good. Follow this tutorial to learn how to use ansi color codes in your bash scripts."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

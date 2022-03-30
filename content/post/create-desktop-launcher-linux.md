@@ -8,7 +8,6 @@ type: post
 url: /create-desktop-launcher-linux/
 description: "Create a desktop shortcut launcher file in linux to open your applications and scripts. The desktop shortcut launcher will be accessible from the applications menu and any dock or folder."
 categories:
-- Tutorials
 - Linux
 tags:
 - linux

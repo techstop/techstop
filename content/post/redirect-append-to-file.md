@@ -7,7 +7,6 @@ type: post
 url: /redirect-append-to-file/
 description: "Learn how to redirect and append to a file in linux. Follow this tutorial which will teach you how to redirect and append a command's stdout to a file from the linux command line."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

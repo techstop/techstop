@@ -8,7 +8,6 @@ type: post
 url: /reduce-apk-size/
 description: "It is a good idea to learn how to reduce apk size for your Android apps. We will go over a few simple methods you can apply to reduce the size of your apk."
 categories:
-- Tutorials
 - Android
 tags:
 - android studio

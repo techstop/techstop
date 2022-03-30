@@ -8,7 +8,6 @@ type: post
 url: /linux-commands-hardware-info/
 description: "Use Linux commands to detect hardware info in your PC. Getting the hardware info you require can be achieved efficiently from the command line in linux."
 categories:
-- Tutorials
 - Linux
 tags:
 - linux

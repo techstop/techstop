@@ -7,7 +7,6 @@ type: post
 url: /linux-tldr-pages-command/
 description: "Linux tldr pages command displays simplified man pages for linux command-line tools. Unlike the man pages, tldr pages is more like a cheat sheet that displays usage examples for linux commands."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

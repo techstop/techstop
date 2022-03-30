@@ -8,7 +8,6 @@ type: post
 url: /admob-tutorial/
 description: "Follow this tutorial to learn how to add an admob Anchored Adaptive Banner to your Android app. By adding admob you can monetize your app to generate some income."
 categories:
-- Tutorials
 - Android
 tags:
 - android studio

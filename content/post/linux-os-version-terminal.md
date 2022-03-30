@@ -7,7 +7,6 @@ type: post
 url: /linux-os-version-terminal/
 description: "Follow this tutorial to learn how to check linux OS version in terminal. We will be going over a few ways to get your OS and kernel information from the command line."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

@@ -8,7 +8,6 @@ type: post
 url: /bash-exit-status/
 description: "Learn how to get the exit status codes for bash commands. Follow this tutorial which will teach you how to get the exit status codes for any bash commands which you can also use in conditional statements in your scripts."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

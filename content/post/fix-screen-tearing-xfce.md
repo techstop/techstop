@@ -7,7 +7,6 @@ type: post
 url: /fix-screen-tearing-xfce/
 description: "Follow this tutorial to learn how to fix screen tearing in Xfce. We will show you a few simple ways to fix screen tearing in the Xfce desktop environment for Intel, AMD, and Nvidia drivers."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

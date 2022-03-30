@@ -7,7 +7,6 @@ type: post
 url: /get-cpu-gpu-temps-linux/
 description: "Follow this tutorial to learn how to get cpu and gpu temps in linux. We will use lm-sensors on the command line and GUI to read your system's sensors to determine cpu and gpu temps along with fan speeds and other info."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

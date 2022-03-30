@@ -7,7 +7,6 @@ type: post
 url: /xfce-4-14-on-xubuntu-18-04/
 description: "Install Xfce 4.14 on Xubuntu 18.04 easily with a couple of commands. Follow our tutorial that shows you how to do the upgrade from an Xfce 4.14 ppa."
 categories:
-- Tutorials
 - Linux
 tags:
 - linux

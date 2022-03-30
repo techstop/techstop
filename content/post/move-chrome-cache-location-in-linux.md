@@ -7,7 +7,6 @@ type: post
 url: /move-chrome-cache-location-in-linux/
 description: "There’s many reasons to move the Chrome cache location in Linux. Most commonly, chrome cache is moved to prolong SSD drives. In this tutorial we’ll show you how to move chrome cache in linux."
 categories:
-- Tutorials
 - Linux
 tags:
 - linux

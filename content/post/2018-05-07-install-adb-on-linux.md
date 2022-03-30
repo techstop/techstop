@@ -9,7 +9,6 @@ url: /install-adb-on-linux/
 description: "In this tutorial we will be installing ADB (Android Debug Bridge) on your linux computer. ADB can be useful for many things like installing and uninstalling apps, disabling and enabling apps , logcat, and many other things."
 categories:
 - Linux
-- Tutorials
 - Android
 tags:
 - Linux

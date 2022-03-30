@@ -7,7 +7,6 @@ type: post
 url: /bash-aliases/
 description: "Follow this tutorial to learn how to add and use bash aliases. We will be going over different ways you can make use of aliases in your linux environment to make terminal more efficient to use."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

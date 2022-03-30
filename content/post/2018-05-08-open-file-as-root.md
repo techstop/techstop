@@ -9,7 +9,6 @@ url: /open-file-as-root/
 description: "In this tutorial we'll look at how to properly open files and directories as root in linux. Graphical applications in linux should never be opened with sudo."
 categories:
 - Linux
-- Tutorials
 tags:
 - Linux
 - Tutorials

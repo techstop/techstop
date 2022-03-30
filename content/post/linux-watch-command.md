@@ -7,7 +7,6 @@ type: post
 url: /linux-watch-command/
 description: "In this tutorial we will be looking at the linux **watch** command. The watch command is an excellent tool if you need to run any commands repeatedly at set intervals."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials

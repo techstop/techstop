@@ -7,7 +7,6 @@ type: post
 url: /android-app-multi-theme/
 description: "In this tutorial we will cover how to add multi theme support to your android app. By adding multi theme support to your android app you can provide a better user experience and increase app installations."
 categories:
-- Tutorials
 - Android
 tags:
 - android studio

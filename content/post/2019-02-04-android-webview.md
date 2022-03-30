@@ -8,7 +8,6 @@ type: post
 url: /android-webview/
 description: "In this tutorial you will learn how to create an Android webview in your app. You can use the webview to render web pages and also interact with the pages. This webview will also allow you to download from links across the web."
 categories:
-- Tutorials
 - Android
 tags:
 - android studio

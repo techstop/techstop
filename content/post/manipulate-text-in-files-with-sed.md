@@ -7,7 +7,6 @@ type: post
 url: /manipulate-text-files-sed/
 description: "Follow along this tutorial to learn some basic usage for the sed linux command line utility. Learn how to manipulate text in files with sed using robust and powerful options."
 categories:
-- Tutorials
 - Linux
 tags:
 - linux

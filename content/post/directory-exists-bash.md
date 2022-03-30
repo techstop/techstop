@@ -7,7 +7,6 @@ type: post
 url: /directory-exists-bash/
 description: "Learn how to check if a directory exists in linux using bash. This tutorial will teach you a few simple ways to do directory checks with bash."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials
