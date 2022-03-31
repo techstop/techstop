@@ -27,8 +27,10 @@
   {{ if .Site.Params.googleAnalytics }}
     {{- partial "analytics" . -}}
   {{ end }}
-  {{ if and (or (.IsHome) (eq .Params.type "post")) (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
+  {{ if and (or (.IsHome) (eq .Params.type "post") (.Site.Taxonomies.categories) (.Site.Taxonomies.tags)) (.Site.Params.googleAdsenseVerify) (ne .Params.googleAdsenseVerify false) }}
     {{- partial "adsense-verify" . -}}
-    {{- partial "auto-ads" . -}}
+    {{ if ne .Site.Params.autoAds false }}
+      {{- partial "auto-ads" . -}}
+    {{ end }}
   {{ end }}
 </head>

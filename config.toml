@@ -13,6 +13,8 @@ theme = "flexxy"
     # Enable google adsesense verification by entering your publisher id
     googleAdsenseVerify = "ca-pub-8645513020646755"
     inArticleAdSlot = "8847978337"
+    # Enable auto ads (Must enable in adsense account before setting to true.)
+    autoAds = false
     site_author = "Antonio"
     site_description = "TechStop is a tech website with a focus on Linux and Android. Check out our tutorials and tech articles for the Linux and Android platforms and other technologies."
     # Leave empty to disable header image "img/techStop_header.png"
