@@ -17,9 +17,11 @@ theme = "flexxy"
     autoAds = false
     site_author = "Antonio"
     site_description = "TechStop is a tech website with a focus on Linux and Android. Check out our tutorials and tech articles for the Linux and Android platforms and other technologies."
-    # Leave empty to disable header image "img/techStop_header.png"
-    header_background = ""
-    # Leave empty to remove it
+    # Enable/disable header_background_image
+    header_background = false
+    # Header background image
+    header_background_image = "img/techStop_header.png"
+    # Leave empty to remove it or add a title to enable it.
     header_title = ""
     # Updates automatically each year on January 1st
     copyright = "<a href=\"https://techstop.github.io/\">techStop</a>"
