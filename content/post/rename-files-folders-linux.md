@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/mv.png" alt="Rename Files & Folders Linux Command Line" width="150px" >}}
+{{< image src="/images/linux/mv.png" alt="Rename Files & Folders Linux Command Line" width="550px" >}}
 
 Lets take a look at how to rename files and folders in linux from the command line.
 
@@ -22,8 +22,6 @@ Sure you can use your GUI and be done with it, but learning to do it from the co
 <!--more-->
 
 In a bash script you can loop through lots of files or folders to rename them quickly and efficiently. Knowing the right commands for the job is key.
-
-<!--adsense-->
 
 We will be going over three different methods to rename files and folders:
 
@@ -67,6 +65,8 @@ Now we shall use the rename command. If you don't have rename installed you can 
 
 If you've been following this tutorial so far then you should have 4 "**.txt**" files in your folder which we will be working with.
 
+<!--adsense-->
+
 Lets run the following command to rename the files and replace the "**.txt**" extension with "**.bak**":
 
 {{< highlight bash >}}rename 's/.txt/.bak/' *.txt{{< /highlight >}}
@@ -90,8 +90,6 @@ This will rename "**dir1**" to "**dir2**".
 **Renaming multiple folders with rename:**
 
 Renaming multiple folders is much easier and straightforward with the rename command. The mv command is not ideal for this scenario, so we will use the rename command.
-
-<!--adsense-->
 
 Lets create multiple folders in an empty directory.
 

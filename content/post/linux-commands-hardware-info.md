@@ -14,7 +14,7 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/linux/inxi.png" alt="Linux commands for hardware info" width="150px" >}}
+{{< image src="/images/linux/inxi.png" alt="Linux commands for hardware info" width="500px" >}}
 
 It's always a good idea to know how to get hardware info on your linux system. It can be very useful if you need to troubleshoot a hardware issue. There can be times when you need some specific hardware info to get the right drivers. Other times you'll need specific info to perform a hardware upgrade. The command line offers quite a few ways to obtain this hardware info with some tried and true linux commands.
 
@@ -22,11 +22,11 @@ It's always a good idea to know how to get hardware info on your linux system. I
 
 Now there are a few GUI applications that you can install to get the hardware info, and in most cases this will suffice. My personal favorite GUI application for hardware details is <a href="https://help.ubuntu.com/community/HardInfo" target="_blank">HardInfo</a>. It's a fantastic piece of software. In fact, HardInfo even has some benchmarking tools to test your system's stability. This comes in handy after hardware upgrades or overclocking.
 
-<!--adsense-->
-
 You can install HardInfo as follows.
 
 {{< highlight bash >}}sudo apt install hardinfo{{< /highlight >}}
+
+<!--adsense-->
 
 ## **Linux Commands For Hardware Info**
 
@@ -72,9 +72,9 @@ Now here is a very useful command. Ever wanted an easy way to know the max amoun
 
 If you want to know if there are any empty ram slots available in your PC, you don't need to open it. You can find out with this command. If the command output is empty, that means all ram slots are full.
 
-<!--adsense-->
-
 {{< highlight bash >}}lshw -short -C memory | grep -i empty{{< /highlight >}}
+
+<!--adsense-->
 
 This final command gives us our memory usage.
 

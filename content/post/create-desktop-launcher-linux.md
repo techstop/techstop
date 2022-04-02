@@ -14,7 +14,7 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/linux/desktop-launcher.png" alt="Desktop Launcher File" width="300px" >}}
+{{< image src="/images/linux/desktop-launcher.png" alt="Desktop Launcher File" width="450px" >}}
 
 There may be times when you will need to create a desktop shortcut launcher file in linux. The desktop file is a shortcut to an application or script for launching it. This desktop file adds a launcher to your applications menu and can also be placed in docks or anywhere you'd like.
 
@@ -22,11 +22,9 @@ There may be times when you will need to create a desktop shortcut launcher file
 
 Most applications create their own desktop launcher file when installed. However, there's the rare occasion when an application will not create one. A good example is the **NetBeans IDE** which doesn't create a desktop launcher.
 
-<!--adsense-->
-
 In this tutorial I will show you how to create a desktop launcher file for any application and script that will be accessible from your applications menu and any dock or folder.
 
-## How To Create A Desktop Shortcut Launcher
+## **How To Create A Desktop Shortcut Launcher**
 
 The desktop shortcut launcher file in linux is just a text file with a (.desktop) extension at the end. Here's an example of the contents for a desktop launcher I created for <a href="https://www.gimp.org/" target="_blank">GIMP</a>.
 
@@ -41,6 +39,8 @@ Categories=Graphics;
 Terminal=false
 {{< /highlight >}}
 
+<!--adsense-->
+
 - **[Desktop Entry]** - This lets the system know it's a desktop shortcut launcher file.
 - **Type** - This will always be set to Application.
 - **Name** - You can add whatever name you wish to give the application or script.
@@ -50,11 +50,9 @@ Terminal=false
 - **Categories** - The launcher will be placed under this category in the applications menu. You can choose an appropriate category from your applications menu.
 - **Terminal** - This is false for an executable and true for a script that needs to display output in a terminal.
 
-<!--adsense-->
-
 Once you've added all the fields above to your desktop launcher file, save it with a (.desktop) extension. For this example I named mine (gimp-app.desktop). Now move the desktop file you created to (/home/USERNAME/.local/share/applications). Change (USERNAME) with your own user name. Finally you can check your applications menu for your new desktop launcher.
 
-## Conclusion
+## **Conclusion**
 
 As you can see it is really simple to create a desktop shortcut launcher file on linux for any application or script whether it's third party or one you created.
 

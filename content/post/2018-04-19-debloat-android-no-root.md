@@ -15,15 +15,13 @@ tags:
 - Linux
 ---
 
-{{< image src="/images/backupdebloat/Debloat-Android-No-Root.png" alt="Debloat Android No Root" width="200px" >}}
+{{< image src="/images/backupdebloat/Debloat-Android-No-Root.png" alt="Debloat Android No Root" width="450px" >}}
 
 If you've ever had a rooted android device you know the added benefit. You gain total control over you're device. The freedom to remove carrier bloatware or make a number of modifications to your hearts content. Unfortunately if you're here reading this, it's likely because there is no root for your device or you simply don't wish to root it. We all know that for non rooted devices your options are very limited. So we will be taking a look at a tool I made called **Debloat Android No Root** to give you some control back over your device.
 
 <!--more-->
 
 Debloat Android No Root uses adb to uninstall bloatware or disable the bloatware. Now this is nothing new. Android users have known about the adb non root method for a long time. What my tool does is simply facilitate everything in an easy to use script gui.
-
-<!--adsense-->
 
 Let's go over the different options in **Debloat Android No Root**...
 
@@ -36,6 +34,8 @@ Let's go over the different options in **Debloat Android No Root**...
 
 The rest of the options are self explanatory.
 
+<!--adsense-->
+
 ## **Note**
 
 When apps are uninstalled they will not consume any system resources or be visible to the user. However, apps are only uninstalled for the user and not for root. This means the apps are uninstalled but remain on the device which is not a bad thing. Caution is still necessary to not uninstall a system critical app that the device needs to run properly.
@@ -43,8 +43,6 @@ When apps are uninstalled they will not consume any system resources or be visib
 ## **Warnings**
 
 If you uninstall system critical apps you may cause a boot loop. If you do, you can re-install them with option 4 if you still have access to adb or perform a factory reset which will end the boot loop.
-
-<!--adsense-->
 
 ## **Usage**
 

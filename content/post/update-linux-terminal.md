@@ -14,15 +14,13 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/apt.png" alt="Update Linux in a Terminal" width="150px" >}}
+{{< image src="/images/linux/apt.png" alt="Update Linux in a Terminal" width="500px" >}}
 
 Keeping linux updated is a simple hassle free task, unlike that other OS. On linux you can use a GUI app or update in a terminal. Both methods achieve the same result, but users usually have a preference. For me that's the terminal.
 
 <!--more-->
 
 It's very important to keep your system up to date to keep it protected against vulnerabilities. Hackers are always trying new and different ways to obtain your valuable data. Updating will also install software improvements and new features when available.
-
-<!--adsense-->
 
 ## **Update With a GUI**
 
@@ -35,6 +33,8 @@ Now in my experience with the GUI app in both Ubuntu and Xubuntu, if an applicat
 Updating linux software in the terminal is actually quite simple and only requires two commands.
 
 We will be going over updating Debian and Debian based distros like Ubuntu and all of its derivatives with APT. The Advanced Package Tool(APT) is the command line tool for managing software efficiently from your terminal.
+
+<!--adsense-->
 
 **Update software database:**
 
@@ -84,8 +84,6 @@ Do you want to continue? [Y/n]
 {{< /highlight >}}
 
 You rarely ever need to reboot after an update unless you also receive a **kernel update(linux-headers)**. After running the second command above, if you see any kernel update mentioned in your terminal, then you should reboot your PC after the update process is done.
-
-<!--adsense-->
 
 **Update and upgrade in a one line command:**
 

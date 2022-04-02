@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/xfce/scrt0.png" alt="Fix Screen Tearing in Xfce" width="150px" >}}
+{{< image src="/images/xfce/scrt0.png" alt="Fix Screen Tearing in Xfce" width="500px" >}}
 
 Xubuntu has always been one of my favorite distros, but it has always been plagued by the dreaded screen tearing because of the Xfce desktop environment. Screen tearing is when the GPU is out of sync with the display which causes artifacting and looks like tears between the top and bottom halves of your screen. This can be rather annoying, but luckily there's easy ways to fix screen tearing in Xfce.
 
@@ -22,8 +22,6 @@ Xubuntu has always been one of my favorite distros, but it has always been plagu
 ## **Xfce Compositor**
 
 There are a few ways to fix screen tearing in Xfce, but lets start with the easiest method first.
-
-<!--adsense-->
 
 Note: These methods were tested on Xubuntu 18.04.
 
@@ -51,6 +49,8 @@ Graphics:  Card: Intel 3rd Gen Core processor Graphics Controller
 {{< /highlight >}}
 
 Now make sure to disable "**Synchronize drawing to the vertical blank**" in the Xfce compositor. Then go to "**/usr/share/X11/xorg.conf.d**" and add one of the files below for your graphics card.
+
+<!--adsense-->
 
 For Intel drivers edit or create a file called "**10-intel.conf**" and add the following then reboot your pc:
 
@@ -95,8 +95,6 @@ There are other methods to fix screen tearing for Nvidia drivers, but this seems
 
 Another solution to the screen tearing in Xfce is to disable the xfce compositor and install a lightweight compositor like Compton.
 
-<!--adsense-->
-
 Start by unchecking "**Enable display compositing**" to disable the xfce compositor in the Window Manager Tweaks.
 
 To install compton, run the following in terminal:
@@ -107,11 +105,11 @@ sudo apt install compton compton-conf
 
 Now we need to setup compton so that it starts on every boot-up. To do this, open "**Session and Startup**" in the Settings Manager and click on the Add button and enter what's in the screenshot below.
 
-{{< image src="/images/xfce/scrt1.png" alt="Fix Screen Tearing in Xfce" width="150px" >}}
+{{< image src="/images/xfce/scrt1.png" alt="Fix Screen Tearing in Xfce" width="450px" >}}
 
 You can now open the Compton GUI from your applications menu and adjust any settings you'd like.
 
-{{< image src="/images/xfce/scrt2.png" alt="Fix Screen Tearing in Xfce" width="150px" >}}
+{{< image src="/images/xfce/scrt2.png" alt="Fix Screen Tearing in Xfce" width="450px" >}}
 
 ## **Conclusion**
 

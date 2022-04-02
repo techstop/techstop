@@ -13,15 +13,13 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/linux/sed.png" alt="Sed Text Stream Editor" width="150px" >}}
+{{< image src="/images/linux/sed.png" alt="Sed Text Stream Editor" width="550px" >}}
 
 The sed linux utility is a powerful stream editor. Sed can manipulate text from standard input or from a file. It is much like a typical text editor. Where sed sets itself apart is in its ability to filter text in a pipeline to expand its capabilities.
 
 <!--more-->
 
 Sed can work wonders in a shell script. You can pipe other commands to sed or use variables. Use it to process files of all sizes. Find specific strings of text and patterns in your input and manipulate the text to your needs. With sed you can also edit a file directly or save to a new file. The possibilities with sed are near endless.
-
-<!--adsense-->
 
 In this tutorial I will show you some basic and common uses of sed to manipulate text.
 
@@ -62,9 +60,9 @@ As you can see a backup file called "**test-bak**" was created and then the orig
 
 You should now have the new file with the word follow replaced with learn while the original test file still shows the word follow.
 
-<!--adsense-->
-
 Now that you've learned a few basic examples with sed we can move at a faster pace through the tutorial.
+
+<!--adsense-->
 
 ## **More Sed Examples**
 

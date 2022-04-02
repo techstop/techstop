@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/kept.png" alt="Upgrade Kept Back Packages in Linux" width="150px" >}}
+{{< image src="/images/linux/kept.png" alt="Upgrade Kept Back Packages in Linux" width="550px" >}}
 
 Occasionally when updating your linux system from a terminal, you'll notice a warning stating "The following packages have been kept back". This means that when updating, those packages will not be upgraded. Today we'll look at how to upgrade kept back packages in linux.
 
@@ -27,7 +27,7 @@ You'll normally see this warning when performing a system upgrade with the follo
 
 Now, while probably not a big deal, if you're like me, you'll probably want to resolve this.
 
-## Upgrade Kept Back Packages
+## **Upgrade Kept Back Packages**
 
 After you've received the un-welcomed warning, to upgrade the kept back packages is quite simple. You can run the following command:
 
@@ -35,6 +35,6 @@ After you've received the un-welcomed warning, to upgrade the kept back packages
 
 Once you run this command, your kept back packages will be upgraded and any new required dependencies will be installed.
 
-## Conclusion
+## **Conclusion**
 
 That is all for this quick look at how to upgrade kept back packages in linux. That wasn't too bad. Right?

@@ -13,15 +13,13 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/func.png" alt="Writing Bash Functions" width="150px" >}}
+{{< image src="/images/linux/func.png" alt="Writing Bash Functions" width="161px" >}}
 
 Writing bash functions is a great way to make your scripts modular. If you find you'll be needing to repeat sets of commands or code logic, it's a good idea to use functions to avoid redundancy in your script. Bash functions also help keep your code neat and easier to maintain.
 
 <!--more-->
 
 A great way to use functions is writing a separate script with just your functions. You can then load your function script from another script as needed.
-
-<!--adsense-->
 
 Bash functions are treated as commands. However, functions need to be defined at the top of your script. The same applies if you're loading a script with your functions, you need to define it at the top of your script.
 
@@ -65,6 +63,8 @@ To use the function above, you can pass it an argument like this:
 
 {{< highlight bash >}}my_function 'This is a function.'{{< /highlight >}}
 
+<!--adsense-->
+
 This is what it would look like in a script:
 
 {{< highlight bash >}}
@@ -78,8 +78,6 @@ my_function 'This is a function.'
 {{< /highlight >}}
 
 Now lets use a more advanced example. We will now load a function from one script to another.
-
-<!--adsense-->
 
 We need two script files for this example. The first script we name **file1.sh** and the second **file2.sh**.
 

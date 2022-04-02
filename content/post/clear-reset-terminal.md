@@ -13,15 +13,13 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/crt.png" alt="Clear or Reset Terminal" width="150px" >}}
+{{< image src="/images/linux/crt.png" alt="Clear or Reset Terminal" width="500px" >}}
 
 Whenever you're using the terminal extensively you may find your terminal cluttered with commands and output. This can be rather annoying and even confusing at times with the bash prompt at the bottom of your terminal screen. The solution to this is to clear or reset terminal.
 
 <!--more-->
 
 To clear or reset the terminal in linux is a simple task. We will go over a few commands to do this. Each command will have a notable difference and will be up to you which serves your needs best.
-
-<!--adsense-->
 
 ## **Clear Terminal**
 
@@ -53,6 +51,8 @@ You can run the clear command to clean the terminal and have your bash prompt ba
 
 Now notice that after running the clear command you can scroll up with your mouse wheel to see previous output. Essentially the clear command just pushes the clutter up and out of view.
 
+<!--adsense-->
+
 You can also use the keyboard shortcut "**Ctrl + L**" to achieve the same as the clear command.
 
 ## **Reset Terminal**
@@ -62,8 +62,6 @@ The reset command also cleans up the clutter by re-initializing your terminal. H
 {{< highlight bash >}}reset{{< /highlight >}}
 
 Notice that when you run the reset command the terminal takes 1-2 seconds to re-initialize.
-
-<!--adsense-->
 
 **tput reset command:**
 

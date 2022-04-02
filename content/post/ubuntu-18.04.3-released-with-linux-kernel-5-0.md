@@ -13,7 +13,7 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/ubuntu/ubuntu.png" alt="ubuntu" width="150px" >}}
+{{< image src="/images/ubuntu/ubuntu.png" alt="ubuntu" width="550px" >}}
 
 The ubuntu flavours finally get the highly anticipated linux kernel 5.0. This new kernel brings performance improvements, bug fixes, and more hardware support. You also get an updated X.org and graphics drivers. The 18.04.3 point release was released on Aug 8th 2019.
 
@@ -22,8 +22,6 @@ The ubuntu flavours finally get the highly anticipated linux kernel 5.0. This ne
 I've been using the new kernel for an entire day now and does feel snappier though it can be a placebo effect. Also hard to discern running on a fast SSD. :)
 
 There's been plenty of coverage for the 18.04.3 point release and linux kernel 5.0, so instead I will cover how to install the 5.0 kernel.
-
-<!--adsense-->
 
 ## **Do You Have Linux Kernel 5.0**
 

@@ -14,13 +14,11 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/linux/wget.png" alt="wget" width="150px" >}}
+{{< image src="/images/linux/wget.png" alt="wget" width="550px" >}}
 
 There are many download managers to choose from to manage your downloads, but wget is arguably the best one. Wget is a linux command line utility to manage all types of downloads. Whenever you need to download any files of any size or need to use the ftp protocol, wget is an excellent choice. You can also use wget to get the file download size without actually downloading the file. This can come in handy to compare file sizes before downloading. Let me show you a few neat ways to use wget.
 
 <!--more-->
-
-<!--adsense-->
 
 ## **wget Download**
 
@@ -50,6 +48,8 @@ To resume a wget download it's very straight forward. Open the terminal to the d
 
 {{< highlight bash >}}wget -c https://example.com/filename.zip{{< /highlight >}}
 
+<!--adsense-->
+
 ## **Other wget Uses**
 
 Here's some other useful ways to get the most out of wget.
@@ -73,8 +73,6 @@ Here's some other useful ways to get the most out of wget.
 - Have your download file overwrite an existing file with the same name.
 
 {{< highlight bash >}}wget https://example.com/filename.zip -O /path/to/directory/filename.zip{{< /highlight >}}
-
-<!--adsense-->
 
 ## **Conclusion**
 

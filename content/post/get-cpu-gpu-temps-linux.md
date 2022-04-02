@@ -13,15 +13,13 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/sensors1.png" alt="Get CPU and GPU Temps in Linux" width="150px" >}}
+{{< image src="/images/linux/sensors1.png" alt="Get CPU and GPU Temps in Linux" width="500px" >}}
 
 To get CPU and GPU temps in linux you need to install and configure lm-sensors. With lm-sensors you can monitor cpu and gpu temperatures and fan speeds as well as voltages for some systems. Lm-sensors reads the available sensors on your motherboard, cpu, and gpu and displays their output. Once configured, you can use the command line or a GUI to monitor your system's sensors.
 
 <!--more-->
 
 ## **Setup lm-sensors**
-
-<!--adsense-->
 
 First install lm-sensors by running the following command in your terminal.
 
@@ -32,6 +30,8 @@ Once the installation completes you will need to setup lm-sensors. It's a straig
 I always say yes to all the questions asked during the setup. You can always run this command again if you'd like to change anything.
 
 {{< highlight bash >}}sudo sensors-detect{{< /highlight >}}
+
+<!--adsense-->
 
 When the setup is complete you can run this next command to get your cpu and gpu temperatures and fan speeds along with data from any other sensors detected.
 
@@ -54,19 +54,17 @@ Core 1:        +48.0°C  (high = +87.0°C, crit = +105.0°C)
 
 If the command line is not your thing and you prefer a GUI to monitor your system's sensors, then you can install xsensors. Xsensors is a gui front-end for lm-sensors.
 
-<!--adsense-->
-
 To install xsensors just run the following command:
 
 {{< highlight bash >}}sudo apt install xsensors{{< /highlight >}}
 
-{{< image src="/images/linux/sensors0.png" alt="Get CPU and GPU Temps in Linux" width="150px" >}}
+{{< image src="/images/linux/sensors0.png" alt="Get CPU and GPU Temps in Linux" width="300px" >}}
 
 Another gui that I always install in linux is "System Profiler and Benchmark" which displays the data from your system's sensors and a wealth of other system info. To install it, run the following command.
 
 {{< highlight bash >}}sudo apt install hardinfo{{< /highlight >}}
 
-{{< image src="/images/linux/sensors2.png" alt="Get CPU and GPU Temps in Linux" width="150px" >}}
+{{< image src="/images/linux/sensors2.png" alt="Get CPU and GPU Temps in Linux" width="450px" >}}
 
 ## **Conclusion**
 

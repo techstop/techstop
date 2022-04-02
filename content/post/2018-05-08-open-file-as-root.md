@@ -21,15 +21,15 @@ If you need to open a file as root in linux you should never use sudo. Sudo can 
 
 <!--more-->
 
-<!--adsense-->
-
 So what is the proper way now to open a file or directory as root in linux?
 
 Some linux distros have implemented their own way of handling root for graphical applications. For example, distros using the KDE desktop environment use (kdesu) to open graphical applications with root privileges.
 
 In this tutorial I'll be showing you a method that works across most linux distributions. It involves using the admin command which presents you with a graphical password prompt to grant root.
 
-## Linux admin:// Command
+<!--adsense-->
+
+## **Linux admin:// Command**
 
 Here’s what the admin command looks like.
 
@@ -41,14 +41,12 @@ If for example, you need to open a file in a text editor like gedit as root. Ent
 
 You can use the admin command with your preferred text editor.
 
-<!--adsense-->
-
 To open a directory as root with your file manager, enter the following in a terminal. In this example we’ll be using thunar file manager, but you can use nautilus or whichever you have installed on your system. Again replace (/path/to/directory) to the actual absolute directory path you wish to open as root.
 
 {{< highlight bash >}}thunar admin:///path/to/directory{{< /highlight >}}
 
 You can use the admin command with your preferred file manager.
 
-## Conclusion
+## **Conclusion**
 
 So there you have it, a proper way to open graphical applications as root. If this is at all confusing just leave a comment below and we’ll try to help.

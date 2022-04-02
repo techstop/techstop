@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/osv.png" alt="Check Linux OS Version in Terminal" width="150px" >}}
+{{< image src="/images/linux/osv.png" alt="Check Linux OS Version in Terminal" width="550px" >}}
 
 There are a few ways to check your kernel and linux os version, but today we will cover some commands to do this in a terminal.
 
@@ -22,8 +22,6 @@ Knowing how to check your kernel and linux os version in a terminal can be usefu
 <!--more-->
 
 ## **Linux OS Version**
-
-<!--adsense-->
 
 **Get Linux Standard Base info:**
 
@@ -106,6 +104,8 @@ VERSION_CODENAME=bionic
 UBUNTU_CODENAME=bionic
 {{< /highlight >}}
 
+<!--adsense-->
+
 **A few more system details:**
 
 {{< highlight bash >}}hostnamectl{{< /highlight >}}
@@ -124,8 +124,6 @@ UBUNTU_CODENAME=bionic
 {{< /highlight >}}
 
 ## **Kernel Version**
-
-<!--adsense-->
 
 **Print the kernel version:**
 

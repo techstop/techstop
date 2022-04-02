@@ -14,15 +14,13 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/xfce/xf0.png" alt="xfce" width="120px" >}} {{< image src="/images/xfce/xf1.png" alt="xfce" width="120px" >}} {{< image src="/images/xfce/xf2.png" alt="xfce" width="120px" >}}
+{{< image src="/images/xfce/xf0.png" alt="xfce" width="250px" >}} {{< image src="/images/xfce/xf1.png" alt="xfce" width="250px" >}} {{< image src="/images/xfce/xf2.png" alt="xfce" width="250px" >}}
 
 Xfce is a lightweight and powerful desktop environment(DE) that's been around for a long time. It's considered one of the most stable and lightest DEs around. Xfce has a traditional layout well suited for users of all types, from the new user coming from Windows to the power user looking to get things done efficiently.
 
 <!--more-->
 
 One complaint that some users have is that Xfce looks dated, boring, and bland. So I'm going to show you how to make Xfce look modern and beautiful. When we're done, it'll look just as modern as the bigger DE projects like Gnome.
-
-<!--adsense-->
 
 **For this tutorial I'm using xubuntu 18.04.3.**
 
@@ -38,11 +36,14 @@ We will now install Arc-Dark theme which in my opinion is the best dark theme av
 
 <a href="https://www.xfce-look.org/p/1181106/#files-panel" target="_blank">Arc-Dark-Theme</a>
 
+<!--adsense-->
+
 The original Arc-Dark theme from the link above highlights the app icon in blue on the panel for the app in focus. I prefer a dark grey highlight which I feel looks better. If you prefer the same then you can get my modified version of Arc-Dark below.
 
 {{< cta-button "Custom Arc-Dark" "https://github.com/GameTheory-/MyStuff/raw/master/xfce/Arc-Dark-Theme.zip" >}}
 
 1. Once you have the theme, extract and copy the Arc-Dark folder to **/usr/share/themes**. You will need sudo permissions to do this.
+
 2. After copying the theme to **/usr/share/themes** you will need to enable it in 3 locations. Open the "**Settings Manager**" and enable Arc-Dark in the following locations...
 
 - Appearance
@@ -55,7 +56,7 @@ In the "**Settings Manager**" under "**Window Manager Tweaks**" it is important 
 
 Here is a screenshot of my compositor settings.
 
-{{< image src="/images/xfce/wmt0.png" alt="xfce" width="150px" >}}
+{{< image src="/images/xfce/wmt0.png" alt="xfce" width="400px" >}}
 
 ## **Panels**
 
@@ -66,13 +67,13 @@ The top panel is comprised of 3 panels side by side. This is the only way to cen
 If you're using the image, make sure to set the panel row size to 32 pixels like in the screenshots.
 
 **Left panel screenshots**
-{{< image src="/images/xfce/lp0.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/lp1.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/lp2.png" alt="xfce" width="80px" >}}
+{{< image src="/images/xfce/lp0.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/lp1.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/lp2.png" alt="xfce" width="200px" >}}
 
 **Center panel screeshots**
-{{< image src="/images/xfce/mp0.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/mp1.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/mp2.png" alt="xfce" width="80px" >}}
+{{< image src="/images/xfce/mp0.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/mp1.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/mp2.png" alt="xfce" width="200px" >}}
 
 **Right panel screeshots**
-{{< image src="/images/xfce/rp0.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/rp1.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/rp2.png" alt="xfce" width="80px" >}}
+{{< image src="/images/xfce/rp0.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/rp1.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/rp2.png" alt="xfce" width="200px" >}}
 
 **Note:** Make all separators transparent. For the middle panel with the clock, expand the separators.
 
@@ -82,15 +83,13 @@ For the left panel I changed the Whisker Menu icon from the xfce mouse to the ub
 
 After downloading the icon, copy it to **/usr/share/pixmaps**. You'll need sudo permissions to do this.
 
-<!--adsense-->
-
 To change the whisker menu icon just right click on it and select properties then click on the icon. You can use this screenshot as a guide to set up your whisker menu.
 
-{{< image src="/images/xfce/wm0.png" alt="xfce" width="80px" >}}
+{{< image src="/images/xfce/wm0.png" alt="xfce" width="200px" >}}
 
 The bottom launcher is just another panel set to full transparency. You can use the screenshots to guide you.
 
-{{< image src="/images/xfce/bp0.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/bp1.png" alt="xfce" width="80px" >}} {{< image src="/images/xfce/bp2.png" alt="xfce" width="80px" >}}
+{{< image src="/images/xfce/bp0.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/bp1.png" alt="xfce" width="200px" >}} {{< image src="/images/xfce/bp2.png" alt="xfce" width="200px" >}}
 
 ## **Icons**
 
@@ -104,6 +103,8 @@ sudo apt install pop-icon-theme
 
 Once installed you can open "**Settings Manager**" and go to "**Appearance**" and "**LightDM GTK+ Greeter Settings**" to enable **Pop** icons for both.
 
+<!--adsense-->
+
 ## **Mouse Cursor**
 
 For the mouse cursor I'm using the Breeze theme from the KDE desktop. Run the following command in the terminal to install the Breeze cursor theme.
@@ -116,7 +117,7 @@ Once installed you can open "**Settings Manager**" and go to "**Mouse and Touchp
 
 For my notifications I have set the "**Greybird**" theme and set the opacity to 85%. Here's a screenshot of my notifications settings.
 
-{{< image src="/images/xfce/noti0.png" alt="xfce" width="100px" >}}
+{{< image src="/images/xfce/noti0.png" alt="xfce" width="200px" >}}
 
 ## **Text Editor Arc-Dark Theme**
 

@@ -17,8 +17,8 @@ tags:
 - Android
 ---
 
-{{< image src="/images/admob-tutorial/admob-tutorial-0.png" alt="Admob Tutorial" width="100px" >}}
-{{< image src="/images/admob-tutorial/admob-tutorial-1.png" alt="Admob Tutorial" width="100px" >}}
+{{< image src="/images/admob-tutorial/admob-tutorial-0.png" alt="Admob Tutorial" width="200px" >}}
+{{< image src="/images/admob-tutorial/admob-tutorial-1.png" alt="Admob Tutorial" width="200px" >}}
 
 In this Android Admob tutorial we will go over how to add admob to your android app. With admob you can monetize your app and make some income for your efforts. There are a few types of admob ad units that you can add to your app. For this admob tutorial we will be adding the Anchored Adaptive Banner which can display high performance adaptive banner ads for all devices and screen sizes.
 
@@ -26,9 +26,7 @@ In this Android Admob tutorial we will go over how to add admob to your android 
 
 The code in this tutorial will be in the full project on github linked at the bottom of this page. Feel free to fork or download the project from github.
 
-<!--adsense-->
-
-## Android Admob Example
+## **Android Admob Example**
 
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project “**Admob Tutorial**”.
 
@@ -39,6 +37,8 @@ implementation 'com.google.android.gms:play-services-ads:20.5.0'
 {{< /highlight >}}
 
 Now add a FrameLayout for your AdView to your **activity_main.xml**.
+
+<!--adsense-->
 
 **activity_main.xml**
 {{< highlight xml >}}
@@ -169,8 +169,6 @@ public class MainActivity extends AppCompatActivity {
 {{< /highlight >}}
 
 The **Ad Unit ID** is a test sample provided by google for testing apps with admob. To get your real id you will need to sign into your admob account.
-
-<!--adsense-->
 
 Finally we add the admob **Application ID** meta-data to the **AndroidManifest.xml**. Without this step the app will not run…
 

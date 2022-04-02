@@ -24,9 +24,7 @@ ADB provides a terminal interface on your linux computer to interact with your a
 
 <!--more-->
 
-<!--adsense-->
-
-## Install ADB
+## **Install ADB**
 
 Begin by downloading the android [SDK Platform Tools](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) which contains adb and fastboot. It's a very small and quick download.
 
@@ -50,7 +48,7 @@ If all went well you should get an output in your terminal with the adb version 
 
 <!--adsense-->
 
-## Test ADB with Android
+## **Test ADB with Android**
 
 Now that you have adb installed on your linux computer you should test it with your android to make sure adb recognizes your android device.
 
@@ -68,6 +66,6 @@ List of devices attached
 c4fec245        device
 {{< /highlight >}}
 
-## Conclusion
+## **Conclusion**
 
 You should now have adb installed on your linux computer and ready to interact with your android devices. For more adb commands and options you can run (adb help) in your terminal.

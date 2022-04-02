@@ -14,7 +14,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/stat.png" alt="Bash Exit Status" width="150px" >}}
+{{< image src="/images/linux/stat.png" alt="Bash Exit Status" width="480px" >}}
 
 Regardless of whether a bash command ends successfully or not, it returns an exit status. Aside from letting you know that the command succeeded or failed, you can use the exit status code in bash scripts to determine what action to take with a conditional statement.
 
@@ -22,9 +22,9 @@ Regardless of whether a bash command ends successfully or not, it returns an exi
 
 The exit status of a bash command is always an integer (number). A successful command will have an exit status of zero (0), while a command that fails will have an exit status from 1 to 255.
 
-<!--adsense-->
-
 There is a special variable you can use to get the exit status of the previously executed command. You can easily print the exit status variable ($?) with the echo command.
+
+<!--adsense-->
 
 **Take a look at this example or try it yourself:**
 

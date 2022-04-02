@@ -15,7 +15,7 @@ tags:
 - Linux
 ---
 
-{{< image src="/images/android-mounts/android-mounts-and-partition-images.png" alt="How To Get Android Mounts and Partition Images" width="150px" >}}
+{{< image src="/images/android-mounts/android-mounts-and-partition-images.png" alt="How To Get Android Mounts and Partition Images" width="450px" >}}
 
 In this guide I will be showing you how to get the android mounts and partition images. There could be many reasons for needing the android mounts and partition images. A couple reasons that come to mind could be to make backups of your partitions in case you need to fix your phone from a bad flash later on. Or you might want to customize a boot.img or system.img to add in some custom features. Whatever your reason, just follow the guide and you'll be pulling those partitions in no time.
 
@@ -26,7 +26,7 @@ In this guide I will be showing you how to get the android mounts and partition 
 - A rooted android phone
 - ADB installed on your linux PC. Here is a [guide to install ADB](https://techstop.github.io/install-adb-on-linux/) if you haven't already.
 
-## Getting Android Mounts
+## **Getting Android Mounts**
 
 Enable USB debugging in Developer options in your android phone. Then plug it to your PC with the usb cable.
 
@@ -60,7 +60,7 @@ You should now see a long output in your terminal similar to the one below. I ha
 /dev/block/platform/msm_sdcc.1/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,noauto_da_alloc,errors=continue,commit=20,data=ordered 0 0
 {{< /highlight >}}
 
-## Getting Partitions
+## **Getting Partitions**
 
 In this next step we will use the path we copied from the previous step to enter the following command to retrieve all the partitions...
 
@@ -78,15 +78,15 @@ lrwxrwxrwx 1 root root  21 2013-12-31 20:00 recovery -> /dev/block/mmcblk0p18
 lrwxrwxrwx 1 root root  21 2013-12-31 20:00 system -> /dev/block/mmcblk0p24
 {{< /highlight >}}
 
-## Pulling Partition Images
+## **Pulling Partition Images**
 
 Now that we know our boot partition path we can use it in the next command to copy the boot.img to our internal SD on our android phone...
 
 {{< highlight bash >}}dd if=/dev/block/mmcblk0p17 of=/sdcard/boot.img{{< /highlight >}}
 
-With the above command we have now copied the boot.img to our internal SD. You can now drag and drop the boot.img from your phone's internal SD to your PC. Alternatively you can use the following command to pull the boot.img from the internal SD to your PC's desktop.
-
 <!--adsense-->
+
+With the above command we have now copied the boot.img to our internal SD. You can now drag and drop the boot.img from your phone's internal SD to your PC. Alternatively you can use the following command to pull the boot.img from the internal SD to your PC's desktop.
 
 If you are still in the adb root shell then enter the following 2 commands in terminal to exit root shell and adb. If you have already exited you can skip this step...
 

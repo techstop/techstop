@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/xfce/gm1.png" alt="Install a Global App Menu on Xubuntu 18.04" width="150px" >}}
+{{< image src="/images/xfce/gm1.png" alt="Install a Global App Menu on Xubuntu 18.04" width="550px" >}}
 
 If you ever used ubuntu when it still used the unity desktop, chances are you liked the unity global app menu and would like to have it on Xubuntu 18.04. Hate it or love it, ubuntu did some things really well when it used unity, like the HUD and the Global App Menu. Luckily, we don't need unity to install a global app menu in Xubuntu 18.04.
 
@@ -23,8 +23,6 @@ Xubuntu 18.04 has a plugin for the xfce4-panel that you can install to get the g
 
 In my testing, the global app menu worked quite well and felt just like it did in the unity desktop.
 
-<!--adsense-->
-
 ## **Install The Global App Menu**
 
 To install the global app menu in xubuntu 18.04 is a simple process. Just run the following command in terminal:
@@ -33,13 +31,13 @@ To install the global app menu in xubuntu 18.04 is a simple process. Just run th
 
 Once you've installed the plugin, add it to your xfce panel.
 
-{{< image src="/images/xfce/gm0.png" alt="Install a Global App Menu on Xubuntu 18.04" width="150px" >}}
+{{< image src="/images/xfce/gm0.png" alt="Install a Global App Menu on Xubuntu 18.04" width="300px" >}}
 
 After adding the global app menu plugin to your xfce panel, you need to log out and then log back in to enable it.
 
 The global app menu spreads out across your xfce panel just like it did in the ubuntu unity desktop. If you like, you can also make it compact as shown in the screenshots below. Just go to the plugin properties.
 
-{{< image src="/images/xfce/gm2.png" alt="Install a Global App Menu on Xubuntu 18.04" width="150px" >}} {{< image src="/images/xfce/gm3.png" alt="Install a Global App Menu on Xubuntu 18.04" width="150px" >}}
+{{< image src="/images/xfce/gm2.png" alt="Install a Global App Menu on Xubuntu 18.04" width="350px" >}} {{< image src="/images/xfce/gm3.png" alt="Install a Global App Menu on Xubuntu 18.04" width="350px" >}}
 
 If you'd like to see the way I customize my Xfce desktop, take a look at the following link:
 

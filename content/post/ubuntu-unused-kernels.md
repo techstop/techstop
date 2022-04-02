@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/lh2.png" alt="Remove Unused Kernels Ubuntu 18.04" width="150px" >}}
+{{< image src="/images/linux/lh2.png" alt="Remove Unused Kernels Ubuntu 18.04" width="550px" >}}
 
 A question often asked... How do I remove old unused kernels from ubuntu 18.04?
 
@@ -22,8 +22,6 @@ Each time you receive a kernel update in your ubuntu 18.04 system updates, you e
 <!--more-->
 
 I usually use my system for a few days with a new kernel update before removing the old kernels. This gives me time to assess whether the new kernel is stable and my system is running fine. Once I'm certain the system is stable with the new kernel, I will then proceed to remove the old kernels.
-
-<!--adsense-->
 
 ## **Remove Unused Kernels**
 
@@ -35,7 +33,7 @@ You can list all the kernels on your system with the following dpkg command.
 
 Your output should list all the kernels installed on your system like this:
 
-{{< image src="/images/linux/lh0.png" alt="Remove Unused Kernels Ubuntu 18.04" width="150px" >}}
+{{< image src="/images/linux/lh0.png" alt="Remove Unused Kernels Ubuntu 18.04" width="550px" >}}
 
 To remove the unused kernels you can run the following command:
 
@@ -43,7 +41,7 @@ To remove the unused kernels you can run the following command:
 
 Here's what the output of apt looks like:
 
-{{< image src="/images/linux/lh1.png" alt="Remove Unused Kernels Ubuntu 18.04" width="150px" >}}
+{{< image src="/images/linux/lh1.png" alt="Remove Unused Kernels Ubuntu 18.04" width="500px" >}}
 
 Notice in the output above that 661 megabytes of space will be freed by removing the old unused kernels from my ubuntu 18.04 system.
 

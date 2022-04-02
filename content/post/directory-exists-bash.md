@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/dir.png" alt="Check If Directory Exists In Linux With Bash" width="150px" >}}
+{{< image src="/images/linux/dir.png" alt="Check If Directory Exists In Linux With Bash" width="287px" >}}
 
 It's useful to know how to check if a directory exists in linux from a bash script. A directory is a folder within a path in your linux system where all sorts of files and directories are stored. Your Music folder is a directory to store music files and your Downloads folder is a directory where all sorts files are downloaded from the web. You get the idea.
 
@@ -22,8 +22,6 @@ It's useful to know how to check if a directory exists in linux from a bash scri
 ## **If Directory Exists**
 
 Lets start off with a simple example. You can copy all examples in this tutorial to a file and run the file yourself in a terminal to test for yourself.
-
-<!--adsense-->
 
 **Check if a directory exists:**
 {{< highlight bash >}}
@@ -64,6 +62,8 @@ fi
 
 The sample above is nearly the same, but we add a "!" symbol and swap the two echo commands. The "!" symbol tells the test command to instead check if the directory does not exist.
 
+<!--adsense-->
+
 Now that we've covered the basics to checking for a directory, lets get a little more advanced.
 
 **Check if a directory exists and if not, then create it:**
@@ -98,8 +98,6 @@ fi
 {{< /highlight >}}
 
 In the sample above we use the list "ls" command with the "-A" flag which tells ls to list all files and directories including the hidden ones in the Downloads directory. If files or directories are found, it lets you know the directory is not empty.
-
-<!--adsense-->
 
 **Pass any directory to a bash script:**
 {{< highlight bash >}}

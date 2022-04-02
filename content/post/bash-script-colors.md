@@ -5,7 +5,7 @@ date: 2019-10-03T22:17:26-04:00
 draft: false
 type: post
 url: /bash-script-colors/
-description: "Using colors in bash scripts are a great way to make your scripts look good. Follow this tutorial to learn how to use ansi color codes in your bash scripts."
+description: "Using colors in bash scripts is a great way to make your scripts look good. Follow this tutorial to learn how to use ansi color codes in your bash scripts."
 categories:
 - linux
 tags:
@@ -13,15 +13,13 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/ansi.png" alt="Colors In Bash Scripts" width="150px" >}}
+{{< image src="/images/linux/ansi.png" alt="Colors In Bash Scripts" width="500px" >}}
 
 Using colors in bash scripts can be very useful. If you've written your bash script with menus and prompts, it's a good idea to use ansi color codes to make your outputs more readable to the user. In this tutorial I'll cover some ways that you can use colors in your bash scripts for a more GUI like experience.
 
 <!--more-->
 
 Ansi color codes always start with these characters "**\e[**" followed by the numbers that determine the color you want. There are color codes for the foreground(text) and background. There are also color codes for bold, underlines, and high intensity colors.
-
-<!--adsense-->
 
 Colors in bash scripts can be used to distinguish text. For example, you can make error outputs in red text while prompts with instructions in green text. Use bold and underlines to emphasize words and phrases. Background colors can be used for section separation. There's many ways to put color codes into good use in your bash scripts.
 
@@ -91,6 +89,8 @@ echo -e "${red}This sentence ${green}displays ${blue}ansi code used in ${white}$
 
 Lets break things down a bit...
 
+<!--adsense-->
+
 As you can see, we used a few colors and also applied underlines, bold text, and backgrounds.
 
 It's a good idea to place your color codes in global variables at the top of your script to keep your code neat.
@@ -112,8 +112,6 @@ We also use a "**reset**" variable containing "**\e[0m**". This is to stop the a
 {{< highlight bash >}}reset="\e[0m"{{< /highlight >}}
 
 ## **Ansi Codes List For Bash**
-
-<!--adsense-->
 
 Here is a good list of Ansi color codes you can use in your bash scripts.
 

@@ -17,15 +17,13 @@ tags:
 - android
 ---
 
-{{< image src="/images/broadcastreceiver/android-broadcastreceiver.png" alt="Android BroadcastReceiver" width="100px" >}}
+{{< image src="/images/broadcastreceiver/android-broadcastreceiver.png" alt="Android BroadcastReceiver" width="200px" >}}
 
 Today we will be using an android **BroadcastReceiver** and **WorkManager** to run code on bootup in Android. There can be many reasons to run code on bootup. One good use case would be to set settings that a user has selected within your app on every bootup.
 
 <!--more-->
 
 We will place the code we need to run on bootup in a Worker class provided by the WorkManager that we will be initiating from our BroadcastReceiver. Any task or code in our Worker class will run in a background thread. This is good practice to avoid holding up the UI thread. If you do need to run for example, a Toast message on the UI thread, then you can wrap it in a Handler, but that's outside the scope of this tutorial.
-
-<!--adsense-->
 
 The code in this tutorial will be in the full project which I have uploaded to github and linked near the bottom of this page. Feel free to fork or download the project from github. Lets get started.
 
@@ -34,6 +32,8 @@ The code in this tutorial will be in the full project which I have uploaded to g
 Lets begin by creating a new project in Android Studio with an Empty Activity if you haven't already. We can call the project BroadcastReceiver.
 
 To start things off we need to add a couple of dependencies in our app **build.gradle** file...
+
+<!--adsense-->
 
 This dependency is needed to use the WorkManager.
 

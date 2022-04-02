@@ -17,8 +17,8 @@ tags:
 - Android
 ---
 
-{{< image src="/images/android-webview/android-webview-0.png" alt="Android WebView" width="100px" >}}
-{{< image src="/images/android-webview/android-webview-1.png" alt="Android WebView" width="100px" >}}
+{{< image src="/images/android-webview/android-webview-0.png" alt="Android WebView" width="200px" >}}
+{{< image src="/images/android-webview/android-webview-1.png" alt="Android WebView" width="200px" >}}
 
 The Android WebView allows your app to open web pages within your app. For this Android WebView example we will create an android webview app that loads a couple web pages. We will be adding some attributes like JavaScript to interact with page elements and a DownloadListener for downloading items from download links on web pages as well as a ProgressBar to show page loading progress. We will also request runtime storage write permissions for our DownloadListener for android 6+.
 
@@ -32,9 +32,7 @@ The code in this tutorial will be in the full project on github linked at the bo
 - In our MainActivity we create two buttons that will each pass a different web page URL to our webview.
 - In our WebView class we will add a DowloadListener, ProgressBar, and request storage write permission.
 
-<!--adsense-->
-
-## Android WebView Example
+## **Android WebView Example**
 
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project “WebView Example”.
 
@@ -225,6 +223,8 @@ Create a new layout resource file for our WebView called "activity_webview.xml".
 
 Now we setup our Buttons with the URLs in the MainActivity class…
 
+<!--adsense-->
+
 **MainActivity.java**
 {{< highlight java >}}
 package com.webviewexample;
@@ -288,8 +288,6 @@ We now need to add the buttons to the MainActivity layout…
 {{< /highlight >}}
 
 We're almost done! Lets add the strings we need…
-
-<!--adsense-->
 
 **strings.xml**
 {{< highlight xml >}}

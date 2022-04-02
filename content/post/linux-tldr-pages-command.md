@@ -25,7 +25,7 @@ The tldr pages command displays examples for just about any command you can thin
 
 <!--adsense-->
 
-## tldr Command
+## **tldr Command**
 
 - tldr syntax:
 {{< highlight bash >}}
@@ -46,6 +46,6 @@ tldr find
 {{< /highlight >}}
 {{< image src="/images/linux/tldr-pages-2.png" alt="tldr find" width="500px" >}}
 
-## Conclusion
+## **Conclusion**
 
 As you can see the linux tldr pages command is excellent for quick usage examples for linux command-line tools. I find myself using tldr more than the man pages. So go ahead and give it a try next time you're trying to figure out how to use a command and just want a quick example.

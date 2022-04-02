@@ -13,8 +13,8 @@ tags:
 - Tutorials
 ---
 
-{{< image src="/images/arc-theme/arc-dark-theme-for-gedit-0.png" alt="Arc Dark Theme For Gedit" width="150px" >}}
-{{< image src="/images/arc-theme/arc-dark-theme-for-gedit-1.png" alt="Arc Dark Theme For Gedit" width="150px" >}}
+{{< image src="/images/arc-theme/arc-dark-theme-for-gedit-0.png" alt="Arc Dark Theme For Gedit" width="350px" >}}
+{{< image src="/images/arc-theme/arc-dark-theme-for-gedit-1.png" alt="Arc Dark Theme For Gedit" width="350px" >}}
 
 If you like the dark version of the Arc Theme for your desktop environment and would like the theme for your text editor, then look no further. Here I have the Arc Dark Theme for Gedit. The arc dark theme will work with gedit and pluma or most other text editors that support themes. The download link can be found below with simple installation instructions.
 
@@ -22,9 +22,7 @@ If you like the dark version of the Arc Theme for your desktop environment and w
 
 The Arc Dark Theme for Gedit has been tested on Xubuntu with the dark variant of the Arc-Theme installed.
 
-<!--adsense-->
-
-## Installation
+## **Installation**
 
 1. Make sure your text editor is closed.
 2. Execute the install script as follows in a terminal:
@@ -32,7 +30,7 @@ The Arc Dark Theme for Gedit has been tested on Xubuntu with the dark variant of
 3. Now open your text editor.
 4. Select the arc-dark theme from the text editor preferences.
 
-## Alternate Installation
+## **Alternate Installation**
 
 1. Open your text editor
 2. Go to Preferences > Font & Colors

@@ -7,20 +7,19 @@ type: post
 url: /test-drive-read-speed-hdparm/
 description: "Test your SSD or HDD drive read speeds on linux with hdparm. hdparm can give you an accurate representation of the read speeds of your drives to see if they're performing as expected."
 categories:
-- tutorials
 - linux
 tags:
 - tutorials
 - linux
 ---
 
-{{< image src="/images/linux/hdparm.png" alt="hdparm" width="400px" >}}
+{{< image src="/images/linux/hdparm.png" alt="hdparm" width="500px" >}}
 
 If you'd like to test the read speed of your hard disk drive(HDD) or solid state drive(SSD) or any type of drive, you can use hdparm on linux. hdparm is an excellent command-line tool to test your drive's read speeds. hdparm can give you an accurate representation of the read speeds of your drives to see if they're performing as expected.
 
 <!--more-->
 
-## Determine Disk to Test
+## **Determine Disk to Test**
 
 Whether you have one or more attached drives to your computer, you need to determine the disk path.
 
@@ -30,7 +29,7 @@ The paths are listed as follows:
 - (/dev/sd*) = SATA disks: Solid State Drives(SSD)
 - (/dev/nvme*) = Express pci disks: Non-Volatile Memory Express(NVMe)
 
-## Get Disk Path
+## **Get Disk Path**
 
 To get the disk path we will run the (fdisk) command in our terminal.
 
@@ -56,7 +55,7 @@ Device      Start       End   Sectors   Size Type
 
 <!--adsense-->
 
-## Test Disk Read Speed
+## **Test Disk Read Speed**
 
 Now that we have determined our disk path, it is time to run our read speed test.
 
@@ -73,6 +72,6 @@ If you look at my output below, you can see that I'm getting "450.51 MB/sec" whi
  Timing buffered disk reads: 1352 MB in  3.00 seconds = 450.51 MB/sec
 {{< /highlight >}}
 
-## Conclusion
+## **Conclusion**
 
 You should now be able to test read speeds for any attached drive to your computer. For more hdparm options you can run (man hdparm) or ([tldr](https://techstop.github.io/linux-tldr-pages-command/) hdparm) in your terminal.

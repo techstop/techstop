@@ -27,7 +27,7 @@ A wakelock is not all bad. In fact, they are needed for some services that need 
 
 <!--adsense-->
 
-## Detect Wakelocks
+## **Detect Wakelocks**
 
 Now that we've covered a little background on android wakelocks, it's time to learn to detect them. Detecting an android wakelock is simple and straight forward. In this tutorial we'll cover a method that does not require root.
 
@@ -50,6 +50,6 @@ If you identify a wakelock to be from a misbehaving app you installed, you can s
 
 <a href="https://techstop.github.io/debloat-android-no-root/">Debloat Android No Root</a>
 
-## Conclusion
+## **Conclusion**
 
 That will be all for this tutorial. You should now be able to easily detect an android wakelock and take control of your battery life once again.

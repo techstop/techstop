@@ -17,8 +17,8 @@ tags:
 - android
 ---
 
-{{< image src="/images/android-toolbar/android-toolbar-0.png" alt="Android Toolbar" width="100px" >}}
-{{< image src="/images/android-toolbar/android-toolbar-1.png" alt="Android Toolbar" width="100px" >}}
+{{< image src="/images/android-toolbar/android-toolbar-0.png" alt="Android Toolbar" width="200px" >}}
+{{< image src="/images/android-toolbar/android-toolbar-1.png" alt="Android Toolbar" width="200px" >}}
 
 Often times users are looking to create an Android Toolbar so they can customize it to their liking. In this tutorial we'll go over how to create an Android custom Toolbar and show you a few modifications you can do to the Toolbar for your app.
 
@@ -26,13 +26,13 @@ Often times users are looking to create an Android Toolbar so they can customize
 
 The code in this tutorial will be in the full project on github linked at the bottom of this page. Feel free to fork or download the project from github. So lets get started.
 
-## Android Toolbar Example Tutorial
+## **Android Toolbar Example Tutorial**
 
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project "Android Toolbar".
 
-<!--adsense-->
-
 In order to create an android toolbar you must change the base theme in your "styles.xml" to one with "NoActionBar". Lets also add "Title" and "SubTitle" elements to our "styles.xml". I have left some items commented out that you can uncomment if you wish to use them.
+
+<!--adsense-->
 
 **styles.xml**
 {{< highlight xml >}}

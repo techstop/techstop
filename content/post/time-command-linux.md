@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/time.png" alt="Time a Command in Linux" width="150px" >}}
+{{< image src="/images/linux/time.png" alt="Time a Command in Linux" width="500px" >}}
 
 Getting familiar with timing commands in linux is a good idea. This is a good way to time long operations in a bash script or from the terminal. You can time most commands and any bash script. My favorite use case is for timing source code compilation from build scripts.
 
@@ -22,8 +22,6 @@ Getting familiar with timing commands in linux is a good idea. This is a good wa
 ## **Using The Time Command**
 
 Before we go any further, you need to know that there are two versions of the time command on your system. You'll have "**/usr/bin/time**" and the shell built-in time command. The shell built-in time has less options and not suitable for all use cases.
-
-<!--adsense-->
 
 **Timing the ping command:**
 
@@ -58,6 +56,8 @@ The final three lines are your time results. In real time, the ping command took
 - **sys:** The amount of CPU time spent in the kernel within the process (within the kernel).
 
 Let us now use the formatting switch "-f" and elapsed clock "%E" option to print the time in a normal clock output.
+
+<!--adsense-->
 
 To use the "-f" switch we need to use "/usr/bin/time" instead of the shell built-in time.
 
@@ -125,8 +125,6 @@ rtt min/avg/max/mdev = 169.307/198.564/235.162/23.584 ms
 {{< /highlight >}}
 
 **Time a bash script:**
-
-<!--adsense-->
 
 If you're running a bash script with plenty of commands and long operations, you can simply time the script as follows:
 

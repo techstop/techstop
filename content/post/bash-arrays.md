@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/array.png" alt="Bash Arrays" width="150px" >}}
+{{< image src="/images/linux/array.png" alt="Bash Arrays" width="350px" >}}
 
 Bash arrays are quite powerful and robust, but not often used in the command line. They are variables which contain multiple values often referred to as items or elements. Arrays do not have a maximum limit for items they can contain nor do the values need to be assigned or indexed contiguously.
 
@@ -22,8 +22,6 @@ Bash arrays are quite powerful and robust, but not often used in the command lin
 ## **Writing and Using Bash Arrays**
 
 The first item in an array is indexed at position zero "0". You can add multiple items to an array in one variable or through multiple variables.
-
-<!--adsense-->
 
 **In this example we have an array variable with 2 items, each quoted:**
 
@@ -74,6 +72,8 @@ This will give you the sum of items in the array.
 **Output:**
 
 {{< highlight text >}}7{{< /highlight >}}
+
+<!--adsense-->
 
 **Display items by index position:**
 
@@ -131,8 +131,6 @@ Notice we are now using double commas ",,".
 **Using a for loop to display all items in the array:**
 
 In this for loop we will iterate through every item using their index as we previously covered in this tutorial.
-
-<!--adsense-->
 
 Take notice how we use the "$i" variable.
 

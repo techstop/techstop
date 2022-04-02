@@ -14,15 +14,13 @@ tags:
 - tutorials
 ---
 
-{{< image src="/images/linux/bootable-usb.png" alt="Bootable USB in Linux" width="400px" >}}
+{{< image src="/images/linux/bootable-usb.png" alt="Bootable USB in Linux" width="500px" >}}
 
 If you're installing linux, like to distro hop, or simply test different linux distros, you'll often be creating a live bootable usb. There are a few ways to create a bootable usb in linux. Many distros have Startup Disk Creator(usb-creator-gtk) pre-installed which usually gets the job done. There is the rare occasion when using a GUI app just doesn't work. For these rare occasions the dd linux command line utility can be an excellent substitute. This is my preferred method and the one I'll cover in this tutorial.
 
 <!--more-->
 
-<!--adsense-->
-
-## Create A Bootable USB
+## **Create A Bootable USB**
 
 Once you have downloaded the iso image for the linux distro you'd like to test or install, you'll need to plug your usb stick to your computer to get its file system partition path. To do this we will use (lsblk) in the terminal to get the partition path for the usb stick.
 
@@ -49,6 +47,8 @@ The name of my usb stick is (Sony) which is also the brand. As you can see in th
 
 **Note:** If your usb stick is not labeled, you can identify it by its size. Mine shows (3.8G).
 
+<!--adsense-->
+
 This is what the command looks like to create the bootable usb. When you run the command you will need to enter your login password. Once you've entered the command, just wait a couple minutes for it to finish.
 
 {{< highlight bash >}}
@@ -59,9 +59,7 @@ As you can see (if=) contains the path to our iso image file and (of=) contains 
 
 **Note:** Make sure to change (/path/to/file.iso) to the path where you have your iso file.
 
-<!--adsense-->
-
-## Boot From USB Stick
+## **Boot From USB Stick**
 
 Now that you've created your bootable usb with the terminal in linux, it is time to boot from it. With the usb stick attached to your computer perform a reboot or shutdown. In the startup screen you'll see a key you need to press to get to the boot options (i.e. Esc, F2, F10). In the boot options select to boot from the usb stick.
 

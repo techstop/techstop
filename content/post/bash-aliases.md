@@ -13,7 +13,7 @@ tags:
 - linux
 ---
 
-{{< image src="/images/linux/alias.png" alt="Bash Aliases" width="150px" >}}
+{{< image src="/images/linux/alias.png" alt="Bash Aliases" width="500px" >}}
 
 If you're not familiar with bash aliases I highly recommend you read on. Bash aliases are fantastic for saving time and not having to remember commands or groups of commands.
 
@@ -30,8 +30,6 @@ The syntax for an alias is as follows:
 - **value** = The commands you want to call.
 
 There's a few ways to use a bash alias. You can set the alias to call a script, command, or group of commands.
-
-<!--adsense-->
 
 An alias can be set per session, meaning that if you logout or reboot, the alias is removed. You can also set an alias permanently which is how I like to set mine.
 
@@ -53,6 +51,8 @@ If you decide you want to remove the alias, you can run the following command:
 
 This removes the previous alias we set for the <a href="https://techstop.github.io/clear-reset-terminal/">clear</a> command.
 
+<!--adsense-->
+
 ## **Permanent Bash Aliases**
 
 This is my preferred method to add a bash alias. I generally set aliases that I often use.
@@ -69,8 +69,6 @@ alias c='clear'
 Don't forget to restart your terminal to start using your new aliases.
 
 **Note:** We added the "My aliases" comment just for future reference.
-
-<!--adsense-->
 
 You can also add the alias from terminal as follows:
 

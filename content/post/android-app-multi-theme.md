@@ -16,17 +16,15 @@ tags:
 - Android
 ---
 
-{{< image src="/images/app-themes/app-themes-1.png" alt="App Themes" width="100px" >}}
-{{< image src="/images/app-themes/app-themes-2.png" alt="App Themes" width="100px" >}}
-{{< image src="/images/app-themes/app-themes-3.png" alt="App Themes" width="100px" >}}
+{{< image src="/images/app-themes/app-themes-1.png" alt="App Themes" width="150px" >}}
+{{< image src="/images/app-themes/app-themes-2.png" alt="App Themes" width="150px" >}}
+{{< image src="/images/app-themes/app-themes-3.png" alt="App Themes" width="150px" >}}
 
 If you would like to add some flare to your android app by adding multi theme support, then you've come to the right place. Adding multi theme support to your android app can be very beneficial. For starters, your users will never get bored of just having a single color and this also provides a better user experience and can increase app installations. This can be the difference between users installing your app or the competition's app.
 
 <!--more-->
 
 Lets get started with this tutorial to learn how to add multi theme support to your android app. I will be showing you how to change the app colors and background.
-
-<!--adsense-->
 
 The code in this tutorial will be in the full project on github linked at the bottom of this page. Feel free to fork or download the project from github.
 
@@ -35,6 +33,8 @@ The code in this tutorial will be in the full project on github linked at the bo
 Begin by creating a new project in Android Studio with an Empty Activity if you haven’t already. We can call the project “**App Themes**”.
 
 First we will create our color themes in our **values** directory. If you're on an older version of Android Studio then place the following code into your **styles.xml** file. The newer Android Studio version uses a **themes.xml** file instead, so place the code in that file.
+
+<!--adsense-->
 
 **themes.xml**
 {{< highlight xml >}}
@@ -517,9 +517,9 @@ Since we are going to be accessing our theme chooser layout from a menu item as 
 
 Now that we've created all our xml files, we can now start with our java code.
 
-<!--adsense-->
-
 Create a new java class and call it **Themes**. The Themes class will hold all our themes and SharedPreferences so that we can select and save themes so they are applied automatically each time the app is opened. Since this is a utility class it will not have a layout and does not need to be declared in the AndroidManifest.
+
+<!--adsense-->
 
 Add the following code to the **Themes** class.
 
@@ -856,8 +856,6 @@ Now we need to declare the **SelectTheme.java** class in our **AndroidManifest.x
 
 </manifest>
 {{< /highlight >}}
-
-<!--adsense-->
 
 We can finally setup our **MainActivity** class. Here we'll add our menu to open our **SelectTheme** class and we'll also set the user selected colors for the app to open with each time.
 
