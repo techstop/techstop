@@ -12,7 +12,6 @@ theme = "flexxy"
     googleAnalytics = "UA-114983197-2"
     # Enable google adsesense verification by entering your publisher id
     googleAdsenseVerify = "ca-pub-8645513020646755"
-    inArticleAdSlot = "8847978337"
     # Enable auto ads (Must enable in adsense account before setting to true.)
     autoAds = false
     site_author = "Antonio"
@@ -23,7 +22,7 @@ theme = "flexxy"
     header_background_image = "img/techStop_header.png"
     # Leave empty to remove it or add a title to enable it.
     header_title = ""
-    # Updates automatically each year on January 1st
+    # Updates automatically each year on January 1st by pushing the site to remote.
     copyright = "<a href=\"https://techstop.github.io/\">techStop</a>"
     # Leave empty to disable navbar site name
 	  navbar_site_name = "techStop"	  
