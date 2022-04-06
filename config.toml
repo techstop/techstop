@@ -14,7 +14,7 @@ theme = "flexxy"
     googleAdsenseVerify = "ca-pub-8645513020646755"
     # Enable auto ads (Must enable in adsense account before setting to true.)
     autoAds = false
-    site_author = "Antonio"
+    site_author = "Antonio T."
     site_description = "TechStop is a tech website with a focus on Linux and Android. Check out our tutorials and tech articles for the Linux and Android platforms and other technologies."
     # Enable/disable header_background_image
     header_background = false
@@ -22,8 +22,6 @@ theme = "flexxy"
     header_background_image = "img/techStop_header.png"
     # Leave empty to remove it or add a title to enable it.
     header_title = ""
-    # Updates automatically each year on January 1st by pushing the site to remote.
-    copyright = "<a href=\"https://techstop.github.io/\">techStop</a>"
     # Leave empty to disable navbar site name
 	  navbar_site_name = "techStop"	  
 	  # Display the post publish date
