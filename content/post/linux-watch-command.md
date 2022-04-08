@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/linux-watch-command.png" alt="linux watch command" width="500px" >}}

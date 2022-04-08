@@ -11,6 +11,7 @@ categories:
 tags:
 - linux
 - tutorials
+- command line
 ---
 
 {{< image src="/images/linux/sed.png" alt="Sed Text Stream Editor" width="550px" >}}
@@ -107,3 +108,5 @@ Convert every letter in a file to lowercase.
 Sed is an extensive and powerful text stream editor and we only scratched the surface on what it can do. If you'd like to learn more about sed, have a look at the manual. Just run this command in terminal.
 
 {{< highlight bash >}}man sed{{< /highlight >}}
+
+For more sed commands, check out my other [sed tutorial](https://techstop.github.io/delete-lines-strings-between-two-patterns-sed/).

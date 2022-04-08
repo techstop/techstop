@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/tldr-pages-0.png" alt="tldr tar" width="500px" >}}

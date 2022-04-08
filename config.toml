@@ -37,11 +37,15 @@ theme = "flexxy"
     custom_css = []
     custom_js  = []
 
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
 [markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+      [markup.goldmark.renderer]
+        unsafe = true
 
 [social]
     # Add your social network account usernames. The links to your accounts will be created automatically.
