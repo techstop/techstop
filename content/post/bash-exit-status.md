@@ -12,6 +12,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/stat.png" alt="Bash Exit Status" width="480px" >}}

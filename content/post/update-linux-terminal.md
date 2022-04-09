@@ -12,6 +12,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/apt.png" alt="Update Linux in a Terminal" width="500px" >}}
@@ -48,7 +49,7 @@ First we need to update the local software database with the latest software as 
 Get:34 http://mirror.umd.edu/ubuntu bionic-security/main amd64 Packages [531 kB]
 Get:35 http://mirror.umd.edu/ubuntu bionic-security/main i386 Packages [382 kB]
 Get:36 http://mirror.umd.edu/ubuntu bionic-security/main amd64 DEP-11 Metadata [38.5 kB]
-Get:42 http://mirror.umd.edu/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]  
+Get:42 http://mirror.umd.edu/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]
 Get:43 http://mirror.umd.edu/ubuntu bionic-security/universe DEP-11 64x64 Icons [108 kB]
 Get:44 http://mirror.umd.edu/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
 Fetched 8,178 kB in 12s (660 kB/s)

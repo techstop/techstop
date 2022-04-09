@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/orph0.png" alt="Remove Orphaned Packages in Linux" width="300px" >}}

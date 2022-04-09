@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/array.png" alt="Bash Arrays" width="350px" >}}

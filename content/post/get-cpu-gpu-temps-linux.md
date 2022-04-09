@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/sensors1.png" alt="Get CPU and GPU Temps in Linux" width="500px" >}}

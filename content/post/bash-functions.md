@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/func.png" alt="Writing Bash Functions" width="161px" >}}

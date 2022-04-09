@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/alias.png" alt="Bash Aliases" width="500px" >}}

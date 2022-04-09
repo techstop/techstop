@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/dir.png" alt="Check If Directory Exists In Linux With Bash" width="287px" >}}

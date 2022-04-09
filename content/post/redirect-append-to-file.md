@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/redirect.png" alt="Redirect and Append to a File in Linux" width="500px" >}}

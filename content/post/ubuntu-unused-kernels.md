@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/lh2.png" alt="Remove Unused Kernels Ubuntu 18.04" width="550px" >}}

@@ -12,6 +12,7 @@ categories:
 tags:
 - linux
 - tutorials
+- command line
 ---
 
 {{< image src="/images/linux/inxi.png" alt="Linux commands for hardware info" width="500px" >}}
@@ -25,8 +26,6 @@ Now there are a few GUI applications that you can install to get the hardware in
 You can install HardInfo as follows.
 
 {{< highlight bash >}}sudo apt install hardinfo{{< /highlight >}}
-
-<!--adsense-->
 
 ## **Linux Commands For Hardware Info**
 
@@ -74,8 +73,6 @@ If you want to know if there are any empty ram slots available in your PC, you d
 
 {{< highlight bash >}}lshw -short -C memory | grep -i empty{{< /highlight >}}
 
-<!--adsense-->
-
 This final command gives us our memory usage.
 
 {{< highlight bash >}}free -m{{< /highlight >}}
@@ -85,6 +82,8 @@ This final command gives us our memory usage.
 I like this next command. It displays the device path for any mounted HDD, SSD, and USB drives.
 
 {{< highlight bash >}}sudo lshw -short -C disk{{< /highlight >}}
+
+<!--adsense-->
 
 The next command is more targeted at a specific drive by using the device path you get from the previous command above.
 

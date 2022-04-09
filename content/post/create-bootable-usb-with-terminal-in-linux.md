@@ -12,6 +12,7 @@ categories:
 tags:
 - linux
 - tutorials
+- command line
 ---
 
 {{< image src="/images/linux/bootable-usb.png" alt="Bootable USB in Linux" width="500px" >}}

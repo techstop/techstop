@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/ansi.png" alt="Colors In Bash Scripts" width="500px" >}}

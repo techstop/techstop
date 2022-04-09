@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/kept.png" alt="Upgrade Kept Back Packages in Linux" width="550px" >}}

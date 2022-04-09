@@ -12,6 +12,7 @@ categories:
 tags:
 - linux
 - tutorials
+- command line
 ---
 
 {{< image src="/images/linux/wget.png" alt="wget" width="550px" >}}

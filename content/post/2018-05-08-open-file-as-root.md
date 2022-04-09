@@ -12,6 +12,7 @@ categories:
 tags:
 - Linux
 - Tutorials
+- command line
 ---
 
 {{< image src="/images/open-as-root/open-file-as-root-0.png" alt="Open File as Root" width="300px" >}}

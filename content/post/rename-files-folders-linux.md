@@ -12,6 +12,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/mv.png" alt="Rename Files & Folders Linux Command Line" width="550px" >}}

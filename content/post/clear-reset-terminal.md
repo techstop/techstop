@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/crt.png" alt="Clear or Reset Terminal" width="500px" >}}

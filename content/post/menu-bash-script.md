@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/menu.png" alt="Create a Menu in Bash Script" width="300px" >}}

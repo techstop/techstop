@@ -11,6 +11,7 @@ categories:
 tags:
 - tutorials
 - linux
+- command line
 ---
 
 {{< image src="/images/linux/osv.png" alt="Check Linux OS Version in Terminal" width="550px" >}}
