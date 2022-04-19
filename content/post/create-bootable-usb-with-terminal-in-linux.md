@@ -23,7 +23,7 @@ If you're installing linux, like to distro hop, or simply test different linux d
 
 ## **Create A Bootable USB**
 
-Once you have downloaded the iso image for the linux distro you'd like to test or install, you'll need to plug your usb stick to your computer to get its file system partition path. To do this we will use (lsblk) in the terminal to get the partition path for the usb stick.
+Once you have downloaded the iso image for the linux distro you'd like to test or install, you'll need to plug your usb stick to your computer to get its file system partition path. To do this we will use the (df) command in terminal to get the partition path for the usb stick.
 
 Open the terminal and run this command:
 {{< highlight bash >}}df -h{{< /highlight >}}
@@ -46,7 +46,7 @@ The name of my usb stick is (Sony) which is also the brand. As you can see in th
 
 {{< highlight bash >}}/dev/sdb{{< /highlight >}}
 
-**Note:** If your usb stick is not labeled, you can identify it by its size. Mine shows (3.8G).
+<mark>If your usb stick is not labeled, you can identify it by its size. Mine shows (3.8G).</mark>
 
 <!--adsense-->
 

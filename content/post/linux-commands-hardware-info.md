@@ -101,9 +101,9 @@ This is yet another to list sector count, file system, type, and ID.
 
 {{< highlight bash >}}sudo fdisk -l{{< /highlight >}}
 
-Along with file systems and mount points, this next command also lists space used and available in megabytes.
+Along with file systems and mount points, this next command also lists space used and available in your partitions.
 
-{{< highlight bash >}}df -m{{< /highlight >}}
+{{< highlight bash >}}df -h{{< /highlight >}}
 
 These next two list USB and PCI devices.
 
