@@ -5,7 +5,7 @@ date: 2022-09-24
 draft: false
 type: post
 url: /backup-restore-linux-timeshift/
-description: "Follow this tutorial to learn how to use Timeshift on Linux. Timeshift is a backup utility for linux that allows you to create system snapshots to restore your system to a previously working state."
+description: "Follow this tutorial to learn how to backup and restore linux with Timeshift. Timeshift is a backup utility for linux that allows you to create system snapshots to restore your system to a previously working state."
 categories:
 - linux
 tags:
@@ -57,6 +57,8 @@ yay -S timeshift
 sudo pacman -S timeshift
 {{< /highlight >}}
 
+Now that you have Timeshift installed, let's take a look at how to backup and restore linux with Timeshift.
+
 ## **Configure Timeshift**
 
 <!--adsense-->
@@ -105,4 +107,4 @@ Adjust the command to reflect the path of your timeshift installation. By defaul
 
 ## **Conclusion**
 
-A system backup and restore utility is a must have on any operating system. This will allow you to customize and tinker with your system without much worry. It will also save your system from a faulty update.
+A system backup and restore utility like Timeshift is a must have on any operating system. This will allow you to customize and tinker with your system without much worry. It will also save your system from a faulty update. You can learn more about <a href="https://github.com/teejee2008/timeshift" target="_blank">Timeshift</a> from their official repo page.
