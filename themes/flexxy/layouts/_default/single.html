@@ -5,14 +5,14 @@
     {{ replace .Content "<!--adsense-->" (partial "adsense-inarticle.html" .) | safeHTML }}
     {{ partial "article-share" . }}
     {{ with and (.Site.Params.post_tags) (.Params.tags) }}
-      {{ $.Site.Data.l10n.article.tagged_in }}
+      {{ hugo.Data.l10n.article.tagged_in }}
       {{ range $i, $v := $.Params.tags }}
         <a href="{{ $.Site.BaseURL }}tags/{{ $v | urlize }}">{{ $v | lower }}</a>{{ if ne (len $.Params.tags) (add $i 1) }}, {{ end }}
       {{ end }}
     {{ end }}
     <div style="margin-top: 18px; text-align: center;">
       {{ with or (.PrevInSection) (.NextInSection) }}
-        <span>&middot; <strong>{{ $.Site.Data.l10n.article.more_posts }}</strong> &middot;</span>
+        <span>&middot; <strong>{{ hugo.Data.l10n.article.more_posts }}</strong> &middot;</span>
       {{ end }}
       {{ with .NextInSection }}
         <div><a href="{{ .Permalink }}">&laquo; {{ .Title }}</a></div>

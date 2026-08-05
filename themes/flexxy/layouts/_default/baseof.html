@@ -6,11 +6,11 @@
     {{ partial "navbar" . -}}
     {{ partial "social" . -}}
     <div class="theme-switch-wrapper">
-      <label class="theme-switch" for="checkbox" title="{{ .Site.Data.l10n.dark_mode.mode }}">
+      <label class="theme-switch" for="checkbox" title="{{ hugo.Data.l10n.dark_mode.mode }}">
         <input type="checkbox" id="checkbox" />
         <div class="slider round"></div>
       </label>
-      <label class="theme-switch-label">{{ .Site.Data.l10n.dark_mode.mode }}</label>
+      <label class="theme-switch-label">{{ hugo.Data.l10n.dark_mode.mode }}</label>
     </div>
     <br>
     <div class="container clearfix">

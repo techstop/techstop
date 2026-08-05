@@ -1,29 +1,29 @@
 <div style="float: right; margin-top: 10px; margin-right: 20px;">
-{{- with .Site.Social.twitter }}
+{{- with .Site.Params.social.twitter }}
 <a href="//twitter.com/{{.}}" id="social-icon" class="icon-twitter" target="_blank" title="Twitter"></a>
 {{- end -}}
 
-{{- with .Site.Social.facebook }}
+{{- with .Site.Params.social.facebook }}
 <a href="//facebook.com/{{.}}" id="social-icon" class="icon-facebook-squared" target="_blank" title="Facebook"></a>
 {{- end -}}
 
-{{- with .Site.Social.linkedin }}
+{{- with .Site.Params.social.linkedin }}
 <a href="//linkedin.com/in/{{.}}" id="social-icon" class="icon-linkedin" target="_blank" title="Linkedin"></a>
 {{- end -}}
 
-{{- with .Site.Social.behance }}
+{{- with .Site.Params.social.behance }}
 <a href="//behance.net/{{.}}" id="social-icon" class="icon-behance" target="_blank" title="Behance"></a>
 {{- end -}}
 
-{{- with .Site.Social.dribbble }}
+{{- with .Site.Params.social.dribbble }}
 <a href="//dribbble.com/{{.}}" id="social-icon" class="icon-dribbble" target="_blank" title="Dribbble"></a>
 {{- end -}}
 
-{{- with .Site.Social.instagram }}
+{{- with .Site.Params.social.instagram }}
 <a href="//instagram.com/{{.}}" id="social-icon" class="icon-instagram" target="_blank" title="Instagram"></a>
 {{- end -}}
 
-{{- with .Site.Social.github }}
+{{- with .Site.Params.social.github }}
 <a href="//github.com/{{.}}" id="social-icon" class="icon-github" target="_blank" title="Github"></a>
 {{- end }}
 <a class="icon-rss" href="{{ "post/index.xml" | absURL }}" title="RSS" target="_blank"></a>
